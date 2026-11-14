@@ -1,0 +1,1586 @@
+[
+  {
+    "id": "INT-001",
+    "notes_file": "research/cards.ru.md",
+    "line": 9,
+    "definition_line": "## INT-001"
+  },
+  {
+    "id": "INT-002",
+    "notes_file": "research/cards.ru.md",
+    "line": 23,
+    "definition_line": "## INT-002"
+  },
+  {
+    "id": "INT-003",
+    "notes_file": "research/cards.ru.md",
+    "line": 37,
+    "definition_line": "## INT-003"
+  },
+  {
+    "id": "INT-004",
+    "notes_file": "research/cards.ru.md",
+    "line": 51,
+    "definition_line": "## INT-004"
+  },
+  {
+    "id": "INT-005",
+    "notes_file": "research/cards.ru.md",
+    "line": 65,
+    "definition_line": "## INT-005"
+  },
+  {
+    "id": "INT-006",
+    "notes_file": "research/cards.ru.md",
+    "line": 79,
+    "definition_line": "## INT-006"
+  },
+  {
+    "id": "INT-007",
+    "notes_file": "research/cards.ru.md",
+    "line": 93,
+    "definition_line": "## INT-007"
+  },
+  {
+    "id": "INT-008",
+    "notes_file": "research/cards.ru.md",
+    "line": 107,
+    "definition_line": "## INT-008"
+  },
+  {
+    "id": "INT-009",
+    "notes_file": "research/cards.ru.md",
+    "line": 121,
+    "definition_line": "## INT-009"
+  },
+  {
+    "id": "INT-010",
+    "notes_file": "research/cards.ru.md",
+    "line": 135,
+    "definition_line": "## INT-010"
+  },
+  {
+    "id": "INT-011",
+    "notes_file": "research/cards.ru.md",
+    "line": 149,
+    "definition_line": "## INT-011"
+  },
+  {
+    "id": "INT-012",
+    "notes_file": "research/cards.ru.md",
+    "line": 163,
+    "definition_line": "## INT-012"
+  },
+  {
+    "id": "INT-013",
+    "notes_file": "research/cards.ru.md",
+    "line": 177,
+    "definition_line": "## INT-013"
+  },
+  {
+    "id": "INT-014",
+    "notes_file": "research/cards.ru.md",
+    "line": 191,
+    "definition_line": "## INT-014"
+  },
+  {
+    "id": "INT-015",
+    "notes_file": "research/cards.ru.md",
+    "line": 205,
+    "definition_line": "## INT-015"
+  },
+  {
+    "id": "INT-016",
+    "notes_file": "research/cards.ru.md",
+    "line": 219,
+    "definition_line": "## INT-016"
+  },
+  {
+    "id": "INT-017",
+    "notes_file": "research/cards.ru.md",
+    "line": 233,
+    "definition_line": "## INT-017"
+  },
+  {
+    "id": "INT-018",
+    "notes_file": "research/cards.ru.md",
+    "line": 247,
+    "definition_line": "## INT-018"
+  },
+  {
+    "id": "INT-019",
+    "notes_file": "research/cards.ru.md",
+    "line": 261,
+    "definition_line": "## INT-019"
+  },
+  {
+    "id": "INT-020",
+    "notes_file": "research/cards.ru.md",
+    "line": 275,
+    "definition_line": "## INT-020"
+  },
+  {
+    "id": "INT-021",
+    "notes_file": "research/cards.ru.md",
+    "line": 289,
+    "definition_line": "## INT-021"
+  },
+  {
+    "id": "INT-022",
+    "notes_file": "research/cards.ru.md",
+    "line": 303,
+    "definition_line": "## INT-022"
+  },
+  {
+    "id": "INT-023",
+    "notes_file": "research/cards.ru.md",
+    "line": 317,
+    "definition_line": "## INT-023"
+  },
+  {
+    "id": "INT-024",
+    "notes_file": "research/cards.ru.md",
+    "line": 331,
+    "definition_line": "## INT-024"
+  },
+  {
+    "id": "INT-025",
+    "notes_file": "research/cards.ru.md",
+    "line": 345,
+    "definition_line": "## INT-025"
+  },
+  {
+    "id": "INT-026",
+    "notes_file": "research/cards.ru.md",
+    "line": 359,
+    "definition_line": "## INT-026"
+  },
+  {
+    "id": "INT-027",
+    "notes_file": "research/cards.ru.md",
+    "line": 373,
+    "definition_line": "## INT-027"
+  },
+  {
+    "id": "INT-028",
+    "notes_file": "research/cards.ru.md",
+    "line": 387,
+    "definition_line": "## INT-028"
+  },
+  {
+    "id": "INT-029",
+    "notes_file": "research/cards.ru.md",
+    "line": 401,
+    "definition_line": "## INT-029"
+  },
+  {
+    "id": "INT-030",
+    "notes_file": "research/cards.ru.md",
+    "line": 415,
+    "definition_line": "## INT-030"
+  },
+  {
+    "id": "INT-031",
+    "notes_file": "research/cards.ru.md",
+    "line": 429,
+    "definition_line": "## INT-031"
+  },
+  {
+    "id": "INT-032",
+    "notes_file": "research/cards.ru.md",
+    "line": 443,
+    "definition_line": "## INT-032"
+  },
+  {
+    "id": "INT-033",
+    "notes_file": "research/cards.ru.md",
+    "line": 457,
+    "definition_line": "## INT-033"
+  },
+  {
+    "id": "INT-034",
+    "notes_file": "research/cards.ru.md",
+    "line": 471,
+    "definition_line": "## INT-034"
+  },
+  {
+    "id": "INT-035",
+    "notes_file": "research/cards.ru.md",
+    "line": 485,
+    "definition_line": "## INT-035"
+  },
+  {
+    "id": "INT-036",
+    "notes_file": "research/cards.ru.md",
+    "line": 499,
+    "definition_line": "## INT-036"
+  },
+  {
+    "id": "INT-037",
+    "notes_file": "research/cards.ru.md",
+    "line": 513,
+    "definition_line": "## INT-037"
+  },
+  {
+    "id": "INT-038",
+    "notes_file": "research/cards.ru.md",
+    "line": 527,
+    "definition_line": "## INT-038"
+  },
+  {
+    "id": "LANG-001",
+    "notes_file": "research/cards.ru.md",
+    "line": 541,
+    "definition_line": "## LANG-001"
+  },
+  {
+    "id": "LANG-002",
+    "notes_file": "research/cards.ru.md",
+    "line": 545,
+    "definition_line": "## LANG-002"
+  },
+  {
+    "id": "LANG-003",
+    "notes_file": "research/cards.ru.md",
+    "line": 549,
+    "definition_line": "## LANG-003"
+  },
+  {
+    "id": "LANG-004",
+    "notes_file": "research/cards.ru.md",
+    "line": 553,
+    "definition_line": "## LANG-004"
+  },
+  {
+    "id": "LANG-005",
+    "notes_file": "research/cards.ru.md",
+    "line": 557,
+    "definition_line": "## LANG-005"
+  },
+  {
+    "id": "LANG-006",
+    "notes_file": "research/cards.ru.md",
+    "line": 561,
+    "definition_line": "## LANG-006"
+  },
+  {
+    "id": "LANG-007",
+    "notes_file": "research/cards.ru.md",
+    "line": 565,
+    "definition_line": "## LANG-007"
+  },
+  {
+    "id": "LANG-008",
+    "notes_file": "research/cards.ru.md",
+    "line": 569,
+    "definition_line": "## LANG-008"
+  },
+  {
+    "id": "LANG-009",
+    "notes_file": "research/cards.ru.md",
+    "line": 573,
+    "definition_line": "## LANG-009"
+  },
+  {
+    "id": "LANG-010",
+    "notes_file": "research/cards.ru.md",
+    "line": 577,
+    "definition_line": "## LANG-010"
+  },
+  {
+    "id": "LANG-011",
+    "notes_file": "research/cards.ru.md",
+    "line": 581,
+    "definition_line": "## LANG-011"
+  },
+  {
+    "id": "LANG-012",
+    "notes_file": "research/cards.ru.md",
+    "line": 585,
+    "definition_line": "## LANG-012"
+  },
+  {
+    "id": "LANG-013",
+    "notes_file": "research/cards.ru.md",
+    "line": 589,
+    "definition_line": "## LANG-013"
+  },
+  {
+    "id": "LANG-014",
+    "notes_file": "research/cards.ru.md",
+    "line": 593,
+    "definition_line": "## LANG-014"
+  },
+  {
+    "id": "LANG-015",
+    "notes_file": "research/cards.ru.md",
+    "line": 597,
+    "definition_line": "## LANG-015"
+  },
+  {
+    "id": "LANG-016",
+    "notes_file": "research/cards.ru.md",
+    "line": 601,
+    "definition_line": "## LANG-016"
+  },
+  {
+    "id": "LANG-017",
+    "notes_file": "research/cards.ru.md",
+    "line": 605,
+    "definition_line": "## LANG-017"
+  },
+  {
+    "id": "LANG-018",
+    "notes_file": "research/cards.ru.md",
+    "line": 609,
+    "definition_line": "## LANG-018"
+  },
+  {
+    "id": "LANG-019",
+    "notes_file": "research/cards.ru.md",
+    "line": 613,
+    "definition_line": "## LANG-019"
+  },
+  {
+    "id": "LANG-020",
+    "notes_file": "research/cards.ru.md",
+    "line": 617,
+    "definition_line": "## LANG-020"
+  },
+  {
+    "id": "LANG-021",
+    "notes_file": "research/cards.ru.md",
+    "line": 621,
+    "definition_line": "## LANG-021"
+  },
+  {
+    "id": "LANG-022",
+    "notes_file": "research/cards.ru.md",
+    "line": 625,
+    "definition_line": "## LANG-022"
+  },
+  {
+    "id": "LANG-023",
+    "notes_file": "research/cards.ru.md",
+    "line": 629,
+    "definition_line": "## LANG-023"
+  },
+  {
+    "id": "LANG-024",
+    "notes_file": "research/cards.ru.md",
+    "line": 633,
+    "definition_line": "## LANG-024"
+  },
+  {
+    "id": "PROMPT-001",
+    "notes_file": "research/cards.ru.md",
+    "line": 637,
+    "definition_line": "## PROMPT-001"
+  },
+  {
+    "id": "PROMPT-002",
+    "notes_file": "research/cards.ru.md",
+    "line": 641,
+    "definition_line": "## PROMPT-002"
+  },
+  {
+    "id": "PROMPT-003",
+    "notes_file": "research/cards.ru.md",
+    "line": 645,
+    "definition_line": "## PROMPT-003"
+  },
+  {
+    "id": "PROMPT-004",
+    "notes_file": "research/cards.ru.md",
+    "line": 649,
+    "definition_line": "## PROMPT-004"
+  },
+  {
+    "id": "PROMPT-005",
+    "notes_file": "research/cards.ru.md",
+    "line": 653,
+    "definition_line": "## PROMPT-005"
+  },
+  {
+    "id": "PROMPT-006",
+    "notes_file": "research/cards.ru.md",
+    "line": 657,
+    "definition_line": "## PROMPT-006"
+  },
+  {
+    "id": "PROMPT-007",
+    "notes_file": "research/cards.ru.md",
+    "line": 661,
+    "definition_line": "## PROMPT-007"
+  },
+  {
+    "id": "PROMPT-008",
+    "notes_file": "research/cards.ru.md",
+    "line": 665,
+    "definition_line": "## PROMPT-008"
+  },
+  {
+    "id": "PROMPT-009",
+    "notes_file": "research/cards.ru.md",
+    "line": 669,
+    "definition_line": "## PROMPT-009"
+  },
+  {
+    "id": "PROMPT-010",
+    "notes_file": "research/cards.ru.md",
+    "line": 673,
+    "definition_line": "## PROMPT-010"
+  },
+  {
+    "id": "PROMPT-011",
+    "notes_file": "research/cards.ru.md",
+    "line": 677,
+    "definition_line": "## PROMPT-011"
+  },
+  {
+    "id": "PROMPT-012",
+    "notes_file": "research/cards.ru.md",
+    "line": 681,
+    "definition_line": "## PROMPT-012"
+  },
+  {
+    "id": "PROMPT-013",
+    "notes_file": "research/cards.ru.md",
+    "line": 685,
+    "definition_line": "## PROMPT-013"
+  },
+  {
+    "id": "PROMPT-014",
+    "notes_file": "research/cards.ru.md",
+    "line": 689,
+    "definition_line": "## PROMPT-014"
+  },
+  {
+    "id": "PROMPT-015",
+    "notes_file": "research/cards.ru.md",
+    "line": 693,
+    "definition_line": "## PROMPT-015"
+  },
+  {
+    "id": "PROMPT-016",
+    "notes_file": "research/cards.ru.md",
+    "line": 697,
+    "definition_line": "## PROMPT-016"
+  },
+  {
+    "id": "PROMPT-017",
+    "notes_file": "research/cards.ru.md",
+    "line": 701,
+    "definition_line": "## PROMPT-017"
+  },
+  {
+    "id": "PROMPT-018",
+    "notes_file": "research/cards.ru.md",
+    "line": 705,
+    "definition_line": "## PROMPT-018"
+  },
+  {
+    "id": "PROMPT-019",
+    "notes_file": "research/cards.ru.md",
+    "line": 709,
+    "definition_line": "## PROMPT-019"
+  },
+  {
+    "id": "PROMPT-020",
+    "notes_file": "research/cards.ru.md",
+    "line": 713,
+    "definition_line": "## PROMPT-020"
+  },
+  {
+    "id": "BANK-001",
+    "notes_file": "research/cards.ru.md",
+    "line": 717,
+    "definition_line": "## BANK-001"
+  },
+  {
+    "id": "BANK-002",
+    "notes_file": "research/cards.ru.md",
+    "line": 721,
+    "definition_line": "## BANK-002"
+  },
+  {
+    "id": "BANK-003",
+    "notes_file": "research/cards.ru.md",
+    "line": 725,
+    "definition_line": "## BANK-003"
+  },
+  {
+    "id": "BANK-004",
+    "notes_file": "research/cards.ru.md",
+    "line": 729,
+    "definition_line": "## BANK-004"
+  },
+  {
+    "id": "BANK-005",
+    "notes_file": "research/cards.ru.md",
+    "line": 733,
+    "definition_line": "## BANK-005"
+  },
+  {
+    "id": "BANK-006",
+    "notes_file": "research/cards.ru.md",
+    "line": 737,
+    "definition_line": "## BANK-006"
+  },
+  {
+    "id": "VIDEO-001",
+    "notes_file": "research/cards.ru.md",
+    "line": 741,
+    "definition_line": "## VIDEO-001"
+  },
+  {
+    "id": "VIDEO-002",
+    "notes_file": "research/cards.ru.md",
+    "line": 745,
+    "definition_line": "## VIDEO-002"
+  },
+  {
+    "id": "VIDEO-003",
+    "notes_file": "research/cards.ru.md",
+    "line": 749,
+    "definition_line": "## VIDEO-003"
+  },
+  {
+    "id": "VIDEO-004",
+    "notes_file": "research/cards.ru.md",
+    "line": 753,
+    "definition_line": "## VIDEO-004"
+  },
+  {
+    "id": "VIDEO-005",
+    "notes_file": "research/cards.ru.md",
+    "line": 757,
+    "definition_line": "## VIDEO-005"
+  },
+  {
+    "id": "VIDEO-006",
+    "notes_file": "research/cards.ru.md",
+    "line": 761,
+    "definition_line": "## VIDEO-006"
+  },
+  {
+    "id": "VIDEO-007",
+    "notes_file": "research/cards.ru.md",
+    "line": 765,
+    "definition_line": "## VIDEO-007"
+  },
+  {
+    "id": "VIDEO-008",
+    "notes_file": "research/cards.ru.md",
+    "line": 769,
+    "definition_line": "## VIDEO-008"
+  },
+  {
+    "id": "PRACTICE-001",
+    "notes_file": "research/cards.ru.md",
+    "line": 773,
+    "definition_line": "## PRACTICE-001"
+  },
+  {
+    "id": "PRACTICE-002",
+    "notes_file": "research/cards.ru.md",
+    "line": 777,
+    "definition_line": "## PRACTICE-002"
+  },
+  {
+    "id": "PRACTICE-003",
+    "notes_file": "research/cards.ru.md",
+    "line": 781,
+    "definition_line": "## PRACTICE-003"
+  },
+  {
+    "id": "PRACTICE-004",
+    "notes_file": "research/cards.ru.md",
+    "line": 785,
+    "definition_line": "## PRACTICE-004"
+  },
+  {
+    "id": "PRACTICE-005",
+    "notes_file": "research/cards.ru.md",
+    "line": 789,
+    "definition_line": "## PRACTICE-005"
+  },
+  {
+    "id": "PRACTICE-006",
+    "notes_file": "research/cards.ru.md",
+    "line": 793,
+    "definition_line": "## PRACTICE-006"
+  },
+  {
+    "id": "PRACTICE-007",
+    "notes_file": "research/cards.ru.md",
+    "line": 797,
+    "definition_line": "## PRACTICE-007"
+  },
+  {
+    "id": "PRACTICE-008",
+    "notes_file": "research/cards.ru.md",
+    "line": 801,
+    "definition_line": "## PRACTICE-008"
+  },
+  {
+    "id": "PRACTICE-009",
+    "notes_file": "research/cards.ru.md",
+    "line": 805,
+    "definition_line": "## PRACTICE-009"
+  },
+  {
+    "id": "PRACTICE-010",
+    "notes_file": "research/cards.ru.md",
+    "line": 809,
+    "definition_line": "## PRACTICE-010"
+  },
+  {
+    "id": "PRACTICE-011",
+    "notes_file": "research/cards.ru.md",
+    "line": 813,
+    "definition_line": "## PRACTICE-011"
+  },
+  {
+    "id": "PRACTICE-012",
+    "notes_file": "research/cards.ru.md",
+    "line": 817,
+    "definition_line": "## PRACTICE-012"
+  },
+  {
+    "id": "PRACTICE-013",
+    "notes_file": "research/cards.ru.md",
+    "line": 821,
+    "definition_line": "## PRACTICE-013"
+  },
+  {
+    "id": "PRACTICE-014",
+    "notes_file": "research/cards.ru.md",
+    "line": 825,
+    "definition_line": "## PRACTICE-014"
+  },
+  {
+    "id": "PRACTICE-015",
+    "notes_file": "research/cards.ru.md",
+    "line": 829,
+    "definition_line": "## PRACTICE-015"
+  },
+  {
+    "id": "PRACTICE-016",
+    "notes_file": "research/cards.ru.md",
+    "line": 833,
+    "definition_line": "## PRACTICE-016"
+  },
+  {
+    "id": "PRACTICE-017",
+    "notes_file": "research/cards.ru.md",
+    "line": 837,
+    "definition_line": "## PRACTICE-017"
+  },
+  {
+    "id": "PRACTICE-018",
+    "notes_file": "research/cards.ru.md",
+    "line": 841,
+    "definition_line": "## PRACTICE-018"
+  },
+  {
+    "id": "PRACTICE-019",
+    "notes_file": "research/cards.ru.md",
+    "line": 845,
+    "definition_line": "## PRACTICE-019"
+  },
+  {
+    "id": "PRACTICE-020",
+    "notes_file": "research/cards.ru.md",
+    "line": 849,
+    "definition_line": "## PRACTICE-020"
+  },
+  {
+    "id": "PRACTICE-021",
+    "notes_file": "research/cards.ru.md",
+    "line": 853,
+    "definition_line": "## PRACTICE-021"
+  },
+  {
+    "id": "PRACTICE-022",
+    "notes_file": "research/cards.ru.md",
+    "line": 857,
+    "definition_line": "## PRACTICE-022"
+  },
+  {
+    "id": "PRACTICE-023",
+    "notes_file": "research/cards.ru.md",
+    "line": 861,
+    "definition_line": "## PRACTICE-023"
+  },
+  {
+    "id": "PRACTICE-024",
+    "notes_file": "research/cards.ru.md",
+    "line": 865,
+    "definition_line": "## PRACTICE-024"
+  },
+  {
+    "id": "PRACTICE-025",
+    "notes_file": "research/cards.ru.md",
+    "line": 869,
+    "definition_line": "## PRACTICE-025"
+  },
+  {
+    "id": "PRACTICE-026",
+    "notes_file": "research/cards.ru.md",
+    "line": 873,
+    "definition_line": "## PRACTICE-026"
+  },
+  {
+    "id": "PRACTICE-027",
+    "notes_file": "research/cards.ru.md",
+    "line": 877,
+    "definition_line": "## PRACTICE-027"
+  },
+  {
+    "id": "PRACTICE-028",
+    "notes_file": "research/cards.ru.md",
+    "line": 881,
+    "definition_line": "## PRACTICE-028"
+  },
+  {
+    "id": "PRACTICE-029",
+    "notes_file": "research/cards.ru.md",
+    "line": 885,
+    "definition_line": "## PRACTICE-029"
+  },
+  {
+    "id": "PRACTICE-030",
+    "notes_file": "research/cards.ru.md",
+    "line": 889,
+    "definition_line": "## PRACTICE-030"
+  },
+  {
+    "id": "PRACTICE-031",
+    "notes_file": "research/cards.ru.md",
+    "line": 893,
+    "definition_line": "## PRACTICE-031"
+  },
+  {
+    "id": "PRACTICE-032",
+    "notes_file": "research/cards.ru.md",
+    "line": 897,
+    "definition_line": "## PRACTICE-032"
+  },
+  {
+    "id": "PRACTICE-033",
+    "notes_file": "research/cards.ru.md",
+    "line": 901,
+    "definition_line": "## PRACTICE-033"
+  },
+  {
+    "id": "PRACTICE-034",
+    "notes_file": "research/cards.ru.md",
+    "line": 905,
+    "definition_line": "## PRACTICE-034"
+  },
+  {
+    "id": "PRACTICE-035",
+    "notes_file": "research/cards.ru.md",
+    "line": 909,
+    "definition_line": "## PRACTICE-035"
+  },
+  {
+    "id": "PRACTICE-036",
+    "notes_file": "research/cards.ru.md",
+    "line": 913,
+    "definition_line": "## PRACTICE-036"
+  },
+  {
+    "id": "PRACTICE-037",
+    "notes_file": "research/cards.ru.md",
+    "line": 917,
+    "definition_line": "## PRACTICE-037"
+  },
+  {
+    "id": "PRACTICE-038",
+    "notes_file": "research/cards.ru.md",
+    "line": 921,
+    "definition_line": "## PRACTICE-038"
+  },
+  {
+    "id": "PRACTICE-039",
+    "notes_file": "research/cards.ru.md",
+    "line": 925,
+    "definition_line": "## PRACTICE-039"
+  },
+  {
+    "id": "PRACTICE-040",
+    "notes_file": "research/cards.ru.md",
+    "line": 929,
+    "definition_line": "## PRACTICE-040"
+  },
+  {
+    "id": "PRACTICE-041",
+    "notes_file": "research/cards.ru.md",
+    "line": 933,
+    "definition_line": "## PRACTICE-041"
+  },
+  {
+    "id": "PRACTICE-042",
+    "notes_file": "research/cards.ru.md",
+    "line": 937,
+    "definition_line": "## PRACTICE-042"
+  },
+  {
+    "id": "PRACTICE-043",
+    "notes_file": "research/cards.ru.md",
+    "line": 941,
+    "definition_line": "## PRACTICE-043"
+  },
+  {
+    "id": "PRACTICE-044",
+    "notes_file": "research/cards.ru.md",
+    "line": 945,
+    "definition_line": "## PRACTICE-044"
+  },
+  {
+    "id": "PRACTICE-045",
+    "notes_file": "research/cards.ru.md",
+    "line": 949,
+    "definition_line": "## PRACTICE-045"
+  },
+  {
+    "id": "PRACTICE-046",
+    "notes_file": "research/cards.ru.md",
+    "line": 953,
+    "definition_line": "## PRACTICE-046"
+  },
+  {
+    "id": "PRACTICE-047",
+    "notes_file": "research/cards.ru.md",
+    "line": 957,
+    "definition_line": "## PRACTICE-047"
+  },
+  {
+    "id": "PRACTICE-048",
+    "notes_file": "research/cards.ru.md",
+    "line": 961,
+    "definition_line": "## PRACTICE-048"
+  },
+  {
+    "id": "PRACTICE-049",
+    "notes_file": "research/cards.ru.md",
+    "line": 965,
+    "definition_line": "## PRACTICE-049"
+  },
+  {
+    "id": "PRACTICE-050",
+    "notes_file": "research/cards.ru.md",
+    "line": 969,
+    "definition_line": "## PRACTICE-050"
+  },
+  {
+    "id": "PRACTICE-051",
+    "notes_file": "research/cards.ru.md",
+    "line": 973,
+    "definition_line": "## PRACTICE-051"
+  },
+  {
+    "id": "PRACTICE-052",
+    "notes_file": "research/cards.ru.md",
+    "line": 977,
+    "definition_line": "## PRACTICE-052"
+  },
+  {
+    "id": "BOOK01-001",
+    "notes_file": "research/cards.ru.md",
+    "line": 981,
+    "definition_line": "## BOOK01-001"
+  },
+  {
+    "id": "BOOK01-002",
+    "notes_file": "research/cards.ru.md",
+    "line": 990,
+    "definition_line": "## BOOK01-002"
+  },
+  {
+    "id": "BOOK01-003",
+    "notes_file": "research/cards.ru.md",
+    "line": 999,
+    "definition_line": "## BOOK01-003"
+  },
+  {
+    "id": "BOOK01-004",
+    "notes_file": "research/cards.ru.md",
+    "line": 1008,
+    "definition_line": "## BOOK01-004"
+  },
+  {
+    "id": "BOOK01-005",
+    "notes_file": "research/cards.ru.md",
+    "line": 1017,
+    "definition_line": "## BOOK01-005"
+  },
+  {
+    "id": "BOOK01-006",
+    "notes_file": "research/cards.ru.md",
+    "line": 1026,
+    "definition_line": "## BOOK01-006"
+  },
+  {
+    "id": "BOOK02-001",
+    "notes_file": "research/cards.ru.md",
+    "line": 1035,
+    "definition_line": "## BOOK02-001"
+  },
+  {
+    "id": "BOOK02-002",
+    "notes_file": "research/cards.ru.md",
+    "line": 1044,
+    "definition_line": "## BOOK02-002"
+  },
+  {
+    "id": "BOOK02-003",
+    "notes_file": "research/cards.ru.md",
+    "line": 1053,
+    "definition_line": "## BOOK02-003"
+  },
+  {
+    "id": "BOOK02-004",
+    "notes_file": "research/cards.ru.md",
+    "line": 1062,
+    "definition_line": "## BOOK02-004"
+  },
+  {
+    "id": "BOOK02-005",
+    "notes_file": "research/cards.ru.md",
+    "line": 1071,
+    "definition_line": "## BOOK02-005"
+  },
+  {
+    "id": "BOOK02-006",
+    "notes_file": "research/cards.ru.md",
+    "line": 1080,
+    "definition_line": "## BOOK02-006"
+  },
+  {
+    "id": "BOOK03-001",
+    "notes_file": "research/cards.ru.md",
+    "line": 1089,
+    "definition_line": "## BOOK03-001"
+  },
+  {
+    "id": "BOOK03-002",
+    "notes_file": "research/cards.ru.md",
+    "line": 1098,
+    "definition_line": "## BOOK03-002"
+  },
+  {
+    "id": "BOOK03-003",
+    "notes_file": "research/cards.ru.md",
+    "line": 1107,
+    "definition_line": "## BOOK03-003"
+  },
+  {
+    "id": "BOOK03-004",
+    "notes_file": "research/cards.ru.md",
+    "line": 1116,
+    "definition_line": "## BOOK03-004"
+  },
+  {
+    "id": "BOOK03-005",
+    "notes_file": "research/cards.ru.md",
+    "line": 1125,
+    "definition_line": "## BOOK03-005"
+  },
+  {
+    "id": "BOOK03-006",
+    "notes_file": "research/cards.ru.md",
+    "line": 1134,
+    "definition_line": "## BOOK03-006"
+  },
+  {
+    "id": "BOOK04-001",
+    "notes_file": "research/cards.ru.md",
+    "line": 1143,
+    "definition_line": "## BOOK04-001"
+  },
+  {
+    "id": "BOOK04-002",
+    "notes_file": "research/cards.ru.md",
+    "line": 1152,
+    "definition_line": "## BOOK04-002"
+  },
+  {
+    "id": "BOOK04-003",
+    "notes_file": "research/cards.ru.md",
+    "line": 1161,
+    "definition_line": "## BOOK04-003"
+  },
+  {
+    "id": "BOOK04-004",
+    "notes_file": "research/cards.ru.md",
+    "line": 1170,
+    "definition_line": "## BOOK04-004"
+  },
+  {
+    "id": "BOOK04-005",
+    "notes_file": "research/cards.ru.md",
+    "line": 1179,
+    "definition_line": "## BOOK04-005"
+  },
+  {
+    "id": "BOOK04-006",
+    "notes_file": "research/cards.ru.md",
+    "line": 1188,
+    "definition_line": "## BOOK04-006"
+  },
+  {
+    "id": "BOOK05-001",
+    "notes_file": "research/cards.ru.md",
+    "line": 1197,
+    "definition_line": "## BOOK05-001"
+  },
+  {
+    "id": "BOOK05-002",
+    "notes_file": "research/cards.ru.md",
+    "line": 1207,
+    "definition_line": "## BOOK05-002"
+  },
+  {
+    "id": "BOOK05-003",
+    "notes_file": "research/cards.ru.md",
+    "line": 1217,
+    "definition_line": "## BOOK05-003"
+  },
+  {
+    "id": "BOOK05-004",
+    "notes_file": "research/cards.ru.md",
+    "line": 1227,
+    "definition_line": "## BOOK05-004"
+  },
+  {
+    "id": "BOOK05-005",
+    "notes_file": "research/cards.ru.md",
+    "line": 1237,
+    "definition_line": "## BOOK05-005"
+  },
+  {
+    "id": "BOOK05-006",
+    "notes_file": "research/cards.ru.md",
+    "line": 1247,
+    "definition_line": "## BOOK05-006"
+  },
+  {
+    "id": "BOOK05-007",
+    "notes_file": "research/cards.ru.md",
+    "line": 1257,
+    "definition_line": "## BOOK05-007"
+  },
+  {
+    "id": "BOOK06-001",
+    "notes_file": "research/cards.ru.md",
+    "line": 1267,
+    "definition_line": "## BOOK06-001"
+  },
+  {
+    "id": "BOOK06-002",
+    "notes_file": "research/cards.ru.md",
+    "line": 1277,
+    "definition_line": "## BOOK06-002"
+  },
+  {
+    "id": "BOOK06-003",
+    "notes_file": "research/cards.ru.md",
+    "line": 1287,
+    "definition_line": "## BOOK06-003"
+  },
+  {
+    "id": "BOOK06-004",
+    "notes_file": "research/cards.ru.md",
+    "line": 1297,
+    "definition_line": "## BOOK06-004"
+  },
+  {
+    "id": "BOOK06-005",
+    "notes_file": "research/cards.ru.md",
+    "line": 1307,
+    "definition_line": "## BOOK06-005"
+  },
+  {
+    "id": "BOOK06-006",
+    "notes_file": "research/cards.ru.md",
+    "line": 1317,
+    "definition_line": "## BOOK06-006"
+  },
+  {
+    "id": "BOOK06-007",
+    "notes_file": "research/cards.ru.md",
+    "line": 1327,
+    "definition_line": "## BOOK06-007"
+  },
+  {
+    "id": "BOOK07-001",
+    "notes_file": "research/cards.ru.md",
+    "line": 1337,
+    "definition_line": "## BOOK07-001"
+  },
+  {
+    "id": "BOOK07-002",
+    "notes_file": "research/cards.ru.md",
+    "line": 1347,
+    "definition_line": "## BOOK07-002"
+  },
+  {
+    "id": "BOOK07-003",
+    "notes_file": "research/cards.ru.md",
+    "line": 1357,
+    "definition_line": "## BOOK07-003"
+  },
+  {
+    "id": "BOOK07-004",
+    "notes_file": "research/cards.ru.md",
+    "line": 1367,
+    "definition_line": "## BOOK07-004"
+  },
+  {
+    "id": "BOOK07-005",
+    "notes_file": "research/cards.ru.md",
+    "line": 1377,
+    "definition_line": "## BOOK07-005"
+  },
+  {
+    "id": "BOOK07-006",
+    "notes_file": "research/cards.ru.md",
+    "line": 1387,
+    "definition_line": "## BOOK07-006"
+  },
+  {
+    "id": "BOOK07-007",
+    "notes_file": "research/cards.ru.md",
+    "line": 1397,
+    "definition_line": "## BOOK07-007"
+  },
+  {
+    "id": "BOOK08-001",
+    "notes_file": "research/cards.ru.md",
+    "line": 1407,
+    "definition_line": "## BOOK08-001"
+  },
+  {
+    "id": "BOOK08-002",
+    "notes_file": "research/cards.ru.md",
+    "line": 1417,
+    "definition_line": "## BOOK08-002"
+  },
+  {
+    "id": "BOOK08-003",
+    "notes_file": "research/cards.ru.md",
+    "line": 1427,
+    "definition_line": "## BOOK08-003"
+  },
+  {
+    "id": "BOOK08-004",
+    "notes_file": "research/cards.ru.md",
+    "line": 1437,
+    "definition_line": "## BOOK08-004"
+  },
+  {
+    "id": "BOOK08-005",
+    "notes_file": "research/cards.ru.md",
+    "line": 1447,
+    "definition_line": "## BOOK08-005"
+  },
+  {
+    "id": "BOOK08-006",
+    "notes_file": "research/cards.ru.md",
+    "line": 1457,
+    "definition_line": "## BOOK08-006"
+  },
+  {
+    "id": "BOOK08-007",
+    "notes_file": "research/cards.ru.md",
+    "line": 1467,
+    "definition_line": "## BOOK08-007"
+  },
+  {
+    "id": "BOOK09-001",
+    "notes_file": "research/cards.ru.md",
+    "line": 1477,
+    "definition_line": "## BOOK09-001"
+  },
+  {
+    "id": "BOOK09-002",
+    "notes_file": "research/cards.ru.md",
+    "line": 1487,
+    "definition_line": "## BOOK09-002"
+  },
+  {
+    "id": "BOOK09-003",
+    "notes_file": "research/cards.ru.md",
+    "line": 1497,
+    "definition_line": "## BOOK09-003"
+  },
+  {
+    "id": "BOOK09-004",
+    "notes_file": "research/cards.ru.md",
+    "line": 1507,
+    "definition_line": "## BOOK09-004"
+  },
+  {
+    "id": "BOOK09-005",
+    "notes_file": "research/cards.ru.md",
+    "line": 1517,
+    "definition_line": "## BOOK09-005"
+  },
+  {
+    "id": "BOOK09-006",
+    "notes_file": "research/cards.ru.md",
+    "line": 1527,
+    "definition_line": "## BOOK09-006"
+  },
+  {
+    "id": "BOOK09-007",
+    "notes_file": "research/cards.ru.md",
+    "line": 1537,
+    "definition_line": "## BOOK09-007"
+  },
+  {
+    "id": "BOOK09-008",
+    "notes_file": "research/cards.ru.md",
+    "line": 1547,
+    "definition_line": "## BOOK09-008"
+  },
+  {
+    "id": "BOOK10-001",
+    "notes_file": "research/cards.ru.md",
+    "line": 1557,
+    "definition_line": "## BOOK10-001"
+  },
+  {
+    "id": "BOOK10-002",
+    "notes_file": "research/cards.ru.md",
+    "line": 1567,
+    "definition_line": "## BOOK10-002"
+  },
+  {
+    "id": "BOOK10-003",
+    "notes_file": "research/cards.ru.md",
+    "line": 1577,
+    "definition_line": "## BOOK10-003"
+  },
+  {
+    "id": "BOOK10-004",
+    "notes_file": "research/cards.ru.md",
+    "line": 1587,
+    "definition_line": "## BOOK10-004"
+  },
+  {
+    "id": "BOOK10-005",
+    "notes_file": "research/cards.ru.md",
+    "line": 1597,
+    "definition_line": "## BOOK10-005"
+  },
+  {
+    "id": "BOOK10-006",
+    "notes_file": "research/cards.ru.md",
+    "line": 1607,
+    "definition_line": "## BOOK10-006"
+  },
+  {
+    "id": "BOOK11-001",
+    "notes_file": "research/cards.ru.md",
+    "line": 1617,
+    "definition_line": "## BOOK11-001"
+  },
+  {
+    "id": "BOOK11-002",
+    "notes_file": "research/cards.ru.md",
+    "line": 1627,
+    "definition_line": "## BOOK11-002"
+  },
+  {
+    "id": "BOOK11-003",
+    "notes_file": "research/cards.ru.md",
+    "line": 1637,
+    "definition_line": "## BOOK11-003"
+  },
+  {
+    "id": "BOOK11-004",
+    "notes_file": "research/cards.ru.md",
+    "line": 1647,
+    "definition_line": "## BOOK11-004"
+  },
+  {
+    "id": "BOOK11-005",
+    "notes_file": "research/cards.ru.md",
+    "line": 1657,
+    "definition_line": "## BOOK11-005"
+  },
+  {
+    "id": "BOOK12-001",
+    "notes_file": "research/cards.ru.md",
+    "line": 1667,
+    "definition_line": "## BOOK12-001"
+  },
+  {
+    "id": "BOOK12-002",
+    "notes_file": "research/cards.ru.md",
+    "line": 1677,
+    "definition_line": "## BOOK12-002"
+  },
+  {
+    "id": "BOOK12-003",
+    "notes_file": "research/cards.ru.md",
+    "line": 1687,
+    "definition_line": "## BOOK12-003"
+  },
+  {
+    "id": "BOOK12-004",
+    "notes_file": "research/cards.ru.md",
+    "line": 1697,
+    "definition_line": "## BOOK12-004"
+  },
+  {
+    "id": "BOOK12-005",
+    "notes_file": "research/cards.ru.md",
+    "line": 1707,
+    "definition_line": "## BOOK12-005"
+  },
+  {
+    "id": "BOOK12-006",
+    "notes_file": "research/cards.ru.md",
+    "line": 1717,
+    "definition_line": "## BOOK12-006"
+  },
+  {
+    "id": "BOOK12-007",
+    "notes_file": "research/cards.ru.md",
+    "line": 1727,
+    "definition_line": "## BOOK12-007"
+  },
+  {
+    "id": "BOOK12-008",
+    "notes_file": "research/cards.ru.md",
+    "line": 1737,
+    "definition_line": "## BOOK12-008"
+  },
+  {
+    "id": "BOOK12-009",
+    "notes_file": "research/cards.ru.md",
+    "line": 1747,
+    "definition_line": "## BOOK12-009"
+  },
+  {
+    "id": "BOOK13-001",
+    "notes_file": "research/cards.ru.md",
+    "line": 1757,
+    "definition_line": "## BOOK13-001"
+  },
+  {
+    "id": "BOOK13-002",
+    "notes_file": "research/cards.ru.md",
+    "line": 1761,
+    "definition_line": "## BOOK13-002"
+  },
+  {
+    "id": "BOOK13-003",
+    "notes_file": "research/cards.ru.md",
+    "line": 1765,
+    "definition_line": "## BOOK13-003"
+  },
+  {
+    "id": "BOOK13-004",
+    "notes_file": "research/cards.ru.md",
+    "line": 1769,
+    "definition_line": "## BOOK13-004"
+  },
+  {
+    "id": "BOOK13-005",
+    "notes_file": "research/cards.ru.md",
+    "line": 1773,
+    "definition_line": "## BOOK13-005"
+  },
+  {
+    "id": "BOOK13-006",
+    "notes_file": "research/cards.ru.md",
+    "line": 1777,
+    "definition_line": "## BOOK13-006"
+  },
+  {
+    "id": "BOOK13-007",
+    "notes_file": "research/cards.ru.md",
+    "line": 1781,
+    "definition_line": "## BOOK13-007"
+  },
+  {
+    "id": "BOOK13-008",
+    "notes_file": "research/cards.ru.md",
+    "line": 1785,
+    "definition_line": "## BOOK13-008"
+  },
+  {
+    "id": "BOOK13-009",
+    "notes_file": "research/cards.ru.md",
+    "line": 1789,
+    "definition_line": "## BOOK13-009"
+  },
+  {
+    "id": "BOOK14-001",
+    "notes_file": "research/cards.ru.md",
+    "line": 1793,
+    "definition_line": "## BOOK14-001"
+  },
+  {
+    "id": "BOOK14-002",
+    "notes_file": "research/cards.ru.md",
+    "line": 1797,
+    "definition_line": "## BOOK14-002"
+  },
+  {
+    "id": "BOOK14-003",
+    "notes_file": "research/cards.ru.md",
+    "line": 1801,
+    "definition_line": "## BOOK14-003"
+  },
+  {
+    "id": "BOOK14-004",
+    "notes_file": "research/cards.ru.md",
+    "line": 1805,
+    "definition_line": "## BOOK14-004"
+  },
+  {
+    "id": "BOOK14-005",
+    "notes_file": "research/cards.ru.md",
+    "line": 1809,
+    "definition_line": "## BOOK14-005"
+  },
+  {
+    "id": "BOOK14-006",
+    "notes_file": "research/cards.ru.md",
+    "line": 1813,
+    "definition_line": "## BOOK14-006"
+  },
+  {
+    "id": "BOOK15-001",
+    "notes_file": "research/cards.ru.md",
+    "line": 1817,
+    "definition_line": "## BOOK15-001"
+  },
+  {
+    "id": "BOOK15-002",
+    "notes_file": "research/cards.ru.md",
+    "line": 1821,
+    "definition_line": "## BOOK15-002"
+  },
+  {
+    "id": "BOOK15-003",
+    "notes_file": "research/cards.ru.md",
+    "line": 1825,
+    "definition_line": "## BOOK15-003"
+  },
+  {
+    "id": "BOOK15-004",
+    "notes_file": "research/cards.ru.md",
+    "line": 1829,
+    "definition_line": "## BOOK15-004"
+  },
+  {
+    "id": "BOOK15-005",
+    "notes_file": "research/cards.ru.md",
+    "line": 1833,
+    "definition_line": "## BOOK15-005"
+  },
+  {
+    "id": "BOOK15-006",
+    "notes_file": "research/cards.ru.md",
+    "line": 1837,
+    "definition_line": "## BOOK15-006"
+  },
+  {
+    "id": "BOOK15-007",
+    "notes_file": "research/cards.ru.md",
+    "line": 1841,
+    "definition_line": "## BOOK15-007"
+  },
+  {
+    "id": "BOOK15-008",
+    "notes_file": "research/cards.ru.md",
+    "line": 1845,
+    "definition_line": "## BOOK15-008"
+  },
+  {
+    "id": "BOOK15-009",
+    "notes_file": "research/cards.ru.md",
+    "line": 1849,
+    "definition_line": "## BOOK15-009"
+  },
+  {
+    "id": "BOOK15-010",
+    "notes_file": "research/cards.ru.md",
+    "line": 1853,
+    "definition_line": "## BOOK15-010"
+  },
+  {
+    "id": "BOOK15-011",
+    "notes_file": "research/cards.ru.md",
+    "line": 1857,
+    "definition_line": "## BOOK15-011"
+  },
+  {
+    "id": "BOOK16-001",
+    "notes_file": "research/cards.ru.md",
+    "line": 1861,
+    "definition_line": "## BOOK16-001"
+  },
+  {
+    "id": "BOOK16-002",
+    "notes_file": "research/cards.ru.md",
+    "line": 1865,
+    "definition_line": "## BOOK16-002"
+  },
+  {
+    "id": "BOOK16-003",
+    "notes_file": "research/cards.ru.md",
+    "line": 1869,
+    "definition_line": "## BOOK16-003"
+  },
+  {
+    "id": "BOOK16-004",
+    "notes_file": "research/cards.ru.md",
+    "line": 1873,
+    "definition_line": "## BOOK16-004"
+  },
+  {
+    "id": "BOOK16-005",
+    "notes_file": "research/cards.ru.md",
+    "line": 1877,
+    "definition_line": "## BOOK16-005"
+  },
+  {
+    "id": "BOOK16-006",
+    "notes_file": "research/cards.ru.md",
+    "line": 1881,
+    "definition_line": "## BOOK16-006"
+  },
+  {
+    "id": "BOOK00-001",
+    "notes_file": "research/cards.ru.md",
+    "line": 1885,
+    "definition_line": "## BOOK00-001"
+  },
+  {
+    "id": "BOOK00-002",
+    "notes_file": "research/cards.ru.md",
+    "line": 1889,
+    "definition_line": "## BOOK00-002"
+  },
+  {
+    "id": "BOOK00-003",
+    "notes_file": "research/cards.ru.md",
+    "line": 1893,
+    "definition_line": "## BOOK00-003"
+  },
+  {
+    "id": "BOOK00-004",
+    "notes_file": "research/cards.ru.md",
+    "line": 1897,
+    "definition_line": "## BOOK00-004"
+  }
+]

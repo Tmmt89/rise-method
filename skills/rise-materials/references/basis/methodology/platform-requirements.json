@@ -1,0 +1,1126 @@
+{
+  "schema_version": "1.0",
+  "title": "RiseAcademy: требования совместимости методического пилота",
+  "created_on": "2026-11-15",
+  "scope_note": "Спецификация и локальная подготовка пилотов. Этот реестр не создаёт отдельный approval-flow для авторов. Публикация, деплой и изменения платформы не входят в текущую задачу.",
+  "source_snapshot": {
+    "repository": "Speaking_livekit",
+    "head": "29be8fb28b9d494e8c695c62f408ef5310dd3ecb",
+    "head_committed_at": "2026-11-08T20:20:01+03:00",
+    "read_basis": "Текущие локальные файлы; checkout содержит незакоммиченные изменения.",
+    "runtime_tested": false,
+    "tests_or_publication_run": false,
+    "modified_evidence_files": [
+      "server/modules/lms/classLive.ts",
+      "server/modules/lms/live.ts",
+      "shared/lms/classes.ts",
+      "shared/lms/live.ts"
+    ],
+    "file_sha256": {
+      "Speaking_livekit/client/src/lms/design3/lab/GameOrList.tsx": "a00fbcc6eb3a3cc04d0f97b3ef71fa90c4dd5d6cfdeec66d7e25ffdabcad2860",
+      "Speaking_livekit/docs/deck-production.md": "08a44c867655c38e2fc83bf45f6b62af8ed827897ccd34505a18c31a5331f34f",
+      "Speaking_livekit/docs/html-presentation-contract.md": "37712d06200b1ac7f299ea7f3766759d7f7d21cf02a1797f4437a576d21f65d9",
+      "Speaking_livekit/docs/lms/adr/0006-five-exercise-mechanics-games-are-views.md": "ae13844881aba496a66af2618e0c4f9ad93caf2c6077b3401b43103219648a31",
+      "Speaking_livekit/docs/lms/adr/0007-generation-model-lesson-plus-brief.md": "d07badceee1ddc221196fd59734e3c3519dde7da98a263dc0d19524dfc9579c4",
+      "Speaking_livekit/docs/lms/lesson-canon-3.md": "e3fe24dfb9cf7630dd7e4e4d831badff7f690c9fdc6fb4b9d1271f00d106c5bd",
+      "Speaking_livekit/package.json": "19ebf4af2310e32d2bc85d20c2cfdca460e29e5df6e1679c27091bc842eeb787",
+      "Speaking_livekit/scripts/deck-lint.ts": "ad60412b96683576a07f469443f05bd3bd9e0c4880f362e2ac9ede97db58bf39",
+      "Speaking_livekit/scripts/deck-review.mjs": "907c3c6f87b0bc0bad421b000470d920b2db5748cacbb45d7311c97b5e20916c",
+      "Speaking_livekit/scripts/html-presentation-check.ts": "853fc9fe35f24518664efbd797918886ad9c507fc6a02d48df8ba7b7b86c7a92",
+      "Speaking_livekit/scripts/lms/import-progressme/cli.ts": "c72d787c5e7da453aba69b4f8ff40114da5c8157e6578f8f9d9e2e71cf38cace",
+      "Speaking_livekit/server/modules/htmlPresentation/publish.ts": "6116f8b004e0f2f074a79ef9f7c0bc7ecd21dfa4bdd02425afd4f5818680f287",
+      "Speaking_livekit/server/modules/interactiveDeck/coordinator.ts": "b445cb4cd70034d65b290ca58dc8605fa18f38a505491284e95dba505b5b9c6b",
+      "Speaking_livekit/server/modules/interactiveDeck/projection.ts": "210d51e122b7064a522a8c51072a028fd6134305a4c4b88e91c706738639ce8f",
+      "Speaking_livekit/server/modules/interactiveDeck/state.ts": "235825620c73f4693bee89cabbdc944125c85f69046a5b995a353181da7f7a16",
+      "Speaking_livekit/server/modules/lms/aiCheck.ts": "cc3a698086c61cd6981fe35b78620338b5e1d9266be169ab52e69ad2e91092bb",
+      "Speaking_livekit/server/modules/lms/authoringExercises.ts": "62638684ec9f155e6fcecbcf96ac32e2e2fc485c36af98a21606f5ecf03bcf6e",
+      "Speaking_livekit/server/modules/lms/classLive.ts": "de65044bad2d5d88d160b72d88b1dfc0fe111af357b4a9931cc34df0d15eaa87",
+      "Speaking_livekit/server/modules/lms/content.ts": "a4158c5d8ebe02f56904571e955c2d2f1a17230cfc441a3777ffad818569d2ee",
+      "Speaking_livekit/server/modules/lms/editorMedia.ts": "e72418435fe9e9e55791990ca7fc60f7dd40867432eb687335fa6cf11ffef8f4",
+      "Speaking_livekit/server/modules/lms/homework.ts": "343817bf19cc3a79e0d5f0fa98c08b551c1ae7ef6ddcd533fa871876b9f16ed9",
+      "Speaking_livekit/server/modules/lms/live.ts": "b7ae6239563c4b4102f5fa44648799eb840ecece975d1a2145c4b6dcff4f99d2",
+      "Speaking_livekit/server/modules/lms/review.ts": "a8dafd89b3da00f4e0853f93df2817a05ff64e47e9bcb7be9e6c521c847ccfbb",
+      "Speaking_livekit/server/routes/htmlPresentationAdmin.ts": "14b0735d5625095104bcf7506946033a708dcb372fbdcd6ffef4d23b182be9e4",
+      "Speaking_livekit/server/routes/interactiveDeck.ts": "3d42fd819feb6cdbbdcacb4142e48087ac18c75c8e4a0a5ed3ae437a7f6c0b66",
+      "Speaking_livekit/shared/htmlPresentationContract.ts": "580a60062aa8db08197be363aa6ea73cc064b61f16135d5fcf6d1f29e80cc221",
+      "Speaking_livekit/shared/interactiveDeckManifest.ts": "9054ebfdd298f5b0e0af03092aa606a2cfb9a60bf7958338b7a7721151570359",
+      "Speaking_livekit/shared/interactiveDeckRuntime.ts": "f73dda7bc14aee3ac7121a71172db0475226a2ae8d71684838db67d0586d1b8c",
+      "Speaking_livekit/shared/lms-schema.ts": "cff9d02a6c5cc41006df22f6929ce3c5ec7149edc9e918a6db9a08a1e3ab8f9f",
+      "Speaking_livekit/shared/lms/authoring.ts": "8132a16c165bf4f1033706983acae7df21ee39f56185bd24516771d58226d920",
+      "Speaking_livekit/shared/lms/authoringCheck.ts": "4c068b1f1d75c21a06d84a838b290dd8dcb0ab7d40fa1c84b3109d7a6f8508c9",
+      "Speaking_livekit/shared/lms/basics.ts": "86d740322c4fc9a163f4ee811b7a2e2015cd55b98f1ee2b4ee5d3690a77321e6",
+      "Speaking_livekit/shared/lms/classes.ts": "e02593ef5dc919f6e7bd9dc19150d0f9fc48647d522371507bee03cca87a7bb9",
+      "Speaking_livekit/shared/lms/course.ts": "8907ce73e91437fe72277b01ac1e88519516a9c4c77e9ce034a628e04a8d1a74",
+      "Speaking_livekit/shared/lms/exercise.ts": "4581c79c348181606b6c7cb2edab8be8989a03f6ffdb94f36719d4d0531466a7",
+      "Speaking_livekit/shared/lms/live.ts": "185ce54b40f47fe82583330e7cfc28ffbd7d632ae7f922b068d402c61b80093f",
+      "Speaking_livekit/shared/lms/mechanics/choice.ts": "83764d0d7a45abd634cc60405482ca2469f84f7e69c592f63dc096231b8b3013",
+      "Speaking_livekit/shared/lms/mechanics/match.ts": "306d7e43dc62d767922cc4fd0d5412924109b390945abe1a2d5c96f68fa0fae3",
+      "Speaking_livekit/shared/lms/mechanics/order.ts": "335cfd656e4993b6e08ace21de3ed405eb2cafe874a8af5ecc064fb8e61cd856",
+      "Speaking_livekit/shared/lms/opening.ts": "6c98736937815e9d8df81f494baaa9e64d1729f8a6741fd934c90c72fedf76fd",
+      "Speaking_livekit/shared/lms/progress.ts": "9b19a81b2fb072627ea9fd1eec3b36c246f60eebafbe3cc42e60ddab6e27dff6",
+      "Speaking_livekit/server/modules/interactiveDeck/stateService.ts": "8b8da164a600ee3036f88f5e5b2afef51a93cb3b76e742a7830d2cbb3a8b1711"
+    }
+  },
+  "status_definitions": {
+    "code": "Основание в исполняемом коде/схеме checkout, не результат runtime-проверки.",
+    "doc": "Явный контракт/политика документации; не универсальная методическая норма.",
+    "inference": "Проектный вывод из первоисточников; не явное обещание реализации.",
+    "unverified-runtime": "Доступность/поведение в развёрнутой среде не проверено."
+  },
+  "requirements": [
+    {
+      "id": "PLAT-001",
+      "scope": "all",
+      "condition": "Выбирается выход пилота.",
+      "requirement": "Выбрать LMS, native-deck или html-risedeck-v1 по обязательным функциям; до сборки зафиксировать несовместимости.",
+      "verification": "У каждой функции есть выход и проверка либо явно описанное изменение процедуры.",
+      "status": "inference",
+      "evidence": [
+        {
+          "path": "Speaking_livekit/shared/lms/exercise.ts",
+          "line": 214
+        },
+        {
+          "path": "Speaking_livekit/shared/interactiveDeckManifest.ts",
+          "line": 359
+        },
+        {
+          "path": "Speaking_livekit/docs/html-presentation-contract.md",
+          "line": 170
+        }
+      ],
+      "output": "Карта задача → формат → ограничение → альтернатива.",
+      "limitation": "Форматы не взаимозаменяемы; универсальный экспорт не подтверждён.",
+      "alternative": "Для первого пилота выбрать один достаточный формат; при комбинировании явно задать переход."
+    },
+    {
+      "id": "PLAT-002",
+      "scope": "lms",
+      "condition": "Урок раскладывается в структуру курса.",
+      "requirement": "Использовать курс → раздел → урок → секция → упражнение, LMS_SECTION_ROLES и уровни A0–C2; не превращать роли секций в обязательный сценарий.",
+      "verification": "Дерево и значения сверены со схемой; последовательность обоснована методически.",
+      "status": "code",
+      "evidence": [
+        {
+          "path": "Speaking_livekit/shared/lms/course.ts",
+          "line": 6
+        },
+        {
+          "path": "Speaking_livekit/shared/lms/course.ts",
+          "line": 12
+        },
+        {
+          "path": "Speaking_livekit/shared/lms/authoring.ts",
+          "line": 118
+        }
+      ],
+      "output": "Структурированный план и упражнения.",
+      "limitation": "Нет отдельного поля на каждую методическую процедуру.",
+      "alternative": "Роли учеников, ICQ, время и мониторинг хранить в плане преподавателя."
+    },
+    {
+      "id": "PLAT-003",
+      "scope": "lms",
+      "condition": "Нужно сохранить упражнение.",
+      "requirement": "Выбирать material, gaps, choice, match или order с существующим вариантом; не добавлять произвольные поля в strict-схемы.",
+      "verification": "exerciseSchema и checkAuthoredExercise принимают данные; механика соответствует действию.",
+      "status": "code",
+      "evidence": [
+        {
+          "path": "Speaking_livekit/shared/lms/exercise.ts",
+          "line": 214
+        },
+        {
+          "path": "Speaking_livekit/shared/lms/exercise.ts",
+          "line": 127
+        },
+        {
+          "path": "Speaking_livekit/shared/lms/mechanics/choice.ts",
+          "line": 31
+        },
+        {
+          "path": "Speaking_livekit/shared/lms/mechanics/match.ts",
+          "line": 25
+        },
+        {
+          "path": "Speaking_livekit/shared/lms/mechanics/order.ts",
+          "line": 9
+        }
+      ],
+      "output": "gaps type/select/drag; choice test/true-false; match pairs/columns; order sentences/words/letters; material.",
+      "limitation": "Игровая оболочка не новая механика.",
+      "alternative": "Детали процедуры вынести в план; недостающую механику обозначить отдельной разработкой."
+    },
+    {
+      "id": "PLAT-004",
+      "scope": "lms",
+      "condition": "Нужен опрос мнений без правильного варианта.",
+      "requirement": "Не кодировать мнение как новый LMS choice с фиктивным ключом: авторская проверка требует верный вариант.",
+      "verification": "Нет искусственного right/wrong для мнения.",
+      "status": "code",
+      "evidence": [
+        {
+          "path": "Speaking_livekit/shared/lms/authoringCheck.ts",
+          "line": 148
+        },
+        {
+          "path": "Speaking_livekit/shared/interactiveDeckManifest.ts",
+          "line": 172
+        }
+      ],
+      "output": "Native select без solution либо открытый LMS gaps.",
+      "limitation": "Пустой correct читается моделью, но не проходит новый authored choice.",
+      "alternative": "Устное обсуждение или native single/multiple/scale без solution."
+    },
+    {
+      "id": "PLAT-005",
+      "scope": "lms",
+      "condition": "Нужны текст, аудио, видео, изображения, PDF или словарь.",
+      "requirement": "Использовать materialSchema и RichText вместо HTML; для listening заранее дать задание и определить показ скрипта.",
+      "verification": "Медиа и вопросы сопоставлены; выбран kind; showScript указан; проверено фактическое аудио.",
+      "status": "code",
+      "evidence": [
+        {
+          "path": "Speaking_livekit/shared/lms/exercise.ts",
+          "line": 53
+        },
+        {
+          "path": "Speaking_livekit/shared/lms/basics.ts",
+          "line": 10
+        },
+        {
+          "path": "Speaking_livekit/server/modules/lms/editorMedia.ts",
+          "line": 1
+        },
+        {
+          "path": "Speaking_livekit/shared/lms/exercise.ts",
+          "line": 436
+        }
+      ],
+      "output": "LMS material images/text/audio/video/link/pdf/note/wordlist.",
+      "limitation": "Обычные lms-media публичны по модели редактора; SVG не принимается.",
+      "alternative": "Для listening выбирать LMS; если показ в деке, отдельно назвать место доступа к аудио.",
+      "source_cards": [
+        "LANG-017"
+      ]
+    },
+    {
+      "id": "PLAT-006",
+      "scope": "lms-writing",
+      "condition": "Нужен развёрнутый письменный продукт.",
+      "requirement": "Использовать gaps mode:type, accepted:[], long:true; задание в title; критерии адресата, содержания, структуры и языка — в рубрике.",
+      "verification": "checkAuthoredExercise принимает упражнение; открытый продукт оценивается по задаче, не единственному ключу.",
+      "status": "code",
+      "evidence": [
+        {
+          "path": "Speaking_livekit/shared/lms/exercise.ts",
+          "line": 127
+        },
+        {
+          "path": "Speaking_livekit/shared/lms/authoringCheck.ts",
+          "line": 123
+        },
+        {
+          "path": "Speaking_livekit/server/modules/lms/review.ts",
+          "line": 112
+        }
+      ],
+      "output": "Сохраняемый текст и комментарии.",
+      "limitation": "Отдельная встроенная многокритериальная writing rubric не подтверждена.",
+      "alternative": "Рубрику вести в плане, итоговый комментарий — на платформе.",
+      "source_cards": [
+        "INT-030",
+        "PRACTICE-041"
+      ]
+    },
+    {
+      "id": "PLAT-007",
+      "scope": "lms-voice",
+      "condition": "Нужна запись с последующей обратной связью.",
+      "requirement": "Использовать gaps mode:type, accepted:[], voice 5–600 секунд, без long и ключа; назначить слушателя и критерии.",
+      "verification": "Схема принимает лимит; пилот отдельно проверяет запись, прослушивание и повтор.",
+      "status": "code",
+      "evidence": [
+        {
+          "path": "Speaking_livekit/shared/lms/exercise.ts",
+          "line": 124
+        },
+        {
+          "path": "Speaking_livekit/shared/lms/exercise.ts",
+          "line": 192
+        },
+        {
+          "path": "Speaking_livekit/server/modules/lms/aiCheck.ts",
+          "line": 53
+        }
+      ],
+      "output": "Голосовой ответ LMS и процедура feedback.",
+      "limitation": "AI-путь LMS открытых ответов исключает voice; автооценка произношения этим контрактом не подтверждена.",
+      "alternative": "Преподаватель слушает и комментирует; новый устный вариант наблюдается отдельно.",
+      "source_cards": [
+        "BOOK14-004",
+        "INT-024"
+      ]
+    },
+    {
+      "id": "PLAT-008",
+      "scope": "lms-grading",
+      "condition": "Считается правильность ответов.",
+      "requirement": "Отделять серверный grade от преподавательской оценки: open не входит в знаменатель правильности до отдельной отметки.",
+      "verification": "Ключи проверены содержательно; total=0 не трактуется как ошибка или освоение.",
+      "status": "code",
+      "evidence": [
+        {
+          "path": "Speaking_livekit/shared/lms/exercise.ts",
+          "line": 239
+        },
+        {
+          "path": "Speaking_livekit/shared/lms/exercise.ts",
+          "line": 294
+        }
+      ],
+      "output": "Отметки и правильный знаменатель.",
+      "limitation": "Процент не покрывает автоматически открытые письмо/говорение.",
+      "alternative": "Наблюдаемые can-do и отдельная рубрика.",
+      "source_cards": [
+        "BOOK12-003",
+        "BOOK12-005"
+      ]
+    },
+    {
+      "id": "PLAT-009",
+      "scope": "lms-privacy",
+      "condition": "Есть ключи, скрытый скрипт и teacher notes.",
+      "requirement": "Сохранить teacher/student-разделение; не дублировать teacherOnly, note, teacherNote и ключи в ученическом тексте; скрытый script — showScript:false.",
+      "verification": "Проверены оба представления; ученический JSON не содержит закрытых данных до штатного раскрытия.",
+      "status": "code",
+      "evidence": [
+        {
+          "path": "Speaking_livekit/server/modules/lms/content.ts",
+          "line": 221
+        },
+        {
+          "path": "Speaking_livekit/shared/lms/exercise.ts",
+          "line": 392
+        },
+        {
+          "path": "Speaking_livekit/shared/lms/exercise.ts",
+          "line": 426
+        },
+        {
+          "path": "Speaking_livekit/shared/lms/exercise.ts",
+          "line": 489
+        }
+      ],
+      "output": "Ученический материал и отдельный ключ/план.",
+      "limitation": "Фильтрация teacher/student не доказывает приватную A/B выдачу; обычные медиа редактора публичны.",
+      "alternative": "Не помещать секрет в публичный файл; для общего задержанного раскрытия native protected/reveal."
+    },
+    {
+      "id": "PLAT-010",
+      "scope": "lms-live",
+      "condition": "Проводится синхронный урок.",
+      "requirement": "Описать follow/free, открытие упражнения и момент reveal; раскрытый ключ закрывает приём ответа.",
+      "verification": "Повтор не требует отправить ответ в уже раскрытое упражнение.",
+      "status": "code",
+      "evidence": [
+        {
+          "path": "Speaking_livekit/shared/lms/live.ts",
+          "line": 16
+        },
+        {
+          "path": "Speaking_livekit/shared/lms/live.ts",
+          "line": 62
+        },
+        {
+          "path": "Speaking_livekit/server/modules/lms/live.ts",
+          "line": 450
+        }
+      ],
+      "output": "План синхронного LMS-урока.",
+      "limitation": "Показ не назначает автоматически пары, роли и действие слушателя.",
+      "alternative": "Повтор оформить отдельным упражнением/этапом.",
+      "source_cards": [
+        "PRACTICE-006",
+        "INT-024"
+      ]
+    },
+    {
+      "id": "PLAT-011",
+      "scope": "lms-live",
+      "condition": "Нужны роли и сохранение прогресса.",
+      "requirement": "Развести модератора, участника и ученика класса; не обещать долговременный прогресс гостю за вход по коду.",
+      "verification": "Указаны класс и принадлежность; модератор видит ответы, участник свои; сохранение проверяется отдельно.",
+      "status": "code",
+      "evidence": [
+        {
+          "path": "Speaking_livekit/server/modules/lms/classLive.ts",
+          "line": 153
+        },
+        {
+          "path": "Speaking_livekit/server/modules/lms/live.ts",
+          "line": 342
+        },
+        {
+          "path": "Speaking_livekit/server/modules/lms/live.ts",
+          "line": 500
+        },
+        {
+          "path": "Speaking_livekit/server/modules/lms/live.ts",
+          "line": 405
+        }
+      ],
+      "output": "Ролевая таблица и условия сохранения.",
+      "limitation": "Текущие live-ответы удаляются при окончании run; LMS-сохранение зависит от inRunClass.",
+      "alternative": "Оцениваемый пилот вести с учениками класса; в гостевой демонстрации собирать отдельные наблюдения."
+    },
+    {
+      "id": "PLAT-012",
+      "scope": "lms-homework",
+      "condition": "Назначается ДЗ.",
+      "requirement": "Выбирать секции уже открытого урока и необязательную dueOn; предусмотреть повторную сдачу и feedback.",
+      "verification": "Секции принадлежат уроку; проверка показывает снимок отвеченного упражнения.",
+      "status": "code",
+      "evidence": [
+        {
+          "path": "Speaking_livekit/server/modules/lms/homework.ts",
+          "line": 51
+        },
+        {
+          "path": "Speaking_livekit/server/modules/lms/homework.ts",
+          "line": 98
+        },
+        {
+          "path": "Speaking_livekit/server/modules/lms/review.ts",
+          "line": 57
+        }
+      ],
+      "output": "ДЗ по секциям.",
+      "limitation": "Назначение не означает автоматическую проверку всех открытых ответов.",
+      "alternative": "Указать ответственного за проверку либо честный режим самостоятельной практики."
+    },
+    {
+      "id": "PLAT-013",
+      "scope": "lms-feedback",
+      "condition": "Нужна обратная связь по работе.",
+      "requirement": "Использовать отметки элементов и комментарии к упражнению/работе; расширенную рубрику хранить отдельно.",
+      "verification": "Критерии связаны с продуктом; комментарий помогает следующей попытке.",
+      "status": "code",
+      "evidence": [
+        {
+          "path": "Speaking_livekit/server/modules/lms/review.ts",
+          "line": 88
+        },
+        {
+          "path": "Speaking_livekit/server/modules/lms/review.ts",
+          "line": 112
+        }
+      ],
+      "output": "Преподавательская проверка.",
+      "limitation": "Peer-review workflow и автоматическая выдача работ сверстникам не подтверждены.",
+      "alternative": "Проверку в парах описать процедурой; итоговый комментарий внести преподавателем.",
+      "source_cards": [
+        "PRACTICE-041",
+        "INT-027"
+      ]
+    },
+    {
+      "id": "PLAT-014",
+      "scope": "lms-ai-feedback",
+      "condition": "Автор рассчитывает на AI-проверку.",
+      "requirement": "Ограничить обещание открытыми текстовыми элементами сданных работ бесплатных курсов при настроенном сервисе и доступном лимите.",
+      "verification": "План не требует AI voice grading; runtime-доступность отмечена непроверенной.",
+      "status": "code",
+      "evidence": [
+        {
+          "path": "Speaking_livekit/server/modules/lms/aiCheck.ts",
+          "line": 1
+        },
+        {
+          "path": "Speaking_livekit/server/modules/lms/aiCheck.ts",
+          "line": 37
+        },
+        {
+          "path": "Speaking_livekit/server/modules/lms/aiCheck.ts",
+          "line": 53
+        },
+        {
+          "path": "Speaking_livekit/server/modules/lms/aiCheck.ts",
+          "line": 108
+        }
+      ],
+      "output": "Условная автоматическая проверка текста.",
+      "limitation": "Код не доказывает настройку, доступность вызовов или валидность оценки.",
+      "alternative": "Назначить преподавательский комментарий либо обозначить изменение на самооценку по образцу."
+    },
+    {
+      "id": "PLAT-015",
+      "scope": "lms-course",
+      "condition": "Проектируется последовательность курса.",
+      "requirement": "Выбрать teacher/self и существующее правило открытия; previous accepted означает сдачу, а не обязательное одобрение куратора.",
+      "verification": "План не обещает отсутствующий mastery/approval барьер; сроки сверены с opening.ts.",
+      "status": "code",
+      "evidence": [
+        {
+          "path": "Speaking_livekit/shared/lms/classes.ts",
+          "line": 31
+        },
+        {
+          "path": "Speaking_livekit/shared/lms/opening.ts",
+          "line": 11
+        },
+        {
+          "path": "Speaking_livekit/shared/lms/opening.ts",
+          "line": 113
+        }
+      ],
+      "output": "Последовательность доступа.",
+      "limitation": "Сдача не доказывает освоение; позиция следующего урока не равна прогрессу ученика.",
+      "alternative": "Диагностический шаг и решение преподавателя; новый автоматический барьер обозначить разработкой."
+    },
+    {
+      "id": "PLAT-016",
+      "scope": "lms-progress",
+      "condition": "Нужно показать учебный результат.",
+      "requirement": "Различать посещение, выполненность, правильность, слабые темы и целевой can-do; не выводить CEFR из процента/game score.",
+      "verification": "Вывод называет данные и пределы; can-do подкреплён индивидуальными наблюдениями с уровнем помощи.",
+      "status": "inference",
+      "evidence": [
+        {
+          "path": "Speaking_livekit/shared/lms/progress.ts",
+          "line": 27
+        },
+        {
+          "path": "Speaking_livekit/shared/lms/progress.ts",
+          "line": 37
+        },
+        {
+          "path": "Speaking_livekit/shared/lms/progress.ts",
+          "line": 54
+        },
+        {
+          "path": "Speaking_livekit/shared/lms/exercise.ts",
+          "line": 294
+        }
+      ],
+      "output": "Операционный прогресс и отдельный методический результат.",
+      "limitation": "Схема не валидирует психометрический вывод.",
+      "alternative": "Рубрика и сопоставимые задачи; различать не наблюдал и не умеет.",
+      "source_cards": [
+        "BOOK12-003",
+        "BOOK12-005"
+      ]
+    },
+    {
+      "id": "PLAT-017",
+      "scope": "lms-games",
+      "condition": "Нужна игра.",
+      "requirement": "Использовать проверенный игровой вид существующей механики; сохранять языковое действие и обычный вид, где он реализован.",
+      "verification": "Данные соответствуют механике; не обещается произвольный game engine.",
+      "status": "inference",
+      "evidence": [
+        {
+          "path": "Speaking_livekit/docs/lms/adr/0006-five-exercise-mechanics-games-are-views.md",
+          "line": 3
+        },
+        {
+          "path": "Speaking_livekit/client/src/lms/design3/lab/GameOrList.tsx",
+          "line": 1
+        }
+      ],
+      "output": "Игра над пятью механиками.",
+      "limitation": "ADR — архитектурный принцип, не доказательство каждого названного экрана.",
+      "alternative": "Обычное упражнение или устная игра с тем же языковым действием."
+    },
+    {
+      "id": "PLAT-018",
+      "scope": "native-deck",
+      "condition": "Собирается нативная дека.",
+      "requirement": "Использовать 11 type/variant: reveal steps/prediction; select single/multiple/scale/conversation-card/phrases-used; text short-answer/scratchpad; cards ranking/categorization.",
+      "verification": "interactiveDeckManifestSchema принимает манифест; неизвестных полей нет.",
+      "status": "code",
+      "evidence": [
+        {
+          "path": "Speaking_livekit/shared/interactiveDeckManifest.ts",
+          "line": 122
+        },
+        {
+          "path": "Speaking_livekit/shared/interactiveDeckManifest.ts",
+          "line": 172
+        },
+        {
+          "path": "Speaking_livekit/shared/interactiveDeckManifest.ts",
+          "line": 225
+        },
+        {
+          "path": "Speaking_livekit/shared/interactiveDeckManifest.ts",
+          "line": 297
+        },
+        {
+          "path": "Speaking_livekit/shared/interactiveDeckManifest.ts",
+          "line": 324
+        }
+      ],
+      "output": "manifest.json и изображения.",
+      "limitation": "Заголовок гайда «Десять механик» отстаёт от списка 11 вариантов; это отдельная модель от LMS.",
+      "alternative": "Выбрать поддерживаемое действие и отметить изменение процедуры."
+    },
+    {
+      "id": "PLAT-019",
+      "scope": "native-deck-privacy",
+      "condition": "Ответ должен появиться после решения преподавателя.",
+      "requirement": "Скрытый текст помещать в reveal steps/solution, изображения ответа — protected; иллюстрации экрана/карточек/вариантов — public.",
+      "verification": "До раскрытия participant projection не содержит скрытого шага/solution; protected-ассет выдаётся только при соответствующей видимости.",
+      "status": "code",
+      "evidence": [
+        {
+          "path": "Speaking_livekit/server/modules/interactiveDeck/projection.ts",
+          "line": 129
+        },
+        {
+          "path": "Speaking_livekit/shared/interactiveDeckManifest.ts",
+          "line": 464
+        },
+        {
+          "path": "Speaking_livekit/server/modules/interactiveDeck/coordinator.ts",
+          "line": 495
+        }
+      ],
+      "output": "Общее управляемое раскрытие.",
+      "limitation": "Ранее доставленный контент нельзя снова считать секретным; это не индивидуальная ролевая выдача.",
+      "alternative": "Разные секретные роли требуют отдельного проверенного канала или переработки задания."
+    },
+    {
+      "id": "PLAT-020",
+      "scope": "native-deck-breakout",
+      "condition": "Нужен выбор карточек без повторов.",
+      "requirement": "uniqueWithinBreakout применять только к conversation-card с minSelections=maxSelections=1; обеспечить достаточно вариантов. Не называть это скрытой выдачей.",
+      "verification": "В пилоте проверяется уникальность в группе; отдельно подтверждается, что все labels остаются в student snapshot.",
+      "status": "code",
+      "evidence": [
+        {
+          "path": "Speaking_livekit/shared/interactiveDeckManifest.ts",
+          "line": 192
+        },
+        {
+          "path": "Speaking_livekit/server/modules/interactiveDeck/projection.ts",
+          "line": 79
+        },
+        {
+          "path": "Speaking_livekit/server/modules/interactiveDeck/projection.ts",
+          "line": 143
+        },
+        {
+          "path": "Speaking_livekit/server/modules/interactiveDeck/state.ts",
+          "line": 267
+        },
+        {
+          "path": "Speaking_livekit/server/modules/interactiveDeck/stateService.ts",
+          "line": 369
+        }
+      ],
+      "output": "Уникальный выбор карточек.",
+      "limitation": "Все options передаются ученику; без breakoutGroupId эта уникальность не применяется.",
+      "alternative": "Использовать открытые роли/точки зрения, где видимость чужой карточки не разрушает задачу."
+    },
+    {
+      "id": "PLAT-021",
+      "scope": "all-information-gap",
+      "condition": "Задание зависит от секретной разной информации A/B.",
+      "requirement": "Не считать common HTML, LMS teacher/student или uniqueWithinBreakout приватной A/B выдачей. Назвать получателя каждого фрагмента и основание недоступности остальным.",
+      "verification": "Контрольный ученик A не получает данные B; без этого требование отмечено неподдержанным.",
+      "status": "inference",
+      "evidence": [
+        {
+          "path": "Speaking_livekit/server/modules/interactiveDeck/projection.ts",
+          "line": 143
+        },
+        {
+          "path": "Speaking_livekit/server/modules/lms/content.ts",
+          "line": 221
+        },
+        {
+          "path": "Speaking_livekit/docs/html-presentation-contract.md",
+          "line": 142
+        }
+      ],
+      "output": "Карта доступа A/B.",
+      "limitation": "Универсальная private role-card механика в изученных контрактах не подтверждена.",
+      "alternative": "Очный пилот: отдельные листки; онлайн: отдельно проверенный приватный канал либо открытая ролевая дискуссия с честным изменением задачи.",
+      "source_cards": [
+        "INT-014",
+        "BOOK15-002"
+      ]
+    },
+    {
+      "id": "PLAT-022",
+      "scope": "native-deck-writing",
+      "condition": "Нужен письменный ответ или черновик.",
+      "requirement": "short-answer — собираемый ответ maxLength≤500; scratchpad — личная подготовка и сигнал ready, без solution.",
+      "verification": "План не использует текст scratchpad как сохранённое свидетельство.",
+      "status": "code",
+      "evidence": [
+        {
+          "path": "Speaking_livekit/shared/interactiveDeckManifest.ts",
+          "line": 4
+        },
+        {
+          "path": "Speaking_livekit/shared/interactiveDeckManifest.ts",
+          "line": 225
+        },
+        {
+          "path": "Speaking_livekit/server/modules/interactiveDeck/state.ts",
+          "line": 275
+        }
+      ],
+      "output": "Короткий ответ или личный черновик.",
+      "limitation": "Scratchpad не отправляет текст; 500 символов — потолок, не методическая норма письма.",
+      "alternative": "Для развёрнутого письма с проверкой выбрать LMS long open gap.",
+      "source_cards": [
+        "INT-030",
+        "PRACTICE-041"
+      ]
+    },
+    {
+      "id": "PLAT-023",
+      "scope": "native-deck-live",
+      "condition": "Нужны общие интеракции.",
+      "requirement": "Описать действия moderator navigate/reveal/status/results/spotlight/reset; различать личный ответ, публичный результат и все ответы модератора.",
+      "verification": "Пилот с модератором и двумя участниками; публичный пример обезличен, когда этого требует процедура.",
+      "status": "code",
+      "evidence": [
+        {
+          "path": "Speaking_livekit/shared/interactiveDeckRuntime.ts",
+          "line": 30
+        },
+        {
+          "path": "Speaking_livekit/shared/interactiveDeckRuntime.ts",
+          "line": 327
+        },
+        {
+          "path": "Speaking_livekit/shared/interactiveDeckRuntime.ts",
+          "line": 381
+        },
+        {
+          "path": "Speaking_livekit/server/routes/interactiveDeck.ts",
+          "line": 194
+        }
+      ],
+      "output": "Синхронная интерактивная процедура.",
+      "limitation": "Авторский preview не доказывает sync или долговременный LMS-прогресс.",
+      "alternative": "Для общего показа достаточно HTML; для учебного следа добавить LMS-задание.",
+      "source_cards": [
+        "INT-027",
+        "PRACTICE-006"
+      ]
+    },
+    {
+      "id": "PLAT-024",
+      "scope": "native-deck-package",
+      "condition": "Готовится пакет.",
+      "requirement": "Соблюдать ≤50 экранов, ≤20 блоков/экран, ≤50 элементов/блок; manifest ≤262144 байт; ассет ≤4194304 байт и ≤16777216 пикселей; экран ≤4 ассетов и ≤24000000 пикселей; версия ≤50 ассетов, ≤20971520 байт и ≤167772160 пикселей.",
+      "verification": "deck:lint проходит; файлы <assetId>.<png|jpg|jpeg|webp>; план/отчёт вне пакета.",
+      "status": "code",
+      "evidence": [
+        {
+          "path": "Speaking_livekit/shared/interactiveDeckManifest.ts",
+          "line": 4
+        },
+        {
+          "path": "Speaking_livekit/shared/interactiveDeckManifest.ts",
+          "line": 37
+        },
+        {
+          "path": "Speaking_livekit/scripts/deck-lint.ts",
+          "line": 75
+        }
+      ],
+      "output": "Папка manifest.json + растры, при необходимости ZIP.",
+      "limitation": "Схема допускает 100 ассетов, публикационный бюджет — 50. 500 КиБ — предупреждение, не жёсткий отказ.",
+      "alternative": "Уменьшить и переиспользовать растры, разбить перегруженный экран."
+    },
+    {
+      "id": "PLAT-025",
+      "scope": "html-risedeck-v1",
+      "condition": "Выбран HTML.",
+      "requirement": "Собрать автономный presentation.html ≤10 МиБ: один #rise-deck версии 1, фиксированные section[data-rise-slide], meta schemaVersion:1, один видимый слайд и синхронный RiseDeck с четырьмя методами.",
+      "verification": "validateHtmlPresentation и html-deck:check; standalone/controlled режимы проверены отдельно.",
+      "status": "doc",
+      "evidence": [
+        {
+          "path": "Speaking_livekit/docs/html-presentation-contract.md",
+          "line": 15
+        },
+        {
+          "path": "Speaking_livekit/docs/html-presentation-contract.md",
+          "line": 47
+        },
+        {
+          "path": "Speaking_livekit/docs/html-presentation-contract.md",
+          "line": 87
+        },
+        {
+          "path": "Speaking_livekit/shared/htmlPresentationContract.ts",
+          "line": 31
+        }
+      ],
+      "output": "Один HTML.",
+      "limitation": "Более 5 МиБ — предупреждение; React/CDN/import/внешние ресурсы не подходят.",
+      "alternative": "Упростить оформление и встроить ресурсы; для сложных функций native или LMS."
+    },
+    {
+      "id": "PLAT-026",
+      "scope": "html-risedeck-v1-privacy",
+      "condition": "Автор хочет скрыть ключ, teacher notes или секрет.",
+      "requirement": "Не помещать закрытое содержание в доставляемый HTML, DOM, JS, CSS, комментарии или data-ресурсы; локальное раскрытие доступно заранее.",
+      "verification": "Полный исходник не содержит teacher-only ключей, персональных данных или секретов; скрытие UI не защита.",
+      "status": "doc",
+      "evidence": [
+        {
+          "path": "Speaking_livekit/docs/html-presentation-contract.md",
+          "line": 119
+        },
+        {
+          "path": "Speaking_livekit/docs/html-presentation-contract.md",
+          "line": 140
+        }
+      ],
+      "output": "Ученический HTML и отдельный преподавательский файл.",
+      "limitation": "Ученик получает весь файл; приватные карточки не реализуются общим HTML.",
+      "alternative": "Native reveal/protected для задержанного защищённого раскрытия; teacher notes отдельно."
+    },
+    {
+      "id": "PLAT-027",
+      "scope": "html-risedeck-v1-sync",
+      "condition": "Действие должно быть общим для группы.",
+      "requirement": "Общий результат оформлять сменой слайда; не обещать синхронные локальные flip/reveal/selection.",
+      "verification": "Сценарий различает общий номер слайда и локальные действия; важное раскрытие отдельным слайдом.",
+      "status": "doc",
+      "evidence": [
+        {
+          "path": "Speaking_livekit/docs/html-presentation-contract.md",
+          "line": 163
+        }
+      ],
+      "output": "Пошаговый общий показ.",
+      "limitation": "Отдельный слайд управляет показом, но не скрывает содержание исходника.",
+      "alternative": "Если нужна секретность до раскрытия — native; если визуальный ритм — HTML-слайды."
+    },
+    {
+      "id": "PLAT-028",
+      "scope": "html-risedeck-v1-capabilities",
+      "condition": "Нужны аудио, видео, текстовый ввод, запись или сеть.",
+      "requirement": "Не реализовывать внутри HTML v1 audio/video, формы, текстовые поля, сеть, хранилища и запросы микрофона: контракт их запрещает.",
+      "verification": "В файле нет запрещённых функций; место получения продукта явно указано.",
+      "status": "doc",
+      "evidence": [
+        {
+          "path": "Speaking_livekit/docs/html-presentation-contract.md",
+          "line": 27
+        },
+        {
+          "path": "Speaking_livekit/docs/html-presentation-contract.md",
+          "line": 109
+        }
+      ],
+      "output": "Визуальная опора к устной работе.",
+      "limitation": "HTML не письменный тренажёр, аудиоплеер или сборщик аналитики.",
+      "alternative": "Listening/writing/voice — LMS; короткие собираемые ответы — native."
+    },
+    {
+      "id": "PLAT-029",
+      "scope": "html-risedeck-v1-accessibility",
+      "condition": "Готовится адаптивный материал.",
+      "requirement": "Проверить 1280×720, 960×640, 390×700, 844×390; на узком экране одна колонка, основной текст ≥18 CSS px, кнопки ≥44×44; клавиатура, фокус, alt, контраст и reduced motion.",
+      "verification": "Автопроверка переполнения дополнена визуальным/клавиатурным просмотром.",
+      "status": "doc",
+      "evidence": [
+        {
+          "path": "Speaking_livekit/docs/html-presentation-contract.md",
+          "line": 175
+        },
+        {
+          "path": "Speaking_livekit/scripts/html-presentation-check.ts",
+          "line": 41
+        }
+      ],
+      "output": "Responsive HTML.",
+      "limitation": "Зелёный отчёт не доказывает читабельность и методическую целесообразность.",
+      "alternative": "Разделить перегруженный слайд, не уменьшать весь материал."
+    },
+    {
+      "id": "PLAT-030",
+      "scope": "lms-validation",
+      "condition": "Материал подготовлен к переносу.",
+      "requirement": "Проверять exerciseSchema через checkAuthoredExercise; дерево/метаданные — authoring.ts и операциями редактора. Не объявлять произвольный lesson JSON готовым импортным пакетом.",
+      "verification": "В отчёте названы точные проверки и охват; универсальная import schema не выдумана.",
+      "status": "code",
+      "evidence": [
+        {
+          "path": "Speaking_livekit/shared/lms/authoringCheck.ts",
+          "line": 164
+        },
+        {
+          "path": "Speaking_livekit/server/modules/lms/authoringExercises.ts",
+          "line": 84
+        },
+        {
+          "path": "Speaking_livekit/shared/lms/authoring.ts",
+          "line": 118
+        },
+        {
+          "path": "Speaking_livekit/scripts/lms/import-progressme/cli.ts",
+          "line": 1
+        }
+      ],
+      "output": "Валидные упражнения и план переноса.",
+      "limitation": "Найденный import-progressme принимает специальную выгрузку, не любой новый курс.",
+      "alternative": "Перенос через редактор/авторизованный API; отдельный импортер — самостоятельная разработка."
+    },
+    {
+      "id": "PLAT-031",
+      "scope": "native-deck-validation",
+      "condition": "Будущий пакет готов к проверке.",
+      "requirement": "Использовать npm run deck:lint -- <package-folder>, затем npm run deck:review -- <package-folder> [new-output-folder]; просмотреть снимки.",
+      "verification": "Сохранены checksum/хеши и результат; непроверенные runtime-возможности перечислены.",
+      "status": "code",
+      "evidence": [
+        {
+          "path": "Speaking_livekit/package.json",
+          "line": 42
+        },
+        {
+          "path": "Speaking_livekit/scripts/deck-lint.ts",
+          "line": 106
+        },
+        {
+          "path": "Speaking_livekit/scripts/deck-review.mjs",
+          "line": 1
+        },
+        {
+          "path": "Speaking_livekit/scripts/deck-review.mjs",
+          "line": 31
+        }
+      ],
+      "output": "Технический отчёт и снимки.",
+      "limitation": "review проверяет авторский preview, не room sync, реальные устройства, DB или публикацию.",
+      "alternative": "Для пилота отдельный многопользовательский сценарий; сейчас команды не запускались."
+    },
+    {
+      "id": "PLAT-032",
+      "scope": "html-risedeck-v1-validation",
+      "condition": "Будущий файл готов к проверке.",
+      "requirement": "Использовать npm run html-deck:check -- <presentation.html> [output-folder]; QUICK не полноценная проверка.",
+      "verification": "Static/runtime contract report, Chromium/WebKit, четыре размера; содержание проверено вручную.",
+      "status": "code",
+      "evidence": [
+        {
+          "path": "Speaking_livekit/package.json",
+          "line": 43
+        },
+        {
+          "path": "Speaking_livekit/scripts/html-presentation-check.ts",
+          "line": 1
+        },
+        {
+          "path": "Speaking_livekit/scripts/html-presentation-check.ts",
+          "line": 38
+        },
+        {
+          "path": "Speaking_livekit/shared/htmlPresentationContract.ts",
+          "line": 99
+        },
+        {
+          "path": "Speaking_livekit/server/modules/htmlPresentation/publish.ts",
+          "line": 137
+        }
+      ],
+      "output": "HTML-отчёт и снимки.",
+      "limitation": "Команда не подтверждает sync/устройства/публикацию; сервер дополнительно сверяет SHA-256 и runtimeReport.",
+      "alternative": "Пилотную синхронизацию проверить отдельно после появления материала/окружения."
+    },
+    {
+      "id": "PLAT-033",
+      "scope": "runtime",
+      "condition": "Нужно заявить работу функции на сайте.",
+      "requirement": "Разделять наличие кода, включение флага/конфигурации и результат реального сценария.",
+      "verification": "Нет статуса проверено-runtime без наблюдения; незапущенные проверки указаны.",
+      "status": "unverified-runtime",
+      "evidence": [
+        {
+          "path": "Speaking_livekit/server/routes/htmlPresentationAdmin.ts",
+          "line": 68
+        },
+        {
+          "path": "Speaking_livekit/scripts/deck-review.mjs",
+          "line": 36
+        },
+        {
+          "path": "Speaking_livekit/scripts/html-presentation-check.ts",
+          "line": 13
+        },
+        {
+          "path": "Speaking_livekit/server/modules/lms/aiCheck.ts",
+          "line": 37
+        }
+      ],
+      "output": "Реестр подтверждённых контрактов и runtime-неопределённостей.",
+      "limitation": "Production, БД, флаги и тесты не проверялись.",
+      "alternative": "Локальный spec и материалы готовятся сейчас; runtime-неопределённость не блокирует документацию."
+    },
+    {
+      "id": "PLAT-034",
+      "scope": "riseacademy-adult-design3",
+      "condition": "Создаётся взрослый LMS-урок Design 3.0.",
+      "requirement": "Применять локальный канон: хук первых 30 секунд, одна жизненная цель, голос/диалог хотя бы раз на пять заданий, минимум одна яркая игра, не более трёх однотипных подряд, финальные 2–3 can-do и короткое голосовое применение.",
+      "verification": "Для пунктов 1–6 аудит 0/1/2; культурные запреты 7–8 отдельно, без баллов; применимость к профилю обоснована.",
+      "status": "doc",
+      "evidence": [
+        {
+          "path": "Speaking_livekit/docs/lms/lesson-canon-3.md",
+          "line": 3
+        },
+        {
+          "path": "Speaking_livekit/docs/lms/lesson-canon-3.md",
+          "line": 5
+        },
+        {
+          "path": "Speaking_livekit/docs/lms/lesson-canon-3.md",
+          "line": 9
+        },
+        {
+          "path": "Speaking_livekit/docs/lms/lesson-canon-3.md",
+          "line": 20
+        },
+        {
+          "path": "Speaking_livekit/docs/lms/lesson-canon-3.md",
+          "line": 24
+        },
+        {
+          "path": "Speaking_livekit/docs/lms/lesson-canon-3.md",
+          "line": 28
+        },
+        {
+          "path": "Speaking_livekit/docs/lms/lesson-canon-3.md",
+          "line": 32
+        }
+      ],
+      "output": "Профиль взрослого Design 3.0.",
+      "limitation": "Это школьный продуктовый канон; числа не универсальная норма ELT, детей, экзаменов или каждой короткой активности.",
+      "alternative": "Для другого профиля заново определить ритм и критерии; адаптацию обозначить."
+    },
+    {
+      "id": "PLAT-035",
+      "scope": "riseacademy-cultural-profile",
+      "condition": "Материал создаётся именно для школы.",
+      "requirement": "Применять локальный культурный профиль deck-production.md и, для взрослого Design 3.0, lesson-canon-3.md; при замене контекста сохранять учебную функцию.",
+      "verification": "Проверены тексты, примеры, лексика, картинки и требуемые роли; ограничения названы школьным профилем, а не общим свойством учащихся.",
+      "status": "doc",
+      "evidence": [
+        {
+          "path": "Speaking_livekit/docs/deck-production.md",
+          "line": 63
+        },
+        {
+          "path": "Speaking_livekit/docs/lms/lesson-canon-3.md",
+          "line": 34
+        },
+        {
+          "path": "Speaking_livekit/docs/lms/lesson-canon-3.md",
+          "line": 53
+        }
+      ],
+      "output": "Уместные сцены и визуальные материалы.",
+      "limitation": "Два документа имеют свои области; профиль не универсальная методическая норма.",
+      "alternative": "Работа, сервис, семья, транспорт и другие допустимые контексты; не добавлять выдуманные запреты."
+    },
+    {
+      "id": "PLAT-036",
+      "scope": "future-lesson-generation",
+      "condition": "План зависит от генерации урок-образец + бриф.",
+      "requirement": "Считать ADR-0007 проектным решением до подтверждения исполняемого маршрута; не обещать перенос прогресса вариантов по одному basedOnExerciseId.",
+      "verification": "Пилот не требует неподтверждённой кнопки; metadata не выданы за реализацию.",
+      "status": "inference",
+      "evidence": [
+        {
+          "path": "Speaking_livekit/docs/lms/adr/0007-generation-model-lesson-plus-brief.md",
+          "line": 3
+        },
+        {
+          "path": "Speaking_livekit/shared/lms-schema.ts",
+          "line": 184
+        },
+        {
+          "path": "Speaking_livekit/shared/lms-schema.ts",
+          "line": 225
+        },
+        {
+          "path": "Speaking_livekit/server/modules/lms/authoringExercises.ts",
+          "line": 66
+        }
+      ],
+      "output": "Спецификация генерации и локальный материал.",
+      "limitation": "В просмотренных LMS-модулях рабочий lessonGenerator не найден; basedOnExerciseId используется копированием.",
+      "alternative": "Подготовить упражнения локально, перенести редактором; генератор/семантику прогресса вариантов исследовать отдельно."
+    },
+    {
+      "id": "PLAT-037",
+      "scope": "methodological-evidence",
+      "condition": "Пакет прошёл схему/линт.",
+      "requirement": "Методику оценивать отдельно: цель, процедура, доступ к информации, продукт, критерии, индивидуальное свидетельство, feedback и перенос.",
+      "verification": "До пилота выбран вопрос и наблюдение; после разделены факт, интерпретация и изменение.",
+      "status": "inference",
+      "evidence": [
+        {
+          "path": "Speaking_livekit/shared/lms/authoringCheck.ts",
+          "line": 164
+        },
+        {
+          "path": "Speaking_livekit/scripts/deck-review.mjs",
+          "line": 31
+        },
+        {
+          "path": "Speaking_livekit/scripts/html-presentation-check.ts",
+          "line": 13
+        }
+      ],
+      "output": "Методический отчёт наряду с техническим.",
+      "limitation": "Валидаторы не доказывают достижение цели, качество языка/дистракторов или учебную эффективность.",
+      "alternative": "Наблюдение и содержательная проверка вместо числа кликов/экранов.",
+      "source_cards": [
+        "BOOK16-002",
+        "BOOK12-003",
+        "BOOK12-005"
+      ]
+    },
+    {
+      "id": "PLAT-038",
+      "scope": "teacher-plan",
+      "condition": "Нужны подготовка, пары, ICQ, мониторинг, feedback и повтор.",
+      "requirement": "Недостающие поля методики хранить в отдельном плане: действие ученика, взаимодействие, время, продукт, проверка, запасной ход.",
+      "verification": "План исполним без догадок; schema не расширена самодельными полями.",
+      "status": "inference",
+      "evidence": [
+        {
+          "path": "Speaking_livekit/shared/lms/exercise.ts",
+          "line": 205
+        },
+        {
+          "path": "Speaking_livekit/shared/interactiveDeckManifest.ts",
+          "line": 367
+        },
+        {
+          "path": "Speaking_livekit/docs/deck-production.md",
+          "line": 16
+        }
+      ],
+      "output": "Teacher plan рядом с адаптером.",
+      "limitation": "collecting и participant — UI-состояние и техническая роль, не роль говорящего/слушателя.",
+      "alternative": "Назначить методические роли в инструкции и проверить процедуру ICQ.",
+      "source_cards": [
+        "PRACTICE-006",
+        "INT-009"
+      ]
+    }
+  ]
+}

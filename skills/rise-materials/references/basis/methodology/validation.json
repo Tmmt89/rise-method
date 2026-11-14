@@ -1,0 +1,11 @@
+{
+  "checked_at_utc": "2026-11-14T23:30:16.352948+00:00",
+  "passed": true,
+  "scope": "Portable bundle: card locators and local-path/media exclusion; not pedagogical or runtime verification.",
+  "source_cards_total": 264,
+  "source_files_represented": 73,
+  "original_media_included": false,
+  "platform_source_included": false,
+  "platform_runtime_verified": false,
+  "pilot_lessons_conducted": 0
+}

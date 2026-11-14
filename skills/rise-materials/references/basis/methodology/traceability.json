@@ -1,0 +1,3270 @@
+{
+  "schema_version": "1.0",
+  "scope": "Все карточки исходного индекса, включая карантин и локальные наблюдения.",
+  "source_status_policy": "Исходный статус читается в полной карточке по locator. Disposition описывает обработку, не достоверность.",
+  "target_catalogs": {
+    "CORE-001": "core-rules.json",
+    "CORE-002": "core-rules.json",
+    "CORE-003": "core-rules.json",
+    "CORE-004": "core-rules.json",
+    "CORE-005": "core-rules.json",
+    "CORE-006": "core-rules.json",
+    "CORE-007": "core-rules.json",
+    "CORE-008": "core-rules.json",
+    "CORE-009": "core-rules.json",
+    "CORE-010": "core-rules.json",
+    "CORE-011": "core-rules.json",
+    "CORE-012": "core-rules.json",
+    "CORE-013": "core-rules.json",
+    "CORE-014": "core-rules.json",
+    "CORE-015": "core-rules.json",
+    "CORE-016": "core-rules.json",
+    "CORE-017": "core-rules.json",
+    "CORE-018": "core-rules.json",
+    "CORE-019": "core-rules.json",
+    "CORE-020": "core-rules.json",
+    "CORE-021": "core-rules.json",
+    "CORE-022": "core-rules.json",
+    "CORE-023": "core-rules.json",
+    "CORE-024": "core-rules.json",
+    "CORE-025": "core-rules.json",
+    "CORE-026": "core-rules.json",
+    "CORE-027": "core-rules.json",
+    "CORE-028": "core-rules.json",
+    "CORE-029": "core-rules.json",
+    "CORE-030": "core-rules.json",
+    "CORE-031": "core-rules.json",
+    "CORE-032": "core-rules.json",
+    "CORE-033": "core-rules.json",
+    "CORE-034": "core-rules.json",
+    "QC-001": "quality-rubric.json",
+    "QC-002": "quality-rubric.json",
+    "QC-003": "quality-rubric.json",
+    "QC-004": "quality-rubric.json",
+    "QC-005": "quality-rubric.json",
+    "QC-006": "quality-rubric.json",
+    "QC-007": "quality-rubric.json",
+    "QC-008": "quality-rubric.json",
+    "QC-009": "quality-rubric.json",
+    "QC-010": "quality-rubric.json",
+    "QC-011": "quality-rubric.json",
+    "QC-012": "quality-rubric.json",
+    "QC-013": "quality-rubric.json",
+    "QC-014": "quality-rubric.json",
+    "QC-015": "quality-rubric.json",
+    "QC-016": "quality-rubric.json",
+    "QC-017": "quality-rubric.json",
+    "QC-018": "quality-rubric.json",
+    "QC-019": "quality-rubric.json",
+    "QC-020": "quality-rubric.json",
+    "QC-021": "quality-rubric.json",
+    "QC-022": "quality-rubric.json",
+    "QC-023": "quality-rubric.json",
+    "QC-024": "quality-rubric.json",
+    "PR-DISCUSSION": "profiles.json",
+    "PR-FUNCTIONAL": "profiles.json",
+    "PR-IELTS": "profiles.json",
+    "PR-GRAMMAR": "profiles.json",
+    "PR-LEXIS": "profiles.json",
+    "PR-READING": "profiles.json",
+    "PR-LISTENING": "profiles.json",
+    "PR-WRITING": "profiles.json",
+    "PR-PRONUNCIATION": "profiles.json",
+    "CTX-YL": "profiles.json",
+    "CTX-TEEN": "profiles.json",
+    "CTX-ESP": "profiles.json",
+    "CTX-EAP": "profiles.json",
+    "CTX-ONE-TO-ONE": "profiles.json",
+    "CTX-SELF-STUDY": "profiles.json",
+    "CTX-CLIL": "profiles.json",
+    "FW-CONTEXT-PRACTICE": "frameworks.json",
+    "FW-TEXT-LANGUAGE": "frameworks.json",
+    "FW-TTT": "frameworks.json",
+    "FW-SPEAKING-CYCLE": "frameworks.json",
+    "FW-TASK-CYCLE": "frameworks.json",
+    "FW-RECEPTIVE-CYCLE": "frameworks.json",
+    "FW-EXTENSIVE-RESPONSE": "frameworks.json",
+    "FW-WRITING-PROCESS": "frameworks.json",
+    "FW-PRONUNCIATION-CYCLE": "frameworks.json",
+    "FW-GUIDED-DISCOVERY": "frameworks.json",
+    "ACT-001": "activities.json",
+    "ACT-002": "activities.json",
+    "ACT-003": "activities.json",
+    "ACT-004": "activities.json",
+    "ACT-005": "activities.json",
+    "ACT-006": "activities.json",
+    "ACT-007": "activities.json",
+    "ACT-008": "activities.json",
+    "ACT-009": "activities.json",
+    "ACT-010": "activities.json",
+    "ACT-011": "activities.json",
+    "ACT-012": "activities.json",
+    "ACT-013": "activities.json",
+    "ACT-014": "activities.json",
+    "ACT-015": "activities.json",
+    "ACT-016": "activities.json",
+    "ACT-017": "activities.json",
+    "ACT-018": "activities.json",
+    "ACT-019": "activities.json",
+    "ACT-020": "activities.json",
+    "ACT-021": "activities.json",
+    "ACT-022": "activities.json",
+    "ACT-023": "activities.json",
+    "ACT-024": "activities.json",
+    "ACT-025": "activities.json",
+    "ACT-026": "activities.json",
+    "ACT-027": "activities.json",
+    "ACT-028": "activities.json",
+    "ACT-029": "activities.json",
+    "ACT-030": "activities.json",
+    "PLAT-001": "platform-requirements.json",
+    "PLAT-002": "platform-requirements.json",
+    "PLAT-003": "platform-requirements.json",
+    "PLAT-004": "platform-requirements.json",
+    "PLAT-005": "platform-requirements.json",
+    "PLAT-006": "platform-requirements.json",
+    "PLAT-007": "platform-requirements.json",
+    "PLAT-008": "platform-requirements.json",
+    "PLAT-009": "platform-requirements.json",
+    "PLAT-010": "platform-requirements.json",
+    "PLAT-011": "platform-requirements.json",
+    "PLAT-012": "platform-requirements.json",
+    "PLAT-013": "platform-requirements.json",
+    "PLAT-014": "platform-requirements.json",
+    "PLAT-015": "platform-requirements.json",
+    "PLAT-016": "platform-requirements.json",
+    "PLAT-017": "platform-requirements.json",
+    "PLAT-018": "platform-requirements.json",
+    "PLAT-019": "platform-requirements.json",
+    "PLAT-020": "platform-requirements.json",
+    "PLAT-021": "platform-requirements.json",
+    "PLAT-022": "platform-requirements.json",
+    "PLAT-023": "platform-requirements.json",
+    "PLAT-024": "platform-requirements.json",
+    "PLAT-025": "platform-requirements.json",
+    "PLAT-026": "platform-requirements.json",
+    "PLAT-027": "platform-requirements.json",
+    "PLAT-028": "platform-requirements.json",
+    "PLAT-029": "platform-requirements.json",
+    "PLAT-030": "platform-requirements.json",
+    "PLAT-031": "platform-requirements.json",
+    "PLAT-032": "platform-requirements.json",
+    "PLAT-033": "platform-requirements.json",
+    "PLAT-034": "platform-requirements.json",
+    "PLAT-035": "platform-requirements.json",
+    "PLAT-036": "platform-requirements.json",
+    "PLAT-037": "platform-requirements.json",
+    "PLAT-038": "platform-requirements.json"
+  },
+  "cards": [
+    {
+      "card_id": "INT-001",
+      "notes_file": "research/cards.ru.md",
+      "line": 9,
+      "disposition": "integrated",
+      "target_ids": [
+        "CORE-021"
+      ],
+      "reason": "Объединено в перечисленных правилах/профилях/маршрутах/проверках с условиями и исключениями. Статус исходного утверждения не повышается вследствие включения."
+    },
+    {
+      "card_id": "INT-002",
+      "notes_file": "research/cards.ru.md",
+      "line": 23,
+      "disposition": "integrated",
+      "target_ids": [
+        "ACT-001",
+        "CORE-010",
+        "CORE-012",
+        "QC-010"
+      ],
+      "reason": "Объединено в перечисленных правилах/профилях/маршрутах/проверках с условиями и исключениями. Статус исходного утверждения не повышается вследствие включения."
+    },
+    {
+      "card_id": "INT-003",
+      "notes_file": "research/cards.ru.md",
+      "line": 37,
+      "disposition": "integrated",
+      "target_ids": [
+        "CORE-010"
+      ],
+      "reason": "Объединено в перечисленных правилах/профилях/маршрутах/проверках с условиями и исключениями. Статус исходного утверждения не повышается вследствие включения."
+    },
+    {
+      "card_id": "INT-004",
+      "notes_file": "research/cards.ru.md",
+      "line": 51,
+      "disposition": "integrated",
+      "target_ids": [
+        "ACT-011",
+        "CORE-008"
+      ],
+      "reason": "Объединено в перечисленных правилах/профилях/маршрутах/проверках с условиями и исключениями. Статус исходного утверждения не повышается вследствие включения."
+    },
+    {
+      "card_id": "INT-005",
+      "notes_file": "research/cards.ru.md",
+      "line": 65,
+      "disposition": "integrated",
+      "target_ids": [
+        "CORE-019"
+      ],
+      "reason": "Объединено в перечисленных правилах/профилях/маршрутах/проверках с условиями и исключениями. Статус исходного утверждения не повышается вследствие включения."
+    },
+    {
+      "card_id": "INT-006",
+      "notes_file": "research/cards.ru.md",
+      "line": 79,
+      "disposition": "integrated",
+      "target_ids": [
+        "CORE-019"
+      ],
+      "reason": "Объединено в перечисленных правилах/профилях/маршрутах/проверках с условиями и исключениями. Статус исходного утверждения не повышается вследствие включения."
+    },
+    {
+      "card_id": "INT-007",
+      "notes_file": "research/cards.ru.md",
+      "line": 93,
+      "disposition": "integrated",
+      "target_ids": [
+        "CORE-009",
+        "QC-007"
+      ],
+      "reason": "Объединено в перечисленных правилах/профилях/маршрутах/проверках с условиями и исключениями. Статус исходного утверждения не повышается вследствие включения."
+    },
+    {
+      "card_id": "INT-008",
+      "notes_file": "research/cards.ru.md",
+      "line": 107,
+      "disposition": "integrated",
+      "target_ids": [
+        "CORE-009",
+        "QC-007"
+      ],
+      "reason": "Объединено в перечисленных правилах/профилях/маршрутах/проверках с условиями и исключениями. Статус исходного утверждения не повышается вследствие включения."
+    },
+    {
+      "card_id": "INT-009",
+      "notes_file": "research/cards.ru.md",
+      "line": 121,
+      "disposition": "integrated",
+      "target_ids": [
+        "CORE-009",
+        "PLAT-038",
+        "QC-007"
+      ],
+      "reason": "Объединено в перечисленных правилах/профилях/маршрутах/проверках с условиями и исключениями. Статус исходного утверждения не повышается вследствие включения."
+    },
+    {
+      "card_id": "INT-010",
+      "notes_file": "research/cards.ru.md",
+      "line": 135,
+      "disposition": "integrated",
+      "target_ids": [
+        "CORE-021"
+      ],
+      "reason": "Объединено в перечисленных правилах/профилях/маршрутах/проверках с условиями и исключениями. Статус исходного утверждения не повышается вследствие включения."
+    },
+    {
+      "card_id": "INT-011",
+      "notes_file": "research/cards.ru.md",
+      "line": 149,
+      "disposition": "integrated",
+      "target_ids": [
+        "CORE-019"
+      ],
+      "reason": "Объединено в перечисленных правилах/профилях/маршрутах/проверках с условиями и исключениями. Статус исходного утверждения не повышается вследствие включения."
+    },
+    {
+      "card_id": "INT-012",
+      "notes_file": "research/cards.ru.md",
+      "line": 163,
+      "disposition": "integrated",
+      "target_ids": [
+        "CORE-012"
+      ],
+      "reason": "Объединено в перечисленных правилах/профилях/маршрутах/проверках с условиями и исключениями. Статус исходного утверждения не повышается вследствие включения."
+    },
+    {
+      "card_id": "INT-013",
+      "notes_file": "research/cards.ru.md",
+      "line": 177,
+      "disposition": "integrated",
+      "target_ids": [
+        "CORE-021"
+      ],
+      "reason": "Объединено в перечисленных правилах/профилях/маршрутах/проверках с условиями и исключениями. Статус исходного утверждения не повышается вследствие включения."
+    },
+    {
+      "card_id": "INT-014",
+      "notes_file": "research/cards.ru.md",
+      "line": 191,
+      "disposition": "integrated",
+      "target_ids": [
+        "ACT-012",
+        "CORE-008",
+        "PLAT-021"
+      ],
+      "reason": "Объединено в перечисленных правилах/профилях/маршрутах/проверках с условиями и исключениями. Статус исходного утверждения не повышается вследствие включения."
+    },
+    {
+      "card_id": "INT-015",
+      "notes_file": "research/cards.ru.md",
+      "line": 205,
+      "disposition": "integrated",
+      "target_ids": [
+        "CORE-021"
+      ],
+      "reason": "Объединено в перечисленных правилах/профилях/маршрутах/проверках с условиями и исключениями. Статус исходного утверждения не повышается вследствие включения."
+    },
+    {
+      "card_id": "INT-016",
+      "notes_file": "research/cards.ru.md",
+      "line": 219,
+      "disposition": "integrated",
+      "target_ids": [
+        "ACT-018",
+        "CORE-021"
+      ],
+      "reason": "Объединено в перечисленных правилах/профилях/маршрутах/проверках с условиями и исключениями. Статус исходного утверждения не повышается вследствие включения."
+    },
+    {
+      "card_id": "INT-017",
+      "notes_file": "research/cards.ru.md",
+      "line": 233,
+      "disposition": "integrated",
+      "target_ids": [
+        "ACT-024",
+        "CORE-020",
+        "QC-011"
+      ],
+      "reason": "Объединено в перечисленных правилах/профилях/маршрутах/проверках с условиями и исключениями. Статус исходного утверждения не повышается вследствие включения."
+    },
+    {
+      "card_id": "INT-018",
+      "notes_file": "research/cards.ru.md",
+      "line": 247,
+      "disposition": "integrated",
+      "target_ids": [
+        "ACT-024",
+        "CORE-020"
+      ],
+      "reason": "Объединено в перечисленных правилах/профилях/маршрутах/проверках с условиями и исключениями. Статус исходного утверждения не повышается вследствие включения."
+    },
+    {
+      "card_id": "INT-019",
+      "notes_file": "research/cards.ru.md",
+      "line": 261,
+      "disposition": "integrated",
+      "target_ids": [
+        "ACT-024",
+        "CORE-020"
+      ],
+      "reason": "Объединено в перечисленных правилах/профилях/маршрутах/проверках с условиями и исключениями. Статус исходного утверждения не повышается вследствие включения."
+    },
+    {
+      "card_id": "INT-020",
+      "notes_file": "research/cards.ru.md",
+      "line": 275,
+      "disposition": "integrated",
+      "target_ids": [
+        "CORE-020"
+      ],
+      "reason": "Объединено в перечисленных правилах/профилях/маршрутах/проверках с условиями и исключениями. Статус исходного утверждения не повышается вследствие включения."
+    },
+    {
+      "card_id": "INT-021",
+      "notes_file": "research/cards.ru.md",
+      "line": 289,
+      "disposition": "integrated",
+      "target_ids": [
+        "ACT-019",
+        "CORE-016",
+        "FW-SPEAKING-CYCLE",
+        "PR-DISCUSSION"
+      ],
+      "reason": "Объединено в перечисленных правилах/профилях/маршрутах/проверках с условиями и исключениями. Статус исходного утверждения не повышается вследствие включения."
+    },
+    {
+      "card_id": "INT-022",
+      "notes_file": "research/cards.ru.md",
+      "line": 303,
+      "disposition": "integrated",
+      "target_ids": [
+        "ACT-006",
+        "CORE-007",
+        "FW-SPEAKING-CYCLE",
+        "FW-TEXT-LANGUAGE",
+        "QC-006"
+      ],
+      "reason": "Объединено в перечисленных правилах/профилях/маршрутах/проверках с условиями и исключениями. Статус исходного утверждения не повышается вследствие включения."
+    },
+    {
+      "card_id": "INT-023",
+      "notes_file": "research/cards.ru.md",
+      "line": 317,
+      "disposition": "integrated",
+      "target_ids": [
+        "CORE-016",
+        "CORE-019",
+        "FW-SPEAKING-CYCLE",
+        "PR-DISCUSSION",
+        "PR-FUNCTIONAL",
+        "QC-011"
+      ],
+      "reason": "Объединено в перечисленных правилах/профилях/маршрутах/проверках с условиями и исключениями. Статус исходного утверждения не повышается вследствие включения."
+    },
+    {
+      "card_id": "INT-024",
+      "notes_file": "research/cards.ru.md",
+      "line": 331,
+      "disposition": "integrated",
+      "target_ids": [
+        "ACT-020",
+        "CORE-016",
+        "FW-SPEAKING-CYCLE",
+        "PLAT-007",
+        "PLAT-010",
+        "PR-DISCUSSION"
+      ],
+      "reason": "Объединено в перечисленных правилах/профилях/маршрутах/проверках с условиями и исключениями. Статус исходного утверждения не повышается вследствие включения."
+    },
+    {
+      "card_id": "INT-025",
+      "notes_file": "research/cards.ru.md",
+      "line": 345,
+      "disposition": "integrated",
+      "target_ids": [
+        "ACT-024",
+        "CORE-019",
+        "QC-011"
+      ],
+      "reason": "Объединено в перечисленных правилах/профилях/маршрутах/проверках с условиями и исключениями. Статус исходного утверждения не повышается вследствие включения."
+    },
+    {
+      "card_id": "INT-026",
+      "notes_file": "research/cards.ru.md",
+      "line": 359,
+      "disposition": "integrated",
+      "target_ids": [
+        "CORE-012",
+        "FW-SPEAKING-CYCLE",
+        "QC-010"
+      ],
+      "reason": "Объединено в перечисленных правилах/профилях/маршрутах/проверках с условиями и исключениями. Статус исходного утверждения не повышается вследствие включения."
+    },
+    {
+      "card_id": "INT-027",
+      "notes_file": "research/cards.ru.md",
+      "line": 373,
+      "disposition": "integrated",
+      "target_ids": [
+        "ACT-024",
+        "CORE-019",
+        "PLAT-013",
+        "PLAT-023"
+      ],
+      "reason": "Объединено в перечисленных правилах/профилях/маршрутах/проверках с условиями и исключениями. Статус исходного утверждения не повышается вследствие включения."
+    },
+    {
+      "card_id": "INT-028",
+      "notes_file": "research/cards.ru.md",
+      "line": 387,
+      "disposition": "integrated",
+      "target_ids": [
+        "CORE-016",
+        "CORE-021"
+      ],
+      "reason": "Объединено в перечисленных правилах/профилях/маршрутах/проверках с условиями и исключениями. Статус исходного утверждения не повышается вследствие включения."
+    },
+    {
+      "card_id": "INT-029",
+      "notes_file": "research/cards.ru.md",
+      "line": 401,
+      "disposition": "integrated",
+      "target_ids": [
+        "ACT-018",
+        "CORE-016",
+        "PR-DISCUSSION"
+      ],
+      "reason": "Объединено в перечисленных правилах/профилях/маршрутах/проверках с условиями и исключениями. Статус исходного утверждения не повышается вследствие включения."
+    },
+    {
+      "card_id": "INT-030",
+      "notes_file": "research/cards.ru.md",
+      "line": 415,
+      "disposition": "integrated",
+      "target_ids": [
+        "ACT-021",
+        "CORE-017",
+        "FW-WRITING-PROCESS",
+        "PLAT-006",
+        "PLAT-022",
+        "PR-WRITING",
+        "QC-014"
+      ],
+      "reason": "Объединено в перечисленных правилах/профилях/маршрутах/проверках с условиями и исключениями. Статус исходного утверждения не повышается вследствие включения."
+    },
+    {
+      "card_id": "INT-031",
+      "notes_file": "research/cards.ru.md",
+      "line": 429,
+      "disposition": "integrated",
+      "target_ids": [
+        "ACT-015",
+        "CORE-018",
+        "FW-PRONUNCIATION-CYCLE",
+        "PR-PRONUNCIATION"
+      ],
+      "reason": "Объединено в перечисленных правилах/профилях/маршрутах/проверках с условиями и исключениями. Статус исходного утверждения не повышается вследствие включения."
+    },
+    {
+      "card_id": "INT-032",
+      "notes_file": "research/cards.ru.md",
+      "line": 443,
+      "disposition": "integrated",
+      "target_ids": [
+        "ACT-015",
+        "CORE-018",
+        "PR-PRONUNCIATION"
+      ],
+      "reason": "Объединено в перечисленных правилах/профилях/маршрутах/проверках с условиями и исключениями. Статус исходного утверждения не повышается вследствие включения."
+    },
+    {
+      "card_id": "INT-033",
+      "notes_file": "research/cards.ru.md",
+      "line": 457,
+      "disposition": "integrated",
+      "target_ids": [
+        "ACT-015",
+        "CORE-018",
+        "FW-PRONUNCIATION-CYCLE",
+        "PR-PRONUNCIATION",
+        "QC-015"
+      ],
+      "reason": "Объединено в перечисленных правилах/профилях/маршрутах/проверках с условиями и исключениями. Статус исходного утверждения не повышается вследствие включения."
+    },
+    {
+      "card_id": "INT-034",
+      "notes_file": "research/cards.ru.md",
+      "line": 471,
+      "disposition": "integrated",
+      "target_ids": [
+        "ACT-016",
+        "CORE-018",
+        "PR-PRONUNCIATION",
+        "QC-015"
+      ],
+      "reason": "Объединено в перечисленных правилах/профилях/маршрутах/проверках с условиями и исключениями. Статус исходного утверждения не повышается вследствие включения."
+    },
+    {
+      "card_id": "INT-035",
+      "notes_file": "research/cards.ru.md",
+      "line": 485,
+      "disposition": "integrated",
+      "target_ids": [
+        "ACT-016",
+        "CORE-018",
+        "PR-PRONUNCIATION"
+      ],
+      "reason": "Объединено в перечисленных правилах/профилях/маршрутах/проверках с условиями и исключениями. Статус исходного утверждения не повышается вследствие включения."
+    },
+    {
+      "card_id": "INT-036",
+      "notes_file": "research/cards.ru.md",
+      "line": 499,
+      "disposition": "integrated",
+      "target_ids": [
+        "ACT-016",
+        "CORE-018",
+        "PR-PRONUNCIATION",
+        "QC-015"
+      ],
+      "reason": "Объединено в перечисленных правилах/профилях/маршрутах/проверках с условиями и исключениями. Статус исходного утверждения не повышается вследствие включения."
+    },
+    {
+      "card_id": "INT-037",
+      "notes_file": "research/cards.ru.md",
+      "line": 513,
+      "disposition": "context_evidence",
+      "target_ids": [
+        "CORE-027"
+      ],
+      "reason": "Локальный пример/совет/наблюдение включён с контекстом в перечисленные потребители; не доказательство универсального эффекта. Тип исходного свидетельства сохраняется в карточке."
+    },
+    {
+      "card_id": "INT-038",
+      "notes_file": "research/cards.ru.md",
+      "line": 527,
+      "disposition": "integrated",
+      "target_ids": [
+        "CORE-001",
+        "CORE-025",
+        "QC-002"
+      ],
+      "reason": "Объединено в перечисленных правилах/профилях/маршрутах/проверках с условиями и исключениями. Статус исходного утверждения не повышается вследствие включения."
+    },
+    {
+      "card_id": "LANG-001",
+      "notes_file": "research/cards.ru.md",
+      "line": 541,
+      "disposition": "integrated",
+      "target_ids": [
+        "ACT-003",
+        "CORE-010"
+      ],
+      "reason": "Объединено в перечисленных правилах/профилях/маршрутах/проверках с условиями и исключениями. Статус исходного утверждения не повышается вследствие включения."
+    },
+    {
+      "card_id": "LANG-002",
+      "notes_file": "research/cards.ru.md",
+      "line": 545,
+      "disposition": "integrated",
+      "target_ids": [
+        "CORE-024",
+        "QC-012"
+      ],
+      "reason": "Объединено в перечисленных правилах/профилях/маршрутах/проверках с условиями и исключениями. Статус исходного утверждения не повышается вследствие включения."
+    },
+    {
+      "card_id": "LANG-003",
+      "notes_file": "research/cards.ru.md",
+      "line": 549,
+      "disposition": "integrated",
+      "target_ids": [
+        "ACT-002",
+        "CORE-006",
+        "FW-CONTEXT-PRACTICE",
+        "FW-TEXT-LANGUAGE",
+        "FW-TTT",
+        "PR-GRAMMAR",
+        "QC-005"
+      ],
+      "reason": "Объединено в перечисленных правилах/профилях/маршрутах/проверках с условиями и исключениями. Статус исходного утверждения не повышается вследствие включения."
+    },
+    {
+      "card_id": "LANG-004",
+      "notes_file": "research/cards.ru.md",
+      "line": 553,
+      "disposition": "integrated",
+      "target_ids": [
+        "ACT-002",
+        "CORE-011",
+        "QC-005"
+      ],
+      "reason": "Объединено в перечисленных правилах/профилях/маршрутах/проверках с условиями и исключениями. Статус исходного утверждения не повышается вследствие включения."
+    },
+    {
+      "card_id": "LANG-005",
+      "notes_file": "research/cards.ru.md",
+      "line": 557,
+      "disposition": "integrated",
+      "target_ids": [
+        "ACT-002",
+        "CORE-011"
+      ],
+      "reason": "Объединено в перечисленных правилах/профилях/маршрутах/проверках с условиями и исключениями. Статус исходного утверждения не повышается вследствие включения."
+    },
+    {
+      "card_id": "LANG-006",
+      "notes_file": "research/cards.ru.md",
+      "line": 561,
+      "disposition": "integrated",
+      "target_ids": [
+        "ACT-002",
+        "CORE-011",
+        "QC-005"
+      ],
+      "reason": "Объединено в перечисленных правилах/профилях/маршрутах/проверках с условиями и исключениями. Статус исходного утверждения не повышается вследствие включения."
+    },
+    {
+      "card_id": "LANG-007",
+      "notes_file": "research/cards.ru.md",
+      "line": 565,
+      "disposition": "integrated",
+      "target_ids": [
+        "ACT-003",
+        "CORE-011",
+        "FW-GUIDED-DISCOVERY",
+        "FW-TEXT-LANGUAGE",
+        "PR-GRAMMAR"
+      ],
+      "reason": "Объединено в перечисленных правилах/профилях/маршрутах/проверках с условиями и исключениями. Статус исходного утверждения не повышается вследствие включения."
+    },
+    {
+      "card_id": "LANG-008",
+      "notes_file": "research/cards.ru.md",
+      "line": 569,
+      "disposition": "integrated",
+      "target_ids": [
+        "ACT-003",
+        "CORE-006",
+        "FW-GUIDED-DISCOVERY",
+        "PR-GRAMMAR",
+        "QC-005"
+      ],
+      "reason": "Объединено в перечисленных правилах/профилях/маршрутах/проверках с условиями и исключениями. Статус исходного утверждения не повышается вследствие включения."
+    },
+    {
+      "card_id": "LANG-009",
+      "notes_file": "research/cards.ru.md",
+      "line": 573,
+      "disposition": "integrated",
+      "target_ids": [
+        "CORE-005",
+        "CORE-013",
+        "FW-CONTEXT-PRACTICE",
+        "PR-GRAMMAR"
+      ],
+      "reason": "Объединено в перечисленных правилах/профилях/маршрутах/проверках с условиями и исключениями. Статус исходного утверждения не повышается вследствие включения."
+    },
+    {
+      "card_id": "LANG-010",
+      "notes_file": "research/cards.ru.md",
+      "line": 577,
+      "disposition": "integrated",
+      "target_ids": [
+        "ACT-004",
+        "CORE-005",
+        "FW-TTT",
+        "PR-GRAMMAR",
+        "QC-004"
+      ],
+      "reason": "Объединено в перечисленных правилах/профилях/маршрутах/проверках с условиями и исключениями. Статус исходного утверждения не повышается вследствие включения."
+    },
+    {
+      "card_id": "LANG-011",
+      "notes_file": "research/cards.ru.md",
+      "line": 581,
+      "disposition": "integrated",
+      "target_ids": [
+        "ACT-004",
+        "CORE-005",
+        "CORE-013",
+        "FW-TTT",
+        "PR-GRAMMAR",
+        "QC-004"
+      ],
+      "reason": "Объединено в перечисленных правилах/профилях/маршрутах/проверках с условиями и исключениями. Статус исходного утверждения не повышается вследствие включения."
+    },
+    {
+      "card_id": "LANG-012",
+      "notes_file": "research/cards.ru.md",
+      "line": 585,
+      "disposition": "integrated",
+      "target_ids": [
+        "ACT-006",
+        "ACT-021",
+        "CORE-007",
+        "FW-TEXT-LANGUAGE",
+        "PR-FUNCTIONAL",
+        "PR-GRAMMAR"
+      ],
+      "reason": "Объединено в перечисленных правилах/профилях/маршрутах/проверках с условиями и исключениями. Статус исходного утверждения не повышается вследствие включения."
+    },
+    {
+      "card_id": "LANG-013",
+      "notes_file": "research/cards.ru.md",
+      "line": 589,
+      "disposition": "integrated",
+      "target_ids": [
+        "CORE-008",
+        "FW-CONTEXT-PRACTICE",
+        "FW-TASK-CYCLE",
+        "FW-TEXT-LANGUAGE",
+        "FW-TTT",
+        "PR-GRAMMAR"
+      ],
+      "reason": "Объединено в перечисленных правилах/профилях/маршрутах/проверках с условиями и исключениями. Статус исходного утверждения не повышается вследствие включения."
+    },
+    {
+      "card_id": "LANG-014",
+      "notes_file": "research/cards.ru.md",
+      "line": 593,
+      "disposition": "integrated",
+      "target_ids": [
+        "ACT-007",
+        "ACT-008",
+        "ACT-009",
+        "CORE-014",
+        "FW-RECEPTIVE-CYCLE",
+        "PR-LISTENING",
+        "PR-READING",
+        "QC-013"
+      ],
+      "reason": "Объединено в перечисленных правилах/профилях/маршрутах/проверках с условиями и исключениями. Статус исходного утверждения не повышается вследствие включения."
+    },
+    {
+      "card_id": "LANG-015",
+      "notes_file": "research/cards.ru.md",
+      "line": 597,
+      "disposition": "integrated",
+      "target_ids": [
+        "ACT-007",
+        "CORE-014",
+        "FW-RECEPTIVE-CYCLE",
+        "PR-LISTENING",
+        "PR-READING"
+      ],
+      "reason": "Объединено в перечисленных правилах/профилях/маршрутах/проверках с условиями и исключениями. Статус исходного утверждения не повышается вследствие включения."
+    },
+    {
+      "card_id": "LANG-016",
+      "notes_file": "research/cards.ru.md",
+      "line": 601,
+      "disposition": "integrated",
+      "target_ids": [
+        "ACT-001",
+        "CORE-014",
+        "FW-RECEPTIVE-CYCLE",
+        "PR-LISTENING",
+        "PR-READING"
+      ],
+      "reason": "Объединено в перечисленных правилах/профилях/маршрутах/проверках с условиями и исключениями. Статус исходного утверждения не повышается вследствие включения."
+    },
+    {
+      "card_id": "LANG-017",
+      "notes_file": "research/cards.ru.md",
+      "line": 605,
+      "disposition": "integrated",
+      "target_ids": [
+        "ACT-007",
+        "ACT-008",
+        "ACT-030",
+        "CORE-014",
+        "FW-RECEPTIVE-CYCLE",
+        "PLAT-005",
+        "PR-LISTENING",
+        "QC-013"
+      ],
+      "reason": "Объединено в перечисленных правилах/профилях/маршрутах/проверках с условиями и исключениями. Статус исходного утверждения не повышается вследствие включения."
+    },
+    {
+      "card_id": "LANG-018",
+      "notes_file": "research/cards.ru.md",
+      "line": 609,
+      "disposition": "integrated",
+      "target_ids": [
+        "ACT-010",
+        "ACT-030",
+        "CORE-015",
+        "FW-RECEPTIVE-CYCLE",
+        "PR-LISTENING",
+        "QC-013"
+      ],
+      "reason": "Объединено в перечисленных правилах/профилях/маршрутах/проверках с условиями и исключениями. Статус исходного утверждения не повышается вследствие включения."
+    },
+    {
+      "card_id": "LANG-019",
+      "notes_file": "research/cards.ru.md",
+      "line": 613,
+      "disposition": "integrated",
+      "target_ids": [
+        "CORE-014",
+        "FW-RECEPTIVE-CYCLE",
+        "PR-LEXIS",
+        "PR-LISTENING",
+        "PR-READING",
+        "QC-013"
+      ],
+      "reason": "Объединено в перечисленных правилах/профилях/маршрутах/проверках с условиями и исключениями. Статус исходного утверждения не повышается вследствие включения."
+    },
+    {
+      "card_id": "LANG-020",
+      "notes_file": "research/cards.ru.md",
+      "line": 617,
+      "disposition": "integrated",
+      "target_ids": [
+        "ACT-012",
+        "CORE-008",
+        "PR-READING",
+        "QC-008"
+      ],
+      "reason": "Объединено в перечисленных правилах/профилях/маршрутах/проверках с условиями и исключениями. Статус исходного утверждения не повышается вследствие включения."
+    },
+    {
+      "card_id": "LANG-021",
+      "notes_file": "research/cards.ru.md",
+      "line": 621,
+      "disposition": "integrated",
+      "target_ids": [
+        "CORE-009",
+        "QC-007"
+      ],
+      "reason": "Объединено в перечисленных правилах/профилях/маршрутах/проверках с условиями и исключениями. Статус исходного утверждения не повышается вследствие включения."
+    },
+    {
+      "card_id": "LANG-022",
+      "notes_file": "research/cards.ru.md",
+      "line": 625,
+      "disposition": "integrated",
+      "target_ids": [
+        "ACT-009",
+        "CORE-014",
+        "PR-READING"
+      ],
+      "reason": "Объединено в перечисленных правилах/профилях/маршрутах/проверках с условиями и исключениями. Статус исходного утверждения не повышается вследствие включения."
+    },
+    {
+      "card_id": "LANG-023",
+      "notes_file": "research/cards.ru.md",
+      "line": 629,
+      "disposition": "integrated",
+      "target_ids": [
+        "ACT-028",
+        "CORE-014",
+        "PR-READING"
+      ],
+      "reason": "Объединено в перечисленных правилах/профилях/маршрутах/проверках с условиями и исключениями. Статус исходного утверждения не повышается вследствие включения."
+    },
+    {
+      "card_id": "LANG-024",
+      "notes_file": "research/cards.ru.md",
+      "line": 633,
+      "disposition": "integrated",
+      "target_ids": [
+        "CORE-024",
+        "CORE-025",
+        "CORE-033",
+        "QC-012",
+        "QC-019",
+        "QC-023"
+      ],
+      "reason": "Объединено в перечисленных правилах/профилях/маршрутах/проверках с условиями и исключениями. Статус исходного утверждения не повышается вследствие включения."
+    },
+    {
+      "card_id": "PROMPT-001",
+      "notes_file": "research/cards.ru.md",
+      "line": 637,
+      "disposition": "integrated",
+      "target_ids": [
+        "PR-DISCUSSION"
+      ],
+      "reason": "Объединено в перечисленных правилах/профилях/маршрутах/проверках с условиями и исключениями. Статус исходного утверждения не повышается вследствие включения."
+    },
+    {
+      "card_id": "PROMPT-002",
+      "notes_file": "research/cards.ru.md",
+      "line": 641,
+      "disposition": "integrated",
+      "target_ids": [
+        "PR-DISCUSSION"
+      ],
+      "reason": "Объединено в перечисленных правилах/профилях/маршрутах/проверках с условиями и исключениями. Статус исходного утверждения не повышается вследствие включения."
+    },
+    {
+      "card_id": "PROMPT-003",
+      "notes_file": "research/cards.ru.md",
+      "line": 645,
+      "disposition": "integrated",
+      "target_ids": [
+        "CORE-028",
+        "CORE-031",
+        "PR-DISCUSSION",
+        "PR-LEXIS"
+      ],
+      "reason": "Объединено в перечисленных правилах/профилях/маршрутах/проверках с условиями и исключениями. Статус исходного утверждения не повышается вследствие включения."
+    },
+    {
+      "card_id": "PROMPT-004",
+      "notes_file": "research/cards.ru.md",
+      "line": 649,
+      "disposition": "integrated",
+      "target_ids": [
+        "CORE-013",
+        "PR-DISCUSSION",
+        "PR-LEXIS"
+      ],
+      "reason": "Объединено в перечисленных правилах/профилях/маршрутах/проверках с условиями и исключениями. Статус исходного утверждения не повышается вследствие включения."
+    },
+    {
+      "card_id": "PROMPT-005",
+      "notes_file": "research/cards.ru.md",
+      "line": 653,
+      "disposition": "integrated",
+      "target_ids": [
+        "ACT-013",
+        "ACT-025",
+        "CORE-004",
+        "CORE-031",
+        "PR-DISCUSSION",
+        "PR-FUNCTIONAL",
+        "QC-016"
+      ],
+      "reason": "Объединено в перечисленных правилах/профилях/маршрутах/проверках с условиями и исключениями. Статус исходного утверждения не повышается вследствие включения."
+    },
+    {
+      "card_id": "PROMPT-006",
+      "notes_file": "research/cards.ru.md",
+      "line": 657,
+      "disposition": "integrated",
+      "target_ids": [
+        "CORE-023",
+        "PR-DISCUSSION",
+        "QC-010"
+      ],
+      "reason": "Объединено в перечисленных правилах/профилях/маршрутах/проверках с условиями и исключениями. Статус исходного утверждения не повышается вследствие включения."
+    },
+    {
+      "card_id": "PROMPT-007",
+      "notes_file": "research/cards.ru.md",
+      "line": 661,
+      "disposition": "integrated",
+      "target_ids": [
+        "ACT-017",
+        "CORE-008",
+        "PR-FUNCTIONAL"
+      ],
+      "reason": "Объединено в перечисленных правилах/профилях/маршрутах/проверках с условиями и исключениями. Статус исходного утверждения не повышается вследствие включения."
+    },
+    {
+      "card_id": "PROMPT-008",
+      "notes_file": "research/cards.ru.md",
+      "line": 665,
+      "disposition": "integrated",
+      "target_ids": [
+        "ACT-017",
+        "PR-FUNCTIONAL"
+      ],
+      "reason": "Объединено в перечисленных правилах/профилях/маршрутах/проверках с условиями и исключениями. Статус исходного утверждения не повышается вследствие включения."
+    },
+    {
+      "card_id": "PROMPT-009",
+      "notes_file": "research/cards.ru.md",
+      "line": 669,
+      "disposition": "integrated",
+      "target_ids": [
+        "PR-FUNCTIONAL"
+      ],
+      "reason": "Объединено в перечисленных правилах/профилях/маршрутах/проверках с условиями и исключениями. Статус исходного утверждения не повышается вследствие включения."
+    },
+    {
+      "card_id": "PROMPT-010",
+      "notes_file": "research/cards.ru.md",
+      "line": 673,
+      "disposition": "integrated",
+      "target_ids": [
+        "CORE-003",
+        "CORE-026",
+        "PR-DISCUSSION",
+        "PR-FUNCTIONAL"
+      ],
+      "reason": "Объединено в перечисленных правилах/профилях/маршрутах/проверках с условиями и исключениями. Статус исходного утверждения не повышается вследствие включения."
+    },
+    {
+      "card_id": "PROMPT-011",
+      "notes_file": "research/cards.ru.md",
+      "line": 677,
+      "disposition": "integrated",
+      "target_ids": [
+        "CORE-007",
+        "PR-IELTS",
+        "QC-006"
+      ],
+      "reason": "Объединено в перечисленных правилах/профилях/маршрутах/проверках с условиями и исключениями. Статус исходного утверждения не повышается вследствие включения."
+    },
+    {
+      "card_id": "PROMPT-012",
+      "notes_file": "research/cards.ru.md",
+      "line": 681,
+      "disposition": "integrated",
+      "target_ids": [
+        "ACT-006",
+        "CORE-007",
+        "PR-IELTS",
+        "QC-006"
+      ],
+      "reason": "Объединено в перечисленных правилах/профилях/маршрутах/проверках с условиями и исключениями. Статус исходного утверждения не повышается вследствие включения."
+    },
+    {
+      "card_id": "PROMPT-013",
+      "notes_file": "research/cards.ru.md",
+      "line": 685,
+      "disposition": "integrated",
+      "target_ids": [
+        "CORE-012",
+        "PR-IELTS"
+      ],
+      "reason": "Объединено в перечисленных правилах/профилях/маршрутах/проверках с условиями и исключениями. Статус исходного утверждения не повышается вследствие включения."
+    },
+    {
+      "card_id": "PROMPT-014",
+      "notes_file": "research/cards.ru.md",
+      "line": 689,
+      "disposition": "integrated",
+      "target_ids": [
+        "ACT-020",
+        "CORE-016",
+        "CORE-019",
+        "FW-SPEAKING-CYCLE",
+        "PR-IELTS",
+        "QC-011"
+      ],
+      "reason": "Объединено в перечисленных правилах/профилях/маршрутах/проверках с условиями и исключениями. Статус исходного утверждения не повышается вследствие включения."
+    },
+    {
+      "card_id": "PROMPT-015",
+      "notes_file": "research/cards.ru.md",
+      "line": 693,
+      "disposition": "integrated",
+      "target_ids": [
+        "ACT-025",
+        "CORE-004"
+      ],
+      "reason": "Объединено в перечисленных правилах/профилях/маршрутах/проверках с условиями и исключениями. Статус исходного утверждения не повышается вследствие включения."
+    },
+    {
+      "card_id": "PROMPT-016",
+      "notes_file": "research/cards.ru.md",
+      "line": 697,
+      "disposition": "integrated",
+      "target_ids": [
+        "CORE-022",
+        "QC-009"
+      ],
+      "reason": "Объединено в перечисленных правилах/профилях/маршрутах/проверках с условиями и исключениями. Статус исходного утверждения не повышается вследствие включения."
+    },
+    {
+      "card_id": "PROMPT-017",
+      "notes_file": "research/cards.ru.md",
+      "line": 701,
+      "disposition": "integrated",
+      "target_ids": [
+        "CORE-025",
+        "CORE-030",
+        "QC-020",
+        "QC-022"
+      ],
+      "reason": "Объединено в перечисленных правилах/профилях/маршрутах/проверках с условиями и исключениями. Статус исходного утверждения не повышается вследствие включения."
+    },
+    {
+      "card_id": "PROMPT-018",
+      "notes_file": "research/cards.ru.md",
+      "line": 705,
+      "disposition": "integrated",
+      "target_ids": [
+        "CORE-028",
+        "PR-FUNCTIONAL",
+        "QC-017"
+      ],
+      "reason": "Объединено в перечисленных правилах/профилях/маршрутах/проверках с условиями и исключениями. Статус исходного утверждения не повышается вследствие включения."
+    },
+    {
+      "card_id": "PROMPT-019",
+      "notes_file": "research/cards.ru.md",
+      "line": 709,
+      "disposition": "integrated",
+      "target_ids": [
+        "CORE-007",
+        "PR-IELTS",
+        "QC-006",
+        "QC-019"
+      ],
+      "reason": "Объединено в перечисленных правилах/профилях/маршрутах/проверках с условиями и исключениями. Статус исходного утверждения не повышается вследствие включения."
+    },
+    {
+      "card_id": "PROMPT-020",
+      "notes_file": "research/cards.ru.md",
+      "line": 713,
+      "disposition": "integrated",
+      "target_ids": [
+        "CORE-026",
+        "CORE-028",
+        "PR-IELTS",
+        "QC-017",
+        "QC-021"
+      ],
+      "reason": "Объединено в перечисленных правилах/профилях/маршрутах/проверках с условиями и исключениями. Статус исходного утверждения не повышается вследствие включения."
+    },
+    {
+      "card_id": "BANK-001",
+      "notes_file": "research/cards.ru.md",
+      "line": 717,
+      "disposition": "integrated",
+      "target_ids": [
+        "CORE-007",
+        "PR-IELTS",
+        "QC-021"
+      ],
+      "reason": "Объединено в перечисленных правилах/профилях/маршрутах/проверках с условиями и исключениями. Статус исходного утверждения не повышается вследствие включения."
+    },
+    {
+      "card_id": "BANK-002",
+      "notes_file": "research/cards.ru.md",
+      "line": 721,
+      "disposition": "integrated",
+      "target_ids": [
+        "PR-IELTS"
+      ],
+      "reason": "Объединено в перечисленных правилах/профилях/маршрутах/проверках с условиями и исключениями. Статус исходного утверждения не повышается вследствие включения."
+    },
+    {
+      "card_id": "BANK-003",
+      "notes_file": "research/cards.ru.md",
+      "line": 725,
+      "disposition": "integrated",
+      "target_ids": [
+        "PR-IELTS"
+      ],
+      "reason": "Объединено в перечисленных правилах/профилях/маршрутах/проверках с условиями и исключениями. Статус исходного утверждения не повышается вследствие включения."
+    },
+    {
+      "card_id": "BANK-004",
+      "notes_file": "research/cards.ru.md",
+      "line": 729,
+      "disposition": "integrated",
+      "target_ids": [
+        "CORE-007"
+      ],
+      "reason": "Объединено в перечисленных правилах/профилях/маршрутах/проверках с условиями и исключениями. Статус исходного утверждения не повышается вследствие включения."
+    },
+    {
+      "card_id": "BANK-005",
+      "notes_file": "research/cards.ru.md",
+      "line": 733,
+      "disposition": "integrated",
+      "target_ids": [
+        "CORE-025"
+      ],
+      "reason": "Объединено в перечисленных правилах/профилях/маршрутах/проверках с условиями и исключениями. Статус исходного утверждения не повышается вследствие включения."
+    },
+    {
+      "card_id": "BANK-006",
+      "notes_file": "research/cards.ru.md",
+      "line": 737,
+      "disposition": "integrated",
+      "target_ids": [
+        "CORE-026",
+        "PR-IELTS",
+        "QC-021"
+      ],
+      "reason": "Объединено в перечисленных правилах/профилях/маршрутах/проверках с условиями и исключениями. Статус исходного утверждения не повышается вследствие включения."
+    },
+    {
+      "card_id": "VIDEO-001",
+      "notes_file": "research/cards.ru.md",
+      "line": 741,
+      "disposition": "context_evidence",
+      "target_ids": [
+        "CORE-010"
+      ],
+      "reason": "Локальный пример/совет/наблюдение включён с контекстом в перечисленные потребители; не доказательство универсального эффекта. Тип исходного свидетельства сохраняется в карточке."
+    },
+    {
+      "card_id": "VIDEO-002",
+      "notes_file": "research/cards.ru.md",
+      "line": 745,
+      "disposition": "context_evidence",
+      "target_ids": [
+        "CORE-010"
+      ],
+      "reason": "Локальный пример/совет/наблюдение включён с контекстом в перечисленные потребители; не доказательство универсального эффекта. Тип исходного свидетельства сохраняется в карточке."
+    },
+    {
+      "card_id": "VIDEO-003",
+      "notes_file": "research/cards.ru.md",
+      "line": 749,
+      "disposition": "context_evidence",
+      "target_ids": [
+        "CORE-012"
+      ],
+      "reason": "Локальный пример/совет/наблюдение включён с контекстом в перечисленные потребители; не доказательство универсального эффекта. Тип исходного свидетельства сохраняется в карточке."
+    },
+    {
+      "card_id": "VIDEO-004",
+      "notes_file": "research/cards.ru.md",
+      "line": 753,
+      "disposition": "context_evidence",
+      "target_ids": [
+        "CORE-018"
+      ],
+      "reason": "Локальный пример/совет/наблюдение включён с контекстом в перечисленные потребители; не доказательство универсального эффекта. Тип исходного свидетельства сохраняется в карточке."
+    },
+    {
+      "card_id": "VIDEO-005",
+      "notes_file": "research/cards.ru.md",
+      "line": 757,
+      "disposition": "context_evidence",
+      "target_ids": [
+        "ACT-016",
+        "CORE-018",
+        "QC-015"
+      ],
+      "reason": "Локальный пример/совет/наблюдение включён с контекстом в перечисленные потребители; не доказательство универсального эффекта. Тип исходного свидетельства сохраняется в карточке."
+    },
+    {
+      "card_id": "VIDEO-006",
+      "notes_file": "research/cards.ru.md",
+      "line": 761,
+      "disposition": "context_evidence",
+      "target_ids": [
+        "ACT-017",
+        "CORE-009",
+        "QC-007"
+      ],
+      "reason": "Локальный пример/совет/наблюдение включён с контекстом в перечисленные потребители; не доказательство универсального эффекта. Тип исходного свидетельства сохраняется в карточке."
+    },
+    {
+      "card_id": "VIDEO-007",
+      "notes_file": "research/cards.ru.md",
+      "line": 765,
+      "disposition": "context_evidence",
+      "target_ids": [
+        "CORE-013"
+      ],
+      "reason": "Локальный пример/совет/наблюдение включён с контекстом в перечисленные потребители; не доказательство универсального эффекта. Тип исходного свидетельства сохраняется в карточке."
+    },
+    {
+      "card_id": "VIDEO-008",
+      "notes_file": "research/cards.ru.md",
+      "line": 769,
+      "disposition": "context_evidence",
+      "target_ids": [
+        "CORE-001",
+        "CORE-025",
+        "QC-002",
+        "QC-015",
+        "QC-019"
+      ],
+      "reason": "Локальный пример/совет/наблюдение включён с контекстом в перечисленные потребители; не доказательство универсального эффекта. Тип исходного свидетельства сохраняется в карточке."
+    },
+    {
+      "card_id": "PRACTICE-001",
+      "notes_file": "research/cards.ru.md",
+      "line": 773,
+      "disposition": "context_evidence",
+      "target_ids": [
+        "ACT-019",
+        "CORE-022"
+      ],
+      "reason": "Локальный пример/совет/наблюдение включён с контекстом в перечисленные потребители; не доказательство универсального эффекта. Тип исходного свидетельства сохраняется в карточке."
+    },
+    {
+      "card_id": "PRACTICE-002",
+      "notes_file": "research/cards.ru.md",
+      "line": 777,
+      "disposition": "context_evidence",
+      "target_ids": [
+        "ACT-010",
+        "CORE-014"
+      ],
+      "reason": "Локальный пример/совет/наблюдение включён с контекстом в перечисленные потребители; не доказательство универсального эффекта. Тип исходного свидетельства сохраняется в карточке."
+    },
+    {
+      "card_id": "PRACTICE-003",
+      "notes_file": "research/cards.ru.md",
+      "line": 781,
+      "disposition": "context_evidence",
+      "target_ids": [
+        "ACT-019",
+        "CORE-016"
+      ],
+      "reason": "Локальный пример/совет/наблюдение включён с контекстом в перечисленные потребители; не доказательство универсального эффекта. Тип исходного свидетельства сохраняется в карточке."
+    },
+    {
+      "card_id": "PRACTICE-004",
+      "notes_file": "research/cards.ru.md",
+      "line": 785,
+      "disposition": "context_evidence",
+      "target_ids": [
+        "CORE-009"
+      ],
+      "reason": "Локальный пример/совет/наблюдение включён с контекстом в перечисленные потребители; не доказательство универсального эффекта. Тип исходного свидетельства сохраняется в карточке."
+    },
+    {
+      "card_id": "PRACTICE-005",
+      "notes_file": "research/cards.ru.md",
+      "line": 789,
+      "disposition": "context_evidence",
+      "target_ids": [
+        "CORE-010"
+      ],
+      "reason": "Локальный пример/совет/наблюдение включён с контекстом в перечисленные потребители; не доказательство универсального эффекта. Тип исходного свидетельства сохраняется в карточке."
+    },
+    {
+      "card_id": "PRACTICE-006",
+      "notes_file": "research/cards.ru.md",
+      "line": 793,
+      "disposition": "context_evidence",
+      "target_ids": [
+        "CORE-021",
+        "PLAT-010",
+        "PLAT-023",
+        "PLAT-038"
+      ],
+      "reason": "Локальный пример/совет/наблюдение включён с контекстом в перечисленные потребители; не доказательство универсального эффекта. Тип исходного свидетельства сохраняется в карточке."
+    },
+    {
+      "card_id": "PRACTICE-007",
+      "notes_file": "research/cards.ru.md",
+      "line": 797,
+      "disposition": "context_evidence",
+      "target_ids": [
+        "CORE-021"
+      ],
+      "reason": "Локальный пример/совет/наблюдение включён с контекстом в перечисленные потребители; не доказательство универсального эффекта. Тип исходного свидетельства сохраняется в карточке."
+    },
+    {
+      "card_id": "PRACTICE-008",
+      "notes_file": "research/cards.ru.md",
+      "line": 801,
+      "disposition": "context_evidence",
+      "target_ids": [
+        "CORE-029"
+      ],
+      "reason": "Локальный пример/совет/наблюдение включён с контекстом в перечисленные потребители; не доказательство универсального эффекта. Тип исходного свидетельства сохраняется в карточке."
+    },
+    {
+      "card_id": "PRACTICE-009",
+      "notes_file": "research/cards.ru.md",
+      "line": 805,
+      "disposition": "context_evidence",
+      "target_ids": [
+        "ACT-004",
+        "CORE-005"
+      ],
+      "reason": "Локальный пример/совет/наблюдение включён с контекстом в перечисленные потребители; не доказательство универсального эффекта. Тип исходного свидетельства сохраняется в карточке."
+    },
+    {
+      "card_id": "PRACTICE-010",
+      "notes_file": "research/cards.ru.md",
+      "line": 809,
+      "disposition": "context_evidence",
+      "target_ids": [
+        "CORE-007"
+      ],
+      "reason": "Локальный пример/совет/наблюдение включён с контекстом в перечисленные потребители; не доказательство универсального эффекта. Тип исходного свидетельства сохраняется в карточке."
+    },
+    {
+      "card_id": "PRACTICE-011",
+      "notes_file": "research/cards.ru.md",
+      "line": 813,
+      "disposition": "context_evidence",
+      "target_ids": [
+        "CORE-009"
+      ],
+      "reason": "Локальный пример/совет/наблюдение включён с контекстом в перечисленные потребители; не доказательство универсального эффекта. Тип исходного свидетельства сохраняется в карточке."
+    },
+    {
+      "card_id": "PRACTICE-012",
+      "notes_file": "research/cards.ru.md",
+      "line": 817,
+      "disposition": "context_evidence",
+      "target_ids": [
+        "CORE-019"
+      ],
+      "reason": "Локальный пример/совет/наблюдение включён с контекстом в перечисленные потребители; не доказательство универсального эффекта. Тип исходного свидетельства сохраняется в карточке."
+    },
+    {
+      "card_id": "PRACTICE-013",
+      "notes_file": "research/cards.ru.md",
+      "line": 821,
+      "disposition": "context_evidence",
+      "target_ids": [
+        "ACT-018",
+        "CORE-012"
+      ],
+      "reason": "Локальный пример/совет/наблюдение включён с контекстом в перечисленные потребители; не доказательство универсального эффекта. Тип исходного свидетельства сохраняется в карточке."
+    },
+    {
+      "card_id": "PRACTICE-014",
+      "notes_file": "research/cards.ru.md",
+      "line": 825,
+      "disposition": "context_evidence",
+      "target_ids": [
+        "ACT-012",
+        "CORE-008"
+      ],
+      "reason": "Локальный пример/совет/наблюдение включён с контекстом в перечисленные потребители; не доказательство универсального эффекта. Тип исходного свидетельства сохраняется в карточке."
+    },
+    {
+      "card_id": "PRACTICE-015",
+      "notes_file": "research/cards.ru.md",
+      "line": 829,
+      "disposition": "context_evidence",
+      "target_ids": [
+        "ACT-007",
+        "ACT-009",
+        "CORE-014"
+      ],
+      "reason": "Локальный пример/совет/наблюдение включён с контекстом в перечисленные потребители; не доказательство универсального эффекта. Тип исходного свидетельства сохраняется в карточке."
+    },
+    {
+      "card_id": "PRACTICE-016",
+      "notes_file": "research/cards.ru.md",
+      "line": 833,
+      "disposition": "context_evidence",
+      "target_ids": [
+        "CORE-014"
+      ],
+      "reason": "Локальный пример/совет/наблюдение включён с контекстом в перечисленные потребители; не доказательство универсального эффекта. Тип исходного свидетельства сохраняется в карточке."
+    },
+    {
+      "card_id": "PRACTICE-017",
+      "notes_file": "research/cards.ru.md",
+      "line": 837,
+      "disposition": "context_evidence",
+      "target_ids": [
+        "ACT-012",
+        "CORE-008"
+      ],
+      "reason": "Локальный пример/совет/наблюдение включён с контекстом в перечисленные потребители; не доказательство универсального эффекта. Тип исходного свидетельства сохраняется в карточке."
+    },
+    {
+      "card_id": "PRACTICE-018",
+      "notes_file": "research/cards.ru.md",
+      "line": 841,
+      "disposition": "context_evidence",
+      "target_ids": [
+        "CORE-025"
+      ],
+      "reason": "Локальный пример/совет/наблюдение включён с контекстом в перечисленные потребители; не доказательство универсального эффекта. Тип исходного свидетельства сохраняется в карточке."
+    },
+    {
+      "card_id": "PRACTICE-019",
+      "notes_file": "research/cards.ru.md",
+      "line": 845,
+      "disposition": "context_evidence",
+      "target_ids": [
+        "ACT-012",
+        "CORE-012"
+      ],
+      "reason": "Локальный пример/совет/наблюдение включён с контекстом в перечисленные потребители; не доказательство универсального эффекта. Тип исходного свидетельства сохраняется в карточке."
+    },
+    {
+      "card_id": "PRACTICE-020",
+      "notes_file": "research/cards.ru.md",
+      "line": 849,
+      "disposition": "context_evidence",
+      "target_ids": [
+        "CORE-006"
+      ],
+      "reason": "Локальный пример/совет/наблюдение включён с контекстом в перечисленные потребители; не доказательство универсального эффекта. Тип исходного свидетельства сохраняется в карточке."
+    },
+    {
+      "card_id": "PRACTICE-021",
+      "notes_file": "research/cards.ru.md",
+      "line": 853,
+      "disposition": "context_evidence",
+      "target_ids": [
+        "ACT-005",
+        "CORE-022"
+      ],
+      "reason": "Локальный пример/совет/наблюдение включён с контекстом в перечисленные потребители; не доказательство универсального эффекта. Тип исходного свидетельства сохраняется в карточке."
+    },
+    {
+      "card_id": "PRACTICE-022",
+      "notes_file": "research/cards.ru.md",
+      "line": 857,
+      "disposition": "context_evidence",
+      "target_ids": [
+        "CORE-022"
+      ],
+      "reason": "Локальный пример/совет/наблюдение включён с контекстом в перечисленные потребители; не доказательство универсального эффекта. Тип исходного свидетельства сохраняется в карточке."
+    },
+    {
+      "card_id": "PRACTICE-023",
+      "notes_file": "research/cards.ru.md",
+      "line": 861,
+      "disposition": "context_evidence",
+      "target_ids": [
+        "ACT-005",
+        "CORE-019"
+      ],
+      "reason": "Локальный пример/совет/наблюдение включён с контекстом в перечисленные потребители; не доказательство универсального эффекта. Тип исходного свидетельства сохраняется в карточке."
+    },
+    {
+      "card_id": "PRACTICE-024",
+      "notes_file": "research/cards.ru.md",
+      "line": 865,
+      "disposition": "context_evidence",
+      "target_ids": [
+        "CORE-006"
+      ],
+      "reason": "Локальный пример/совет/наблюдение включён с контекстом в перечисленные потребители; не доказательство универсального эффекта. Тип исходного свидетельства сохраняется в карточке."
+    },
+    {
+      "card_id": "PRACTICE-025",
+      "notes_file": "research/cards.ru.md",
+      "line": 869,
+      "disposition": "context_evidence",
+      "target_ids": [
+        "ACT-005",
+        "CORE-024"
+      ],
+      "reason": "Локальный пример/совет/наблюдение включён с контекстом в перечисленные потребители; не доказательство универсального эффекта. Тип исходного свидетельства сохраняется в карточке."
+    },
+    {
+      "card_id": "PRACTICE-026",
+      "notes_file": "research/cards.ru.md",
+      "line": 873,
+      "disposition": "context_evidence",
+      "target_ids": [
+        "ACT-016",
+        "CORE-018"
+      ],
+      "reason": "Локальный пример/совет/наблюдение включён с контекстом в перечисленные потребители; не доказательство универсального эффекта. Тип исходного свидетельства сохраняется в карточке."
+    },
+    {
+      "card_id": "PRACTICE-027",
+      "notes_file": "research/cards.ru.md",
+      "line": 877,
+      "disposition": "context_evidence",
+      "target_ids": [
+        "CORE-006"
+      ],
+      "reason": "Локальный пример/совет/наблюдение включён с контекстом в перечисленные потребители; не доказательство универсального эффекта. Тип исходного свидетельства сохраняется в карточке."
+    },
+    {
+      "card_id": "PRACTICE-028",
+      "notes_file": "research/cards.ru.md",
+      "line": 881,
+      "disposition": "context_evidence",
+      "target_ids": [
+        "ACT-006",
+        "CORE-005"
+      ],
+      "reason": "Локальный пример/совет/наблюдение включён с контекстом в перечисленные потребители; не доказательство универсального эффекта. Тип исходного свидетельства сохраняется в карточке."
+    },
+    {
+      "card_id": "PRACTICE-029",
+      "notes_file": "research/cards.ru.md",
+      "line": 885,
+      "disposition": "context_evidence",
+      "target_ids": [
+        "ACT-001",
+        "CORE-022"
+      ],
+      "reason": "Локальный пример/совет/наблюдение включён с контекстом в перечисленные потребители; не доказательство универсального эффекта. Тип исходного свидетельства сохраняется в карточке."
+    },
+    {
+      "card_id": "PRACTICE-030",
+      "notes_file": "research/cards.ru.md",
+      "line": 889,
+      "disposition": "context_evidence",
+      "target_ids": [
+        "ACT-002",
+        "CORE-006"
+      ],
+      "reason": "Локальный пример/совет/наблюдение включён с контекстом в перечисленные потребители; не доказательство универсального эффекта. Тип исходного свидетельства сохраняется в карточке."
+    },
+    {
+      "card_id": "PRACTICE-031",
+      "notes_file": "research/cards.ru.md",
+      "line": 893,
+      "disposition": "context_evidence",
+      "target_ids": [
+        "ACT-017",
+        "CORE-009"
+      ],
+      "reason": "Локальный пример/совет/наблюдение включён с контекстом в перечисленные потребители; не доказательство универсального эффекта. Тип исходного свидетельства сохраняется в карточке."
+    },
+    {
+      "card_id": "PRACTICE-032",
+      "notes_file": "research/cards.ru.md",
+      "line": 897,
+      "disposition": "context_evidence",
+      "target_ids": [
+        "ACT-018",
+        "CORE-019"
+      ],
+      "reason": "Локальный пример/совет/наблюдение включён с контекстом в перечисленные потребители; не доказательство универсального эффекта. Тип исходного свидетельства сохраняется в карточке."
+    },
+    {
+      "card_id": "PRACTICE-033",
+      "notes_file": "research/cards.ru.md",
+      "line": 901,
+      "disposition": "context_evidence",
+      "target_ids": [
+        "ACT-018",
+        "CORE-007"
+      ],
+      "reason": "Локальный пример/совет/наблюдение включён с контекстом в перечисленные потребители; не доказательство универсального эффекта. Тип исходного свидетельства сохраняется в карточке."
+    },
+    {
+      "card_id": "PRACTICE-034",
+      "notes_file": "research/cards.ru.md",
+      "line": 905,
+      "disposition": "context_evidence",
+      "target_ids": [
+        "ACT-001",
+        "CORE-014"
+      ],
+      "reason": "Локальный пример/совет/наблюдение включён с контекстом в перечисленные потребители; не доказательство универсального эффекта. Тип исходного свидетельства сохраняется в карточке."
+    },
+    {
+      "card_id": "PRACTICE-035",
+      "notes_file": "research/cards.ru.md",
+      "line": 909,
+      "disposition": "context_evidence",
+      "target_ids": [
+        "ACT-007",
+        "CORE-029"
+      ],
+      "reason": "Локальный пример/совет/наблюдение включён с контекстом в перечисленные потребители; не доказательство универсального эффекта. Тип исходного свидетельства сохраняется в карточке."
+    },
+    {
+      "card_id": "PRACTICE-036",
+      "notes_file": "research/cards.ru.md",
+      "line": 913,
+      "disposition": "context_evidence",
+      "target_ids": [
+        "ACT-010",
+        "CORE-015"
+      ],
+      "reason": "Локальный пример/совет/наблюдение включён с контекстом в перечисленные потребители; не доказательство универсального эффекта. Тип исходного свидетельства сохраняется в карточке."
+    },
+    {
+      "card_id": "PRACTICE-037",
+      "notes_file": "research/cards.ru.md",
+      "line": 917,
+      "disposition": "context_evidence",
+      "target_ids": [
+        "ACT-009",
+        "CORE-014"
+      ],
+      "reason": "Локальный пример/совет/наблюдение включён с контекстом в перечисленные потребители; не доказательство универсального эффекта. Тип исходного свидетельства сохраняется в карточке."
+    },
+    {
+      "card_id": "PRACTICE-038",
+      "notes_file": "research/cards.ru.md",
+      "line": 921,
+      "disposition": "context_evidence",
+      "target_ids": [
+        "CORE-025"
+      ],
+      "reason": "Локальный пример/совет/наблюдение включён с контекстом в перечисленные потребители; не доказательство универсального эффекта. Тип исходного свидетельства сохраняется в карточке."
+    },
+    {
+      "card_id": "PRACTICE-039",
+      "notes_file": "research/cards.ru.md",
+      "line": 925,
+      "disposition": "context_evidence",
+      "target_ids": [
+        "CORE-018"
+      ],
+      "reason": "Локальный пример/совет/наблюдение включён с контекстом в перечисленные потребители; не доказательство универсального эффекта. Тип исходного свидетельства сохраняется в карточке."
+    },
+    {
+      "card_id": "PRACTICE-040",
+      "notes_file": "research/cards.ru.md",
+      "line": 929,
+      "disposition": "context_evidence",
+      "target_ids": [
+        "ACT-006",
+        "ACT-021",
+        "CORE-007"
+      ],
+      "reason": "Локальный пример/совет/наблюдение включён с контекстом в перечисленные потребители; не доказательство универсального эффекта. Тип исходного свидетельства сохраняется в карточке."
+    },
+    {
+      "card_id": "PRACTICE-041",
+      "notes_file": "research/cards.ru.md",
+      "line": 933,
+      "disposition": "context_evidence",
+      "target_ids": [
+        "ACT-023",
+        "CORE-017",
+        "PLAT-006",
+        "PLAT-013",
+        "PLAT-022"
+      ],
+      "reason": "Локальный пример/совет/наблюдение включён с контекстом в перечисленные потребители; не доказательство универсального эффекта. Тип исходного свидетельства сохраняется в карточке."
+    },
+    {
+      "card_id": "PRACTICE-042",
+      "notes_file": "research/cards.ru.md",
+      "line": 937,
+      "disposition": "context_evidence",
+      "target_ids": [
+        "ACT-022",
+        "CORE-021"
+      ],
+      "reason": "Локальный пример/совет/наблюдение включён с контекстом в перечисленные потребители; не доказательство универсального эффекта. Тип исходного свидетельства сохраняется в карточке."
+    },
+    {
+      "card_id": "PRACTICE-043",
+      "notes_file": "research/cards.ru.md",
+      "line": 941,
+      "disposition": "context_evidence",
+      "target_ids": [
+        "ACT-002",
+        "CORE-011"
+      ],
+      "reason": "Локальный пример/совет/наблюдение включён с контекстом в перечисленные потребители; не доказательство универсального эффекта. Тип исходного свидетельства сохраняется в карточке."
+    },
+    {
+      "card_id": "PRACTICE-044",
+      "notes_file": "research/cards.ru.md",
+      "line": 945,
+      "disposition": "context_evidence",
+      "target_ids": [
+        "ACT-021",
+        "CORE-017"
+      ],
+      "reason": "Локальный пример/совет/наблюдение включён с контекстом в перечисленные потребители; не доказательство универсального эффекта. Тип исходного свидетельства сохраняется в карточке."
+    },
+    {
+      "card_id": "PRACTICE-045",
+      "notes_file": "research/cards.ru.md",
+      "line": 949,
+      "disposition": "context_evidence",
+      "target_ids": [
+        "ACT-005",
+        "CORE-024"
+      ],
+      "reason": "Локальный пример/совет/наблюдение включён с контекстом в перечисленные потребители; не доказательство универсального эффекта. Тип исходного свидетельства сохраняется в карточке."
+    },
+    {
+      "card_id": "PRACTICE-046",
+      "notes_file": "research/cards.ru.md",
+      "line": 953,
+      "disposition": "context_evidence",
+      "target_ids": [
+        "ACT-001",
+        "CORE-015"
+      ],
+      "reason": "Локальный пример/совет/наблюдение включён с контекстом в перечисленные потребители; не доказательство универсального эффекта. Тип исходного свидетельства сохраняется в карточке."
+    },
+    {
+      "card_id": "PRACTICE-047",
+      "notes_file": "research/cards.ru.md",
+      "line": 957,
+      "disposition": "context_evidence",
+      "target_ids": [
+        "ACT-003",
+        "CORE-011"
+      ],
+      "reason": "Локальный пример/совет/наблюдение включён с контекстом в перечисленные потребители; не доказательство универсального эффекта. Тип исходного свидетельства сохраняется в карточке."
+    },
+    {
+      "card_id": "PRACTICE-048",
+      "notes_file": "research/cards.ru.md",
+      "line": 961,
+      "disposition": "context_evidence",
+      "target_ids": [
+        "ACT-005",
+        "CORE-013"
+      ],
+      "reason": "Локальный пример/совет/наблюдение включён с контекстом в перечисленные потребители; не доказательство универсального эффекта. Тип исходного свидетельства сохраняется в карточке."
+    },
+    {
+      "card_id": "PRACTICE-049",
+      "notes_file": "research/cards.ru.md",
+      "line": 965,
+      "disposition": "context_evidence",
+      "target_ids": [
+        "CORE-022"
+      ],
+      "reason": "Локальный пример/совет/наблюдение включён с контекстом в перечисленные потребители; не доказательство универсального эффекта. Тип исходного свидетельства сохраняется в карточке."
+    },
+    {
+      "card_id": "PRACTICE-050",
+      "notes_file": "research/cards.ru.md",
+      "line": 969,
+      "disposition": "context_evidence",
+      "target_ids": [
+        "CORE-001"
+      ],
+      "reason": "Локальный пример/совет/наблюдение включён с контекстом в перечисленные потребители; не доказательство универсального эффекта. Тип исходного свидетельства сохраняется в карточке."
+    },
+    {
+      "card_id": "PRACTICE-051",
+      "notes_file": "research/cards.ru.md",
+      "line": 973,
+      "disposition": "context_evidence",
+      "target_ids": [
+        "CORE-007"
+      ],
+      "reason": "Локальный пример/совет/наблюдение включён с контекстом в перечисленные потребители; не доказательство универсального эффекта. Тип исходного свидетельства сохраняется в карточке."
+    },
+    {
+      "card_id": "PRACTICE-052",
+      "notes_file": "research/cards.ru.md",
+      "line": 977,
+      "disposition": "context_evidence",
+      "target_ids": [
+        "CORE-001"
+      ],
+      "reason": "Локальный пример/совет/наблюдение включён с контекстом в перечисленные потребители; не доказательство универсального эффекта. Тип исходного свидетельства сохраняется в карточке."
+    },
+    {
+      "card_id": "BOOK01-001",
+      "notes_file": "research/cards.ru.md",
+      "line": 981,
+      "disposition": "integrated",
+      "target_ids": [
+        "CORE-027"
+      ],
+      "reason": "Объединено в перечисленных правилах/профилях/маршрутах/проверках с условиями и исключениями. Статус исходного утверждения не повышается вследствие включения."
+    },
+    {
+      "card_id": "BOOK01-002",
+      "notes_file": "research/cards.ru.md",
+      "line": 990,
+      "disposition": "integrated",
+      "target_ids": [
+        "CORE-003"
+      ],
+      "reason": "Объединено в перечисленных правилах/профилях/маршрутах/проверках с условиями и исключениями. Статус исходного утверждения не повышается вследствие включения."
+    },
+    {
+      "card_id": "BOOK01-003",
+      "notes_file": "research/cards.ru.md",
+      "line": 999,
+      "disposition": "integrated",
+      "target_ids": [
+        "CORE-019"
+      ],
+      "reason": "Объединено в перечисленных правилах/профилях/маршрутах/проверках с условиями и исключениями. Статус исходного утверждения не повышается вследствие включения."
+    },
+    {
+      "card_id": "BOOK01-004",
+      "notes_file": "research/cards.ru.md",
+      "line": 1008,
+      "disposition": "integrated",
+      "target_ids": [
+        "CORE-021"
+      ],
+      "reason": "Объединено в перечисленных правилах/профилях/маршрутах/проверках с условиями и исключениями. Статус исходного утверждения не повышается вследствие включения."
+    },
+    {
+      "card_id": "BOOK01-005",
+      "notes_file": "research/cards.ru.md",
+      "line": 1017,
+      "disposition": "integrated",
+      "target_ids": [
+        "CORE-009"
+      ],
+      "reason": "Объединено в перечисленных правилах/профилях/маршрутах/проверках с условиями и исключениями. Статус исходного утверждения не повышается вследствие включения."
+    },
+    {
+      "card_id": "BOOK01-006",
+      "notes_file": "research/cards.ru.md",
+      "line": 1026,
+      "disposition": "integrated",
+      "target_ids": [
+        "CORE-010"
+      ],
+      "reason": "Объединено в перечисленных правилах/профилях/маршрутах/проверках с условиями и исключениями. Статус исходного утверждения не повышается вследствие включения."
+    },
+    {
+      "card_id": "BOOK02-001",
+      "notes_file": "research/cards.ru.md",
+      "line": 1035,
+      "disposition": "integrated",
+      "target_ids": [
+        "CORE-003"
+      ],
+      "reason": "Объединено в перечисленных правилах/профилях/маршрутах/проверках с условиями и исключениями. Статус исходного утверждения не повышается вследствие включения."
+    },
+    {
+      "card_id": "BOOK02-002",
+      "notes_file": "research/cards.ru.md",
+      "line": 1044,
+      "disposition": "integrated",
+      "target_ids": [
+        "CORE-021"
+      ],
+      "reason": "Объединено в перечисленных правилах/профилях/маршрутах/проверках с условиями и исключениями. Статус исходного утверждения не повышается вследствие включения."
+    },
+    {
+      "card_id": "BOOK02-003",
+      "notes_file": "research/cards.ru.md",
+      "line": 1053,
+      "disposition": "integrated",
+      "target_ids": [
+        "CORE-019"
+      ],
+      "reason": "Объединено в перечисленных правилах/профилях/маршрутах/проверках с условиями и исключениями. Статус исходного утверждения не повышается вследствие включения."
+    },
+    {
+      "card_id": "BOOK02-004",
+      "notes_file": "research/cards.ru.md",
+      "line": 1062,
+      "disposition": "integrated",
+      "target_ids": [
+        "ACT-011",
+        "CORE-008"
+      ],
+      "reason": "Объединено в перечисленных правилах/профилях/маршрутах/проверках с условиями и исключениями. Статус исходного утверждения не повышается вследствие включения."
+    },
+    {
+      "card_id": "BOOK02-005",
+      "notes_file": "research/cards.ru.md",
+      "line": 1071,
+      "disposition": "integrated",
+      "target_ids": [
+        "ACT-011",
+        "CORE-016"
+      ],
+      "reason": "Объединено в перечисленных правилах/профилях/маршрутах/проверках с условиями и исключениями. Статус исходного утверждения не повышается вследствие включения."
+    },
+    {
+      "card_id": "BOOK02-006",
+      "notes_file": "research/cards.ru.md",
+      "line": 1080,
+      "disposition": "integrated",
+      "target_ids": [
+        "CORE-032"
+      ],
+      "reason": "Объединено в перечисленных правилах/профилях/маршрутах/проверках с условиями и исключениями. Статус исходного утверждения не повышается вследствие включения."
+    },
+    {
+      "card_id": "BOOK03-001",
+      "notes_file": "research/cards.ru.md",
+      "line": 1089,
+      "disposition": "integrated",
+      "target_ids": [
+        "CORE-021"
+      ],
+      "reason": "Объединено в перечисленных правилах/профилях/маршрутах/проверках с условиями и исключениями. Статус исходного утверждения не повышается вследствие включения."
+    },
+    {
+      "card_id": "BOOK03-002",
+      "notes_file": "research/cards.ru.md",
+      "line": 1098,
+      "disposition": "integrated",
+      "target_ids": [
+        "CORE-009"
+      ],
+      "reason": "Объединено в перечисленных правилах/профилях/маршрутах/проверках с условиями и исключениями. Статус исходного утверждения не повышается вследствие включения."
+    },
+    {
+      "card_id": "BOOK03-003",
+      "notes_file": "research/cards.ru.md",
+      "line": 1107,
+      "disposition": "integrated",
+      "target_ids": [
+        "CORE-021"
+      ],
+      "reason": "Объединено в перечисленных правилах/профилях/маршрутах/проверках с условиями и исключениями. Статус исходного утверждения не повышается вследствие включения."
+    },
+    {
+      "card_id": "BOOK03-004",
+      "notes_file": "research/cards.ru.md",
+      "line": 1116,
+      "disposition": "integrated",
+      "target_ids": [
+        "CORE-021"
+      ],
+      "reason": "Объединено в перечисленных правилах/профилях/маршрутах/проверках с условиями и исключениями. Статус исходного утверждения не повышается вследствие включения."
+    },
+    {
+      "card_id": "BOOK03-005",
+      "notes_file": "research/cards.ru.md",
+      "line": 1125,
+      "disposition": "integrated",
+      "target_ids": [
+        "CORE-010"
+      ],
+      "reason": "Объединено в перечисленных правилах/профилях/маршрутах/проверках с условиями и исключениями. Статус исходного утверждения не повышается вследствие включения."
+    },
+    {
+      "card_id": "BOOK03-006",
+      "notes_file": "research/cards.ru.md",
+      "line": 1134,
+      "disposition": "integrated",
+      "target_ids": [
+        "CORE-021"
+      ],
+      "reason": "Объединено в перечисленных правилах/профилях/маршрутах/проверках с условиями и исключениями. Статус исходного утверждения не повышается вследствие включения."
+    },
+    {
+      "card_id": "BOOK04-001",
+      "notes_file": "research/cards.ru.md",
+      "line": 1143,
+      "disposition": "integrated",
+      "target_ids": [
+        "CORE-002",
+        "QC-001"
+      ],
+      "reason": "Объединено в перечисленных правилах/профилях/маршрутах/проверках с условиями и исключениями. Статус исходного утверждения не повышается вследствие включения."
+    },
+    {
+      "card_id": "BOOK04-002",
+      "notes_file": "research/cards.ru.md",
+      "line": 1152,
+      "disposition": "integrated",
+      "target_ids": [
+        "CORE-002",
+        "QC-001"
+      ],
+      "reason": "Объединено в перечисленных правилах/профилях/маршрутах/проверках с условиями и исключениями. Статус исходного утверждения не повышается вследствие включения."
+    },
+    {
+      "card_id": "BOOK04-003",
+      "notes_file": "research/cards.ru.md",
+      "line": 1161,
+      "disposition": "integrated",
+      "target_ids": [
+        "CORE-002"
+      ],
+      "reason": "Объединено в перечисленных правилах/профилях/маршрутах/проверках с условиями и исключениями. Статус исходного утверждения не повышается вследствие включения."
+    },
+    {
+      "card_id": "BOOK04-004",
+      "notes_file": "research/cards.ru.md",
+      "line": 1170,
+      "disposition": "integrated",
+      "target_ids": [
+        "CORE-027"
+      ],
+      "reason": "Объединено в перечисленных правилах/профилях/маршрутах/проверках с условиями и исключениями. Статус исходного утверждения не повышается вследствие включения."
+    },
+    {
+      "card_id": "BOOK04-005",
+      "notes_file": "research/cards.ru.md",
+      "line": 1179,
+      "disposition": "integrated",
+      "target_ids": [
+        "CORE-023",
+        "CTX-SELF-STUDY"
+      ],
+      "reason": "Объединено в перечисленных правилах/профилях/маршрутах/проверках с условиями и исключениями. Статус исходного утверждения не повышается вследствие включения."
+    },
+    {
+      "card_id": "BOOK04-006",
+      "notes_file": "research/cards.ru.md",
+      "line": 1188,
+      "disposition": "integrated",
+      "target_ids": [
+        "CORE-023",
+        "CTX-TEEN",
+        "CTX-YL"
+      ],
+      "reason": "Объединено в перечисленных правилах/профилях/маршрутах/проверках с условиями и исключениями. Статус исходного утверждения не повышается вследствие включения."
+    },
+    {
+      "card_id": "BOOK05-001",
+      "notes_file": "research/cards.ru.md",
+      "line": 1197,
+      "disposition": "integrated",
+      "target_ids": [
+        "CORE-006",
+        "PR-GRAMMAR"
+      ],
+      "reason": "Объединено в перечисленных правилах/профилях/маршрутах/проверках с условиями и исключениями. Статус исходного утверждения не повышается вследствие включения."
+    },
+    {
+      "card_id": "BOOK05-002",
+      "notes_file": "research/cards.ru.md",
+      "line": 1207,
+      "disposition": "integrated",
+      "target_ids": [
+        "CORE-012"
+      ],
+      "reason": "Объединено в перечисленных правилах/профилях/маршрутах/проверках с условиями и исключениями. Статус исходного утверждения не повышается вследствие включения."
+    },
+    {
+      "card_id": "BOOK05-003",
+      "notes_file": "research/cards.ru.md",
+      "line": 1217,
+      "disposition": "integrated",
+      "target_ids": [
+        "ACT-002",
+        "CORE-011",
+        "PR-GRAMMAR",
+        "QC-005"
+      ],
+      "reason": "Объединено в перечисленных правилах/профилях/маршрутах/проверках с условиями и исключениями. Статус исходного утверждения не повышается вследствие включения."
+    },
+    {
+      "card_id": "BOOK05-004",
+      "notes_file": "research/cards.ru.md",
+      "line": 1227,
+      "disposition": "integrated",
+      "target_ids": [
+        "CORE-031",
+        "PR-LEXIS"
+      ],
+      "reason": "Объединено в перечисленных правилах/профилях/маршрутах/проверках с условиями и исключениями. Статус исходного утверждения не повышается вследствие включения."
+    },
+    {
+      "card_id": "BOOK05-005",
+      "notes_file": "research/cards.ru.md",
+      "line": 1237,
+      "disposition": "integrated",
+      "target_ids": [
+        "ACT-002",
+        "CORE-006",
+        "CTX-ESP",
+        "PR-FUNCTIONAL"
+      ],
+      "reason": "Объединено в перечисленных правилах/профилях/маршрутах/проверках с условиями и исключениями. Статус исходного утверждения не повышается вследствие включения."
+    },
+    {
+      "card_id": "BOOK05-006",
+      "notes_file": "research/cards.ru.md",
+      "line": 1247,
+      "disposition": "integrated",
+      "target_ids": [
+        "CORE-006"
+      ],
+      "reason": "Объединено в перечисленных правилах/профилях/маршрутах/проверках с условиями и исключениями. Статус исходного утверждения не повышается вследствие включения."
+    },
+    {
+      "card_id": "BOOK05-007",
+      "notes_file": "research/cards.ru.md",
+      "line": 1257,
+      "disposition": "integrated",
+      "target_ids": [
+        "CORE-006",
+        "CORE-033",
+        "QC-002"
+      ],
+      "reason": "Объединено в перечисленных правилах/профилях/маршрутах/проверках с условиями и исключениями. Статус исходного утверждения не повышается вследствие включения."
+    },
+    {
+      "card_id": "BOOK06-001",
+      "notes_file": "research/cards.ru.md",
+      "line": 1267,
+      "disposition": "integrated",
+      "target_ids": [
+        "CORE-003",
+        "QC-003"
+      ],
+      "reason": "Объединено в перечисленных правилах/профилях/маршрутах/проверках с условиями и исключениями. Статус исходного утверждения не повышается вследствие включения."
+    },
+    {
+      "card_id": "BOOK06-002",
+      "notes_file": "research/cards.ru.md",
+      "line": 1277,
+      "disposition": "integrated",
+      "target_ids": [
+        "CORE-001",
+        "CORE-027",
+        "FW-TASK-CYCLE"
+      ],
+      "reason": "Объединено в перечисленных правилах/профилях/маршрутах/проверках с условиями и исключениями. Статус исходного утверждения не повышается вследствие включения."
+    },
+    {
+      "card_id": "BOOK06-003",
+      "notes_file": "research/cards.ru.md",
+      "line": 1287,
+      "disposition": "integrated",
+      "target_ids": [
+        "CORE-005"
+      ],
+      "reason": "Объединено в перечисленных правилах/профилях/маршрутах/проверках с условиями и исключениями. Статус исходного утверждения не повышается вследствие включения."
+    },
+    {
+      "card_id": "BOOK06-004",
+      "notes_file": "research/cards.ru.md",
+      "line": 1297,
+      "disposition": "integrated",
+      "target_ids": [
+        "CORE-022",
+        "CORE-030",
+        "QC-022"
+      ],
+      "reason": "Объединено в перечисленных правилах/профилях/маршрутах/проверках с условиями и исключениями. Статус исходного утверждения не повышается вследствие включения."
+    },
+    {
+      "card_id": "BOOK06-005",
+      "notes_file": "research/cards.ru.md",
+      "line": 1307,
+      "disposition": "integrated",
+      "target_ids": [
+        "CORE-030",
+        "FW-TASK-CYCLE"
+      ],
+      "reason": "Объединено в перечисленных правилах/профилях/маршрутах/проверках с условиями и исключениями. Статус исходного утверждения не повышается вследствие включения."
+    },
+    {
+      "card_id": "BOOK06-006",
+      "notes_file": "research/cards.ru.md",
+      "line": 1317,
+      "disposition": "integrated",
+      "target_ids": [
+        "ACT-025",
+        "ACT-026",
+        "CORE-004",
+        "QC-016"
+      ],
+      "reason": "Объединено в перечисленных правилах/профилях/маршрутах/проверках с условиями и исключениями. Статус исходного утверждения не повышается вследствие включения."
+    },
+    {
+      "card_id": "BOOK06-007",
+      "notes_file": "research/cards.ru.md",
+      "line": 1327,
+      "disposition": "integrated",
+      "target_ids": [
+        "CORE-028",
+        "QC-017"
+      ],
+      "reason": "Объединено в перечисленных правилах/профилях/маршрутах/проверках с условиями и исключениями. Статус исходного утверждения не повышается вследствие включения."
+    },
+    {
+      "card_id": "BOOK07-001",
+      "notes_file": "research/cards.ru.md",
+      "line": 1337,
+      "disposition": "integrated",
+      "target_ids": [
+        "CORE-013",
+        "FW-TTT",
+        "PR-GRAMMAR"
+      ],
+      "reason": "Объединено в перечисленных правилах/профилях/маршрутах/проверках с условиями и исключениями. Статус исходного утверждения не повышается вследствие включения."
+    },
+    {
+      "card_id": "BOOK07-002",
+      "notes_file": "research/cards.ru.md",
+      "line": 1347,
+      "disposition": "integrated",
+      "target_ids": [
+        "CORE-010",
+        "FW-CONTEXT-PRACTICE",
+        "PR-GRAMMAR"
+      ],
+      "reason": "Объединено в перечисленных правилах/профилях/маршрутах/проверках с условиями и исключениями. Статус исходного утверждения не повышается вследствие включения."
+    },
+    {
+      "card_id": "BOOK07-003",
+      "notes_file": "research/cards.ru.md",
+      "line": 1357,
+      "disposition": "integrated",
+      "target_ids": [
+        "ACT-003",
+        "CORE-005",
+        "FW-GUIDED-DISCOVERY",
+        "PR-GRAMMAR",
+        "QC-004"
+      ],
+      "reason": "Объединено в перечисленных правилах/профилях/маршрутах/проверках с условиями и исключениями. Статус исходного утверждения не повышается вследствие включения."
+    },
+    {
+      "card_id": "BOOK07-004",
+      "notes_file": "research/cards.ru.md",
+      "line": 1367,
+      "disposition": "integrated",
+      "target_ids": [
+        "ACT-015",
+        "CORE-013",
+        "FW-CONTEXT-PRACTICE",
+        "PR-GRAMMAR"
+      ],
+      "reason": "Объединено в перечисленных правилах/профилях/маршрутах/проверках с условиями и исключениями. Статус исходного утверждения не повышается вследствие включения."
+    },
+    {
+      "card_id": "BOOK07-005",
+      "notes_file": "research/cards.ru.md",
+      "line": 1377,
+      "disposition": "integrated",
+      "target_ids": [
+        "CORE-029",
+        "QC-018",
+        "QC-023"
+      ],
+      "reason": "Объединено в перечисленных правилах/профилях/маршрутах/проверках с условиями и исключениями. Статус исходного утверждения не повышается вследствие включения."
+    },
+    {
+      "card_id": "BOOK07-006",
+      "notes_file": "research/cards.ru.md",
+      "line": 1387,
+      "disposition": "integrated",
+      "target_ids": [
+        "ACT-004",
+        "CORE-005",
+        "FW-TTT",
+        "PR-GRAMMAR",
+        "QC-004"
+      ],
+      "reason": "Объединено в перечисленных правилах/профилях/маршрутах/проверках с условиями и исключениями. Статус исходного утверждения не повышается вследствие включения."
+    },
+    {
+      "card_id": "BOOK07-007",
+      "notes_file": "research/cards.ru.md",
+      "line": 1397,
+      "disposition": "integrated",
+      "target_ids": [
+        "FW-TASK-CYCLE"
+      ],
+      "reason": "Объединено в перечисленных правилах/профилях/маршрутах/проверках с условиями и исключениями. Статус исходного утверждения не повышается вследствие включения."
+    },
+    {
+      "card_id": "BOOK08-001",
+      "notes_file": "research/cards.ru.md",
+      "line": 1407,
+      "disposition": "integrated",
+      "target_ids": [
+        "ACT-013",
+        "CORE-031",
+        "PR-LEXIS"
+      ],
+      "reason": "Объединено в перечисленных правилах/профилях/маршрутах/проверках с условиями и исключениями. Статус исходного утверждения не повышается вследствие включения."
+    },
+    {
+      "card_id": "BOOK08-002",
+      "notes_file": "research/cards.ru.md",
+      "line": 1417,
+      "disposition": "integrated",
+      "target_ids": [
+        "ACT-013",
+        "CORE-003",
+        "CORE-031",
+        "PR-LEXIS",
+        "QC-003"
+      ],
+      "reason": "Объединено в перечисленных правилах/профилях/маршрутах/проверках с условиями и исключениями. Статус исходного утверждения не повышается вследствие включения."
+    },
+    {
+      "card_id": "BOOK08-003",
+      "notes_file": "research/cards.ru.md",
+      "line": 1427,
+      "disposition": "integrated",
+      "target_ids": [
+        "ACT-014",
+        "CORE-031",
+        "PR-LEXIS"
+      ],
+      "reason": "Объединено в перечисленных правилах/профилях/маршрутах/проверках с условиями и исключениями. Статус исходного утверждения не повышается вследствие включения."
+    },
+    {
+      "card_id": "BOOK08-004",
+      "notes_file": "research/cards.ru.md",
+      "line": 1437,
+      "disposition": "integrated",
+      "target_ids": [
+        "ACT-013",
+        "ACT-014",
+        "CORE-013",
+        "PR-LEXIS"
+      ],
+      "reason": "Объединено в перечисленных правилах/профилях/маршрутах/проверках с условиями и исключениями. Статус исходного утверждения не повышается вследствие включения."
+    },
+    {
+      "card_id": "BOOK08-005",
+      "notes_file": "research/cards.ru.md",
+      "line": 1447,
+      "disposition": "integrated",
+      "target_ids": [
+        "CORE-031",
+        "PR-LEXIS"
+      ],
+      "reason": "Объединено в перечисленных правилах/профилях/маршрутах/проверках с условиями и исключениями. Статус исходного утверждения не повышается вследствие включения."
+    },
+    {
+      "card_id": "BOOK08-006",
+      "notes_file": "research/cards.ru.md",
+      "line": 1457,
+      "disposition": "integrated",
+      "target_ids": [
+        "ACT-013",
+        "ACT-025",
+        "CORE-004",
+        "CORE-031",
+        "CTX-SELF-STUDY",
+        "PR-LEXIS",
+        "QC-016"
+      ],
+      "reason": "Объединено в перечисленных правилах/профилях/маршрутах/проверках с условиями и исключениями. Статус исходного утверждения не повышается вследствие включения."
+    },
+    {
+      "card_id": "BOOK08-007",
+      "notes_file": "research/cards.ru.md",
+      "line": 1467,
+      "disposition": "integrated",
+      "target_ids": [
+        "ACT-014",
+        "ACT-025",
+        "CORE-031",
+        "PR-LEXIS"
+      ],
+      "reason": "Объединено в перечисленных правилах/профилях/маршрутах/проверках с условиями и исключениями. Статус исходного утверждения не повышается вследствие включения."
+    },
+    {
+      "card_id": "BOOK09-001",
+      "notes_file": "research/cards.ru.md",
+      "line": 1477,
+      "disposition": "integrated",
+      "target_ids": [
+        "ACT-018",
+        "CORE-016",
+        "PR-DISCUSSION"
+      ],
+      "reason": "Объединено в перечисленных правилах/профилях/маршрутах/проверках с условиями и исключениями. Статус исходного утверждения не повышается вследствие включения."
+    },
+    {
+      "card_id": "BOOK09-002",
+      "notes_file": "research/cards.ru.md",
+      "line": 1487,
+      "disposition": "integrated",
+      "target_ids": [
+        "ACT-018",
+        "CORE-016",
+        "PR-DISCUSSION",
+        "QC-010"
+      ],
+      "reason": "Объединено в перечисленных правилах/профилях/маршрутах/проверках с условиями и исключениями. Статус исходного утверждения не повышается вследствие включения."
+    },
+    {
+      "card_id": "BOOK09-003",
+      "notes_file": "research/cards.ru.md",
+      "line": 1497,
+      "disposition": "integrated",
+      "target_ids": [
+        "ACT-011",
+        "CORE-008",
+        "FW-TASK-CYCLE",
+        "QC-008"
+      ],
+      "reason": "Объединено в перечисленных правилах/профилях/маршрутах/проверках с условиями и исключениями. Статус исходного утверждения не повышается вследствие включения."
+    },
+    {
+      "card_id": "BOOK09-004",
+      "notes_file": "research/cards.ru.md",
+      "line": 1507,
+      "disposition": "integrated",
+      "target_ids": [
+        "ACT-017",
+        "CORE-008",
+        "CTX-ONE-TO-ONE",
+        "FW-TASK-CYCLE",
+        "PR-FUNCTIONAL"
+      ],
+      "reason": "Объединено в перечисленных правилах/профилях/маршрутах/проверках с условиями и исключениями. Статус исходного утверждения не повышается вследствие включения."
+    },
+    {
+      "card_id": "BOOK09-005",
+      "notes_file": "research/cards.ru.md",
+      "line": 1517,
+      "disposition": "integrated",
+      "target_ids": [
+        "ACT-017",
+        "CORE-020"
+      ],
+      "reason": "Объединено в перечисленных правилах/профилях/маршрутах/проверках с условиями и исключениями. Статус исходного утверждения не повышается вследствие включения."
+    },
+    {
+      "card_id": "BOOK09-006",
+      "notes_file": "research/cards.ru.md",
+      "line": 1527,
+      "disposition": "integrated",
+      "target_ids": [
+        "ACT-019",
+        "ACT-020",
+        "CORE-016",
+        "FW-SPEAKING-CYCLE",
+        "PR-DISCUSSION"
+      ],
+      "reason": "Объединено в перечисленных правилах/профилях/маршрутах/проверках с условиями и исключениями. Статус исходного утверждения не повышается вследствие включения."
+    },
+    {
+      "card_id": "BOOK09-007",
+      "notes_file": "research/cards.ru.md",
+      "line": 1537,
+      "disposition": "integrated",
+      "target_ids": [
+        "ACT-021",
+        "ACT-022",
+        "ACT-023",
+        "CORE-017",
+        "FW-WRITING-PROCESS",
+        "PR-WRITING",
+        "QC-014"
+      ],
+      "reason": "Объединено в перечисленных правилах/профилях/маршрутах/проверках с условиями и исключениями. Статус исходного утверждения не повышается вследствие включения."
+    },
+    {
+      "card_id": "BOOK09-008",
+      "notes_file": "research/cards.ru.md",
+      "line": 1547,
+      "disposition": "integrated",
+      "target_ids": [
+        "ACT-022",
+        "ACT-023",
+        "CORE-017",
+        "FW-WRITING-PROCESS",
+        "PR-WRITING",
+        "QC-014"
+      ],
+      "reason": "Объединено в перечисленных правилах/профилях/маршрутах/проверках с условиями и исключениями. Статус исходного утверждения не повышается вследствие включения."
+    },
+    {
+      "card_id": "BOOK10-001",
+      "notes_file": "research/cards.ru.md",
+      "line": 1557,
+      "disposition": "integrated",
+      "target_ids": [
+        "ACT-008",
+        "CORE-015",
+        "PR-LISTENING"
+      ],
+      "reason": "Объединено в перечисленных правилах/профилях/маршрутах/проверках с условиями и исключениями. Статус исходного утверждения не повышается вследствие включения."
+    },
+    {
+      "card_id": "BOOK10-002",
+      "notes_file": "research/cards.ru.md",
+      "line": 1567,
+      "disposition": "integrated",
+      "target_ids": [
+        "ACT-007",
+        "ACT-010",
+        "CORE-015",
+        "FW-RECEPTIVE-CYCLE",
+        "PR-LISTENING"
+      ],
+      "reason": "Объединено в перечисленных правилах/профилях/маршрутах/проверках с условиями и исключениями. Статус исходного утверждения не повышается вследствие включения."
+    },
+    {
+      "card_id": "BOOK10-003",
+      "notes_file": "research/cards.ru.md",
+      "line": 1577,
+      "disposition": "integrated",
+      "target_ids": [
+        "ACT-010",
+        "CORE-015",
+        "PR-LISTENING"
+      ],
+      "reason": "Объединено в перечисленных правилах/профилях/маршрутах/проверках с условиями и исключениями. Статус исходного утверждения не повышается вследствие включения."
+    },
+    {
+      "card_id": "BOOK10-004",
+      "notes_file": "research/cards.ru.md",
+      "line": 1587,
+      "disposition": "integrated",
+      "target_ids": [
+        "CORE-015",
+        "PR-LISTENING"
+      ],
+      "reason": "Объединено в перечисленных правилах/профилях/маршрутах/проверках с условиями и исключениями. Статус исходного утверждения не повышается вследствие включения."
+    },
+    {
+      "card_id": "BOOK10-005",
+      "notes_file": "research/cards.ru.md",
+      "line": 1597,
+      "disposition": "integrated",
+      "target_ids": [
+        "ACT-008",
+        "ACT-009",
+        "CORE-014",
+        "FW-RECEPTIVE-CYCLE",
+        "PR-READING"
+      ],
+      "reason": "Объединено в перечисленных правилах/профилях/маршрутах/проверках с условиями и исключениями. Статус исходного утверждения не повышается вследствие включения."
+    },
+    {
+      "card_id": "BOOK10-006",
+      "notes_file": "research/cards.ru.md",
+      "line": 1607,
+      "disposition": "integrated",
+      "target_ids": [
+        "ACT-028",
+        "CORE-014",
+        "FW-EXTENSIVE-RESPONSE",
+        "PR-READING",
+        "QC-013"
+      ],
+      "reason": "Объединено в перечисленных правилах/профилях/маршрутах/проверках с условиями и исключениями. Статус исходного утверждения не повышается вследствие включения."
+    },
+    {
+      "card_id": "BOOK11-001",
+      "notes_file": "research/cards.ru.md",
+      "line": 1617,
+      "disposition": "integrated",
+      "target_ids": [
+        "ACT-015",
+        "CORE-018",
+        "FW-PRONUNCIATION-CYCLE",
+        "PR-PRONUNCIATION"
+      ],
+      "reason": "Объединено в перечисленных правилах/профилях/маршрутах/проверках с условиями и исключениями. Статус исходного утверждения не повышается вследствие включения."
+    },
+    {
+      "card_id": "BOOK11-002",
+      "notes_file": "research/cards.ru.md",
+      "line": 1627,
+      "disposition": "integrated",
+      "target_ids": [
+        "CORE-018",
+        "FW-PRONUNCIATION-CYCLE",
+        "PR-PRONUNCIATION"
+      ],
+      "reason": "Объединено в перечисленных правилах/профилях/маршрутах/проверках с условиями и исключениями. Статус исходного утверждения не повышается вследствие включения."
+    },
+    {
+      "card_id": "BOOK11-003",
+      "notes_file": "research/cards.ru.md",
+      "line": 1637,
+      "disposition": "integrated",
+      "target_ids": [
+        "ACT-015",
+        "CORE-018",
+        "FW-PRONUNCIATION-CYCLE",
+        "PR-PRONUNCIATION"
+      ],
+      "reason": "Объединено в перечисленных правилах/профилях/маршрутах/проверках с условиями и исключениями. Статус исходного утверждения не повышается вследствие включения."
+    },
+    {
+      "card_id": "BOOK11-004",
+      "notes_file": "research/cards.ru.md",
+      "line": 1647,
+      "disposition": "integrated",
+      "target_ids": [
+        "ACT-016",
+        "CORE-018",
+        "FW-PRONUNCIATION-CYCLE",
+        "PR-PRONUNCIATION"
+      ],
+      "reason": "Объединено в перечисленных правилах/профилях/маршрутах/проверках с условиями и исключениями. Статус исходного утверждения не повышается вследствие включения."
+    },
+    {
+      "card_id": "BOOK11-005",
+      "notes_file": "research/cards.ru.md",
+      "line": 1657,
+      "disposition": "integrated",
+      "target_ids": [
+        "ACT-010",
+        "ACT-016",
+        "CORE-018",
+        "FW-PRONUNCIATION-CYCLE",
+        "PR-LISTENING",
+        "PR-PRONUNCIATION",
+        "QC-015"
+      ],
+      "reason": "Объединено в перечисленных правилах/профилях/маршрутах/проверках с условиями и исключениями. Статус исходного утверждения не повышается вследствие включения."
+    },
+    {
+      "card_id": "BOOK12-001",
+      "notes_file": "research/cards.ru.md",
+      "line": 1667,
+      "disposition": "integrated",
+      "target_ids": [
+        "ACT-024",
+        "CORE-020",
+        "QC-011"
+      ],
+      "reason": "Объединено в перечисленных правилах/профилях/маршрутах/проверках с условиями и исключениями. Статус исходного утверждения не повышается вследствие включения."
+    },
+    {
+      "card_id": "BOOK12-002",
+      "notes_file": "research/cards.ru.md",
+      "line": 1677,
+      "disposition": "integrated",
+      "target_ids": [
+        "ACT-024",
+        "CORE-020"
+      ],
+      "reason": "Объединено в перечисленных правилах/профилях/маршрутах/проверках с условиями и исключениями. Статус исходного утверждения не повышается вследствие включения."
+    },
+    {
+      "card_id": "BOOK12-003",
+      "notes_file": "research/cards.ru.md",
+      "line": 1687,
+      "disposition": "integrated",
+      "target_ids": [
+        "ACT-004",
+        "CORE-026",
+        "PLAT-008",
+        "PLAT-016",
+        "PLAT-037",
+        "QC-021"
+      ],
+      "reason": "Объединено в перечисленных правилах/профилях/маршрутах/проверках с условиями и исключениями. Статус исходного утверждения не повышается вследствие включения."
+    },
+    {
+      "card_id": "BOOK12-004",
+      "notes_file": "research/cards.ru.md",
+      "line": 1697,
+      "disposition": "integrated",
+      "target_ids": [
+        "ACT-004",
+        "ACT-005",
+        "ACT-027",
+        "CORE-024",
+        "CTX-SELF-STUDY",
+        "PR-WRITING",
+        "QC-012"
+      ],
+      "reason": "Объединено в перечисленных правилах/профилях/маршрутах/проверках с условиями и исключениями. Статус исходного утверждения не повышается вследствие включения."
+    },
+    {
+      "card_id": "BOOK12-005",
+      "notes_file": "research/cards.ru.md",
+      "line": 1707,
+      "disposition": "integrated",
+      "target_ids": [
+        "ACT-020",
+        "ACT-025",
+        "CORE-003",
+        "CORE-026",
+        "CTX-ONE-TO-ONE",
+        "PLAT-008",
+        "PLAT-016",
+        "PLAT-037",
+        "QC-003",
+        "QC-021"
+      ],
+      "reason": "Объединено в перечисленных правилах/профилях/маршрутах/проверках с условиями и исключениями. Статус исходного утверждения не повышается вследствие включения."
+    },
+    {
+      "card_id": "BOOK12-006",
+      "notes_file": "research/cards.ru.md",
+      "line": 1717,
+      "disposition": "integrated",
+      "target_ids": [
+        "CORE-034"
+      ],
+      "reason": "Объединено в перечисленных правилах/профилях/маршрутах/проверках с условиями и исключениями. Статус исходного утверждения не повышается вследствие включения."
+    },
+    {
+      "card_id": "BOOK12-007",
+      "notes_file": "research/cards.ru.md",
+      "line": 1727,
+      "disposition": "integrated",
+      "target_ids": [
+        "ACT-002",
+        "CORE-010"
+      ],
+      "reason": "Объединено в перечисленных правилах/профилях/маршрутах/проверках с условиями и исключениями. Статус исходного утверждения не повышается вследствие включения."
+    },
+    {
+      "card_id": "BOOK12-008",
+      "notes_file": "research/cards.ru.md",
+      "line": 1737,
+      "disposition": "integrated",
+      "target_ids": [
+        "ACT-014",
+        "CORE-031"
+      ],
+      "reason": "Объединено в перечисленных правилах/профилях/маршрутах/проверках с условиями и исключениями. Статус исходного утверждения не повышается вследствие включения."
+    },
+    {
+      "card_id": "BOOK12-009",
+      "notes_file": "research/cards.ru.md",
+      "line": 1747,
+      "disposition": "integrated",
+      "target_ids": [
+        "CORE-011"
+      ],
+      "reason": "Объединено в перечисленных правилах/профилях/маршрутах/проверках с условиями и исключениями. Статус исходного утверждения не повышается вследствие включения."
+    },
+    {
+      "card_id": "BOOK13-001",
+      "notes_file": "research/cards.ru.md",
+      "line": 1757,
+      "disposition": "integrated",
+      "target_ids": [
+        "CORE-002",
+        "CTX-CLIL",
+        "CTX-ESP",
+        "QC-001"
+      ],
+      "reason": "Объединено в перечисленных правилах/профилях/маршрутах/проверках с условиями и исключениями. Статус исходного утверждения не повышается вследствие включения."
+    },
+    {
+      "card_id": "BOOK13-002",
+      "notes_file": "research/cards.ru.md",
+      "line": 1761,
+      "disposition": "integrated",
+      "target_ids": [
+        "ACT-020",
+        "CORE-023",
+        "CTX-ONE-TO-ONE"
+      ],
+      "reason": "Объединено в перечисленных правилах/профилях/маршрутах/проверках с условиями и исключениями. Статус исходного утверждения не повышается вследствие включения."
+    },
+    {
+      "card_id": "BOOK13-003",
+      "notes_file": "research/cards.ru.md",
+      "line": 1765,
+      "disposition": "integrated",
+      "target_ids": [
+        "CORE-002",
+        "CTX-EAP",
+        "PR-WRITING"
+      ],
+      "reason": "Объединено в перечисленных правилах/профилях/маршрутах/проверках с условиями и исключениями. Статус исходного утверждения не повышается вследствие включения."
+    },
+    {
+      "card_id": "BOOK13-004",
+      "notes_file": "research/cards.ru.md",
+      "line": 1769,
+      "disposition": "integrated",
+      "target_ids": [
+        "CORE-004",
+        "PR-IELTS",
+        "QC-016"
+      ],
+      "reason": "Объединено в перечисленных правилах/профилях/маршрутах/проверках с условиями и исключениями. Статус исходного утверждения не повышается вследствие включения."
+    },
+    {
+      "card_id": "BOOK13-005",
+      "notes_file": "research/cards.ru.md",
+      "line": 1773,
+      "disposition": "quarantined",
+      "target_ids": [
+        "CORE-026",
+        "PR-IELTS",
+        "QC-021"
+      ],
+      "reason": "Спорный тезис исключён из автоматического основания; потребители используют ограничение и условие повторной проверки. QUAR-002, decisions.ru.md."
+    },
+    {
+      "card_id": "BOOK13-006",
+      "notes_file": "research/cards.ru.md",
+      "line": 1777,
+      "disposition": "integrated",
+      "target_ids": [
+        "CORE-023",
+        "CTX-YL",
+        "QC-010"
+      ],
+      "reason": "Объединено в перечисленных правилах/профилях/маршрутах/проверках с условиями и исключениями. Статус исходного утверждения не повышается вследствие включения."
+    },
+    {
+      "card_id": "BOOK13-007",
+      "notes_file": "research/cards.ru.md",
+      "line": 1781,
+      "disposition": "integrated",
+      "target_ids": [
+        "ACT-026",
+        "CORE-023",
+        "CTX-TEEN"
+      ],
+      "reason": "Объединено в перечисленных правилах/профилях/маршрутах/проверках с условиями и исключениями. Статус исходного утверждения не повышается вследствие включения."
+    },
+    {
+      "card_id": "BOOK13-008",
+      "notes_file": "research/cards.ru.md",
+      "line": 1785,
+      "disposition": "integrated",
+      "target_ids": [
+        "ACT-026",
+        "CTX-CLIL",
+        "CTX-EAP"
+      ],
+      "reason": "Объединено в перечисленных правилах/профилях/маршрутах/проверках с условиями и исключениями. Статус исходного утверждения не повышается вследствие включения."
+    },
+    {
+      "card_id": "BOOK13-009",
+      "notes_file": "research/cards.ru.md",
+      "line": 1789,
+      "disposition": "integrated",
+      "target_ids": [
+        "CORE-021"
+      ],
+      "reason": "Объединено в перечисленных правилах/профилях/маршрутах/проверках с условиями и исключениями. Статус исходного утверждения не повышается вследствие включения."
+    },
+    {
+      "card_id": "BOOK14-001",
+      "notes_file": "research/cards.ru.md",
+      "line": 1793,
+      "disposition": "integrated",
+      "target_ids": [
+        "CORE-002",
+        "CORE-023",
+        "CORE-029",
+        "QC-018"
+      ],
+      "reason": "Объединено в перечисленных правилах/профилях/маршрутах/проверках с условиями и исключениями. Статус исходного утверждения не повышается вследствие включения."
+    },
+    {
+      "card_id": "BOOK14-002",
+      "notes_file": "research/cards.ru.md",
+      "line": 1797,
+      "disposition": "integrated",
+      "target_ids": [
+        "CORE-029",
+        "CORE-030",
+        "QC-022"
+      ],
+      "reason": "Объединено в перечисленных правилах/профилях/маршрутах/проверках с условиями и исключениями. Статус исходного утверждения не повышается вследствие включения."
+    },
+    {
+      "card_id": "BOOK14-003",
+      "notes_file": "research/cards.ru.md",
+      "line": 1801,
+      "disposition": "integrated",
+      "target_ids": [
+        "CORE-033"
+      ],
+      "reason": "Объединено в перечисленных правилах/профилях/маршрутах/проверках с условиями и исключениями. Статус исходного утверждения не повышается вследствие включения."
+    },
+    {
+      "card_id": "BOOK14-004",
+      "notes_file": "research/cards.ru.md",
+      "line": 1805,
+      "disposition": "integrated",
+      "target_ids": [
+        "ACT-020",
+        "ACT-029",
+        "CORE-029",
+        "CTX-SELF-STUDY",
+        "PLAT-007",
+        "QC-018"
+      ],
+      "reason": "Объединено в перечисленных правилах/профилях/маршрутах/проверках с условиями и исключениями. Статус исходного утверждения не повышается вследствие включения."
+    },
+    {
+      "card_id": "BOOK14-005",
+      "notes_file": "research/cards.ru.md",
+      "line": 1809,
+      "disposition": "integrated",
+      "target_ids": [
+        "ACT-026",
+        "CORE-032"
+      ],
+      "reason": "Объединено в перечисленных правилах/профилях/маршрутах/проверках с условиями и исключениями. Статус исходного утверждения не повышается вследствие включения."
+    },
+    {
+      "card_id": "BOOK14-006",
+      "notes_file": "research/cards.ru.md",
+      "line": 1813,
+      "disposition": "quarantined",
+      "target_ids": [
+        "CORE-032"
+      ],
+      "reason": "Спорный тезис исключён из автоматического основания; потребители используют ограничение и условие повторной проверки. QUAR-003, decisions.ru.md."
+    },
+    {
+      "card_id": "BOOK15-001",
+      "notes_file": "research/cards.ru.md",
+      "line": 1817,
+      "disposition": "integrated",
+      "target_ids": [
+        "ACT-019",
+        "CORE-005"
+      ],
+      "reason": "Объединено в перечисленных правилах/профилях/маршрутах/проверках с условиями и исключениями. Статус исходного утверждения не повышается вследствие включения."
+    },
+    {
+      "card_id": "BOOK15-002",
+      "notes_file": "research/cards.ru.md",
+      "line": 1821,
+      "disposition": "integrated",
+      "target_ids": [
+        "ACT-011",
+        "ACT-012",
+        "ACT-029",
+        "CORE-008",
+        "CORE-029",
+        "PLAT-021",
+        "QC-008",
+        "QC-020"
+      ],
+      "reason": "Объединено в перечисленных правилах/профилях/маршрутах/проверках с условиями и исключениями. Статус исходного утверждения не повышается вследствие включения."
+    },
+    {
+      "card_id": "BOOK15-003",
+      "notes_file": "research/cards.ru.md",
+      "line": 1825,
+      "disposition": "integrated",
+      "target_ids": [
+        "ACT-028",
+        "CORE-014",
+        "CORE-032",
+        "FW-EXTENSIVE-RESPONSE",
+        "PR-LISTENING",
+        "QC-013"
+      ],
+      "reason": "Объединено в перечисленных правилах/профилях/маршрутах/проверках с условиями и исключениями. Статус исходного утверждения не повышается вследствие включения."
+    },
+    {
+      "card_id": "BOOK15-004",
+      "notes_file": "research/cards.ru.md",
+      "line": 1829,
+      "disposition": "integrated",
+      "target_ids": [
+        "ACT-030",
+        "CORE-032"
+      ],
+      "reason": "Объединено в перечисленных правилах/профилях/маршрутах/проверках с условиями и исключениями. Статус исходного утверждения не повышается вследствие включения."
+    },
+    {
+      "card_id": "BOOK15-005",
+      "notes_file": "research/cards.ru.md",
+      "line": 1833,
+      "disposition": "integrated",
+      "target_ids": [
+        "ACT-030",
+        "CORE-022",
+        "CORE-032",
+        "QC-009"
+      ],
+      "reason": "Объединено в перечисленных правилах/профилях/маршрутах/проверках с условиями и исключениями. Статус исходного утверждения не повышается вследствие включения."
+    },
+    {
+      "card_id": "BOOK15-006",
+      "notes_file": "research/cards.ru.md",
+      "line": 1837,
+      "disposition": "integrated",
+      "target_ids": [
+        "CORE-032"
+      ],
+      "reason": "Объединено в перечисленных правилах/профилях/маршрутах/проверках с условиями и исключениями. Статус исходного утверждения не повышается вследствие включения."
+    },
+    {
+      "card_id": "BOOK15-007",
+      "notes_file": "research/cards.ru.md",
+      "line": 1841,
+      "disposition": "integrated",
+      "target_ids": [
+        "ACT-027",
+        "CORE-032"
+      ],
+      "reason": "Объединено в перечисленных правилах/профилях/маршрутах/проверках с условиями и исключениями. Статус исходного утверждения не повышается вследствие включения."
+    },
+    {
+      "card_id": "BOOK15-008",
+      "notes_file": "research/cards.ru.md",
+      "line": 1845,
+      "disposition": "integrated",
+      "target_ids": [
+        "ACT-009",
+        "ACT-029",
+        "ACT-030",
+        "CORE-024",
+        "QC-012"
+      ],
+      "reason": "Объединено в перечисленных правилах/профилях/маршрутах/проверках с условиями и исключениями. Статус исходного утверждения не повышается вследствие включения."
+    },
+    {
+      "card_id": "BOOK15-009",
+      "notes_file": "research/cards.ru.md",
+      "line": 1849,
+      "disposition": "integrated",
+      "target_ids": [
+        "ACT-026",
+        "CORE-032"
+      ],
+      "reason": "Объединено в перечисленных правилах/профилях/маршрутах/проверках с условиями и исключениями. Статус исходного утверждения не повышается вследствие включения."
+    },
+    {
+      "card_id": "BOOK15-010",
+      "notes_file": "research/cards.ru.md",
+      "line": 1853,
+      "disposition": "integrated",
+      "target_ids": [
+        "CORE-032"
+      ],
+      "reason": "Объединено в перечисленных правилах/профилях/маршрутах/проверках с условиями и исключениями. Статус исходного утверждения не повышается вследствие включения."
+    },
+    {
+      "card_id": "BOOK15-011",
+      "notes_file": "research/cards.ru.md",
+      "line": 1857,
+      "disposition": "integrated",
+      "target_ids": [
+        "ACT-029",
+        "CORE-025",
+        "CORE-032",
+        "QC-019"
+      ],
+      "reason": "Объединено в перечисленных правилах/профилях/маршрутах/проверках с условиями и исключениями. Статус исходного утверждения не повышается вследствие включения."
+    },
+    {
+      "card_id": "BOOK16-001",
+      "notes_file": "research/cards.ru.md",
+      "line": 1861,
+      "disposition": "integrated",
+      "target_ids": [
+        "CORE-001",
+        "CORE-027",
+        "QC-024"
+      ],
+      "reason": "Объединено в перечисленных правилах/профилях/маршрутах/проверках с условиями и исключениями. Статус исходного утверждения не повышается вследствие включения."
+    },
+    {
+      "card_id": "BOOK16-002",
+      "notes_file": "research/cards.ru.md",
+      "line": 1865,
+      "disposition": "integrated",
+      "target_ids": [
+        "CORE-027",
+        "CORE-033",
+        "PLAT-037",
+        "QC-023",
+        "QC-024"
+      ],
+      "reason": "Объединено в перечисленных правилах/профилях/маршрутах/проверках с условиями и исключениями. Статус исходного утверждения не повышается вследствие включения."
+    },
+    {
+      "card_id": "BOOK16-003",
+      "notes_file": "research/cards.ru.md",
+      "line": 1869,
+      "disposition": "integrated",
+      "target_ids": [
+        "CORE-019",
+        "CORE-027",
+        "QC-024"
+      ],
+      "reason": "Объединено в перечисленных правилах/профилях/маршрутах/проверках с условиями и исключениями. Статус исходного утверждения не повышается вследствие включения."
+    },
+    {
+      "card_id": "BOOK16-004",
+      "notes_file": "research/cards.ru.md",
+      "line": 1873,
+      "disposition": "integrated",
+      "target_ids": [
+        "CORE-022",
+        "QC-009"
+      ],
+      "reason": "Объединено в перечисленных правилах/профилях/маршрутах/проверках с условиями и исключениями. Статус исходного утверждения не повышается вследствие включения."
+    },
+    {
+      "card_id": "BOOK16-005",
+      "notes_file": "research/cards.ru.md",
+      "line": 1877,
+      "disposition": "quarantined",
+      "target_ids": [
+        "CORE-033"
+      ],
+      "reason": "Спорный тезис исключён из автоматического основания; потребители используют ограничение и условие повторной проверки. QUAR-004, decisions.ru.md."
+    },
+    {
+      "card_id": "BOOK16-006",
+      "notes_file": "research/cards.ru.md",
+      "line": 1881,
+      "disposition": "integrated",
+      "target_ids": [
+        "CORE-012"
+      ],
+      "reason": "Объединено в перечисленных правилах/профилях/маршрутах/проверках с условиями и исключениями. Статус исходного утверждения не повышается вследствие включения."
+    },
+    {
+      "card_id": "BOOK00-001",
+      "notes_file": "research/cards.ru.md",
+      "line": 1885,
+      "disposition": "integrated",
+      "target_ids": [
+        "CORE-005",
+        "CORE-028"
+      ],
+      "reason": "Объединено в перечисленных правилах/профилях/маршрутах/проверках с условиями и исключениями. Статус исходного утверждения не повышается вследствие включения."
+    },
+    {
+      "card_id": "BOOK00-002",
+      "notes_file": "research/cards.ru.md",
+      "line": 1889,
+      "disposition": "integrated",
+      "target_ids": [
+        "CORE-001",
+        "CORE-024",
+        "QC-002"
+      ],
+      "reason": "Объединено в перечисленных правилах/профилях/маршрутах/проверках с условиями и исключениями. Статус исходного утверждения не повышается вследствие включения."
+    },
+    {
+      "card_id": "BOOK00-003",
+      "notes_file": "research/cards.ru.md",
+      "line": 1893,
+      "disposition": "integrated",
+      "target_ids": [
+        "CORE-005"
+      ],
+      "reason": "Объединено в перечисленных правилах/профилях/маршрутах/проверках с условиями и исключениями. Статус исходного утверждения не повышается вследствие включения."
+    },
+    {
+      "card_id": "BOOK00-004",
+      "notes_file": "research/cards.ru.md",
+      "line": 1897,
+      "disposition": "quarantined",
+      "target_ids": [
+        "CORE-023"
+      ],
+      "reason": "Спорный тезис исключён из автоматического основания; потребители используют ограничение и условие повторной проверки. QUAR-001, decisions.ru.md."
+    }
+  ]
+}
