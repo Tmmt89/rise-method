@@ -1,4 +1,0 @@
-interface:
-  display_name: "RiseAcademy Materials"
-  short_description: "Уроки, курсы и проверка материалов RiseAcademy"
-  default_prompt: "Используй $rise-materials, чтобы создать или проверить учебные материалы по методике RiseAcademy."

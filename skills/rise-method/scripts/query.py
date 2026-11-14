@@ -187,7 +187,8 @@ class Specification:
     def status(self):
         last_validation = self.base / 'validation.json'
         report = read_json(last_validation) if last_validation.is_file() else {}
-        return {'methodology_version': self.load('core-rules.json')['version'],
+        return {'skill_name': 'rise-method', 'supported_clients': ['codex', 'claude-code'],
+                'methodology_version': self.load('core-rules.json')['version'],
                 'methodology_status': self.load('core-rules.json')['status'],
                 'catalog_counts': {key: len(self.load(filename)[array]) for key, (filename, array) in CATALOGS.items()},
                 'documents': {key: str(self.root / path) for key, path in DOCUMENTS.items()},
@@ -218,8 +219,8 @@ def main(argv=None):
     args = parser().parse_args(argv)
     try:
         config = read_json(SKILL_DIR / 'references/workspace.json')
-        workspace = args.workspace or os.environ.get('RISE_MATERIALS_WORKSPACE') or config.get('methodology_workspace') or SKILL_DIR / 'references/basis'
-        platform_repo = args.platform_repo or os.environ.get('RISE_MATERIALS_PLATFORM_REPO') or config.get('platform_repository')
+        workspace = args.workspace or os.environ.get('RISE_METHOD_WORKSPACE') or os.environ.get('RISE_MATERIALS_WORKSPACE') or config.get('methodology_workspace') or SKILL_DIR / 'references/basis'
+        platform_repo = args.platform_repo or os.environ.get('RISE_METHOD_PLATFORM_REPO') or os.environ.get('RISE_MATERIALS_PLATFORM_REPO') or config.get('platform_repository')
         spec = Specification(workspace, platform_repo)
         if args.command == 'status':
             data = spec.status()

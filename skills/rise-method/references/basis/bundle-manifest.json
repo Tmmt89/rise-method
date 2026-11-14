@@ -1,5 +1,5 @@
 {
-  "skill_version": "0.1.0",
+  "skill_version": "0.2.0",
   "methodology_version": "0.1.0",
   "source_scope": "Authored methodological synthesis and source cards; originals excluded.",
   "files": {
@@ -25,7 +25,7 @@
     "methodology/review-scenarios.ru.md": "d3803566b426ac666a87481e171b022045f8f272b7fbaea5d76b0eb2341f89a3",
     "methodology/traceability.json": "5233b5aaa5a2cda5b0c5ffcf0fe2a93d6b2b3e9033ca44a47e7899f42619821c",
     "methodology/traceability.tsv": "f7f01b2558ede106f4e37dfad7a9f14fa08efe5addab2620723d72badb8e3b9c",
-    "methodology/validation.json": "5854209a25fc11fea4aa096482c11716401fb9409c8d57d0efcb14cc6efb0ebc",
+    "methodology/validation.json": "0b32ffe28c253b0e5cd4fe3c59b3943e4d95c0ffa10eec8975fa802d4f89ef49",
     "research/cards.ru.md": "09a4062bee67b8084e7b8bc4aa57b6ba26d84d0921441b839097952273275b51",
     "research/rule-index.json": "4e4479e2bae6435c4eafc5aa17096c799d4fd18c32597aeeba04b8cf90c68522",
     "research/rule-index.ru.md": "5d1fa744ba993884718a8cd72f38f53901b359cbeadccef074db69bc71c449c9",

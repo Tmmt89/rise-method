@@ -2,7 +2,11 @@
   "methodology_workspace": null,
   "platform_repository": null,
   "connection_type": "bundled_snapshot_with_optional_local_overrides",
-  "skill_version": "0.1.0",
+  "supported_clients": [
+    "codex",
+    "claude-code"
+  ],
+  "skill_version": "0.2.0",
   "methodology_version_at_creation": "0.1.0",
   "pedagogical_pilots_completed_at_creation": false
 }
